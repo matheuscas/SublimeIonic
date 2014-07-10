@@ -1,7 +1,7 @@
-Sublime Ionic Plugin
+SublimeIonic
 ============
 
-Sublime Ionic Plugin is a plugin to Sublime Text (still ST2 for while) to autocomplete basic elements from Ionic Framework.
+SublimeIonic is a plugin to Sublime Text (still ST2 for while) to autocomplete basic elements from Ionic Framework.
 
 This plugin is inspired by [Ionic - Sublime Plugin](https://github.com/imsingh/ionic-sublime-plugin), where you can find, perhaps, all examples in [Ionic page](http://ionicframework.com) into Sublime snippets. For instance, when you type "ionic-side-menus" in Sublime, using Ionic - Sublime Plugin, you will get this:
 
