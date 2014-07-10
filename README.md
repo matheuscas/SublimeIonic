@@ -26,3 +26,5 @@ To see more, please refer to [Ionic - Sublime Plugin](https://github.com/imsingh
 The intent of Sublime Ionic Plugin is to be more fine grained. Instead of get the whole code of side menus, for instance, you will get only the "ion-side-menus" tag generated. Inside of that, you will choose how many "ion-side-menu" you will want and so on. Did you got it?
 
 Feel free to use it, fork and collaborate with it. 
+
+(EARLY STAGES YET)
