@@ -1,0 +1,18 @@
+{
+    "scope": "source.js",
+
+    "completions":
+    [
+    	{ "trigger": "ionicTabsDelegate.select", "contents": "\\$ionicTabsDelegate.select(${1:index}, ${2:[shouldChangeHistory]})" },
+	    { "trigger": "ionicTabsDelegate.$getByHandle", "contents": "\\$ionicTabsDelegate.\\$getByHandle('${1:handle}')" },
+	    { "trigger": "ionicTabsDelegate.selectedIndex", "contents": "\\$ionicTabsDelegate.selectedIndex()" },
+	    { "trigger": "ionicSideMenuDelegate.toggleLeft", "contents": "\\$ionicSideMenuDelegate.toggleLeft(${1:[isOpen]})" },
+	    { "trigger": "ionicSideMenuDelegate.toggleRight", "contents": "\\$ionicSideMenuDelegate.toggleRight(${1:[isOpen]})" },
+	    { "trigger": "ionicSideMenuDelegate.getOpenRatio", "contents": "\\$ionicSideMenuDelegate.getOpenRatio()"},
+	    { "trigger": "ionicSideMenuDelegate.isOpen", "contents": "\\$ionicSideMenuDelegate.isOpen()"},
+	    { "trigger": "ionicSideMenuDelegate.isOpenLeft", "contents": "\\$ionicSideMenuDelegate.isOpenLeft()"},
+	    { "trigger": "ionicSideMenuDelegate.isOpenRight", "contents": "\\$ionicSideMenuDelegate.isOpenRight()"},
+	    { "trigger": "ionicSideMenuDelegate.canDragContent", "contents": "\\$ionicSideMenuDelegate.canDragContent(${1:[canDrag]})"},
+	    { "trigger": "ionicSideMenuDelegate.$getByHandle", "contents": "\\$ionicSideMenuDelegate.\\$getByHandle('${1:handle}').${2:toggleLeft()}" }
+	]
+}
