@@ -3,9 +3,11 @@
 
     "completions":
     [
+    	{ "trigger": "ionicTabsDelegate", "contents": "\\$ionicTabsDelegate" },
     	{ "trigger": "ionicTabsDelegate.select", "contents": "\\$ionicTabsDelegate.select(${1:index}, ${2:[shouldChangeHistory]})" },
 	    { "trigger": "ionicTabsDelegate.$getByHandle", "contents": "\\$ionicTabsDelegate.\\$getByHandle('${1:handle}')" },
 	    { "trigger": "ionicTabsDelegate.selectedIndex", "contents": "\\$ionicTabsDelegate.selectedIndex()" },
+	    { "trigger": "ionicSideMenuDelegate", "contents": "\\$ionicSideMenuDelegate" },
 	    { "trigger": "ionicSideMenuDelegate.toggleLeft", "contents": "\\$ionicSideMenuDelegate.toggleLeft(${1:[isOpen]})" },
 	    { "trigger": "ionicSideMenuDelegate.toggleRight", "contents": "\\$ionicSideMenuDelegate.toggleRight(${1:[isOpen]})" },
 	    { "trigger": "ionicSideMenuDelegate.getOpenRatio", "contents": "\\$ionicSideMenuDelegate.getOpenRatio()"},
