@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[\$ionicSideMenuDelegate.isOpen()]]></content>
+<tabTrigger>$ionicSideMenuDelegate.isOpen</tabTrigger>
+<scope>source.js</scope>
+<description>...</description>
+</snippet>

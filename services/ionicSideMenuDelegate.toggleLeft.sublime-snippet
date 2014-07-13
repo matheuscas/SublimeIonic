@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[\$ionicSideMenuDelegate.toggleLeft(${1:[isOpen]})]]></content>
+<tabTrigger>$ionicSideMenuDelegate.toggleLeft</tabTrigger>
+<scope>source.js</scope>
+<description>...</description>
+</snippet>
