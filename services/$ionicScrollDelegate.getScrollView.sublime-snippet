@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$ionicScrollDelegate.getScrollView()]]></content>
+	<tabTrigger>$ionicScrollDelegate.getScrollView</tabTrigger>
+	<source>source.js</source>
+	<description>...</description>
+</snippet>
