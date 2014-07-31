@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[\$ionicScrollDelegate]]></content>
-	<tabTrigger>$ionicScrollDelegate</tabTrigger>
-	<source>source.js</source>
-	<description>Ctrl scrollViews</description>
-</snippet>

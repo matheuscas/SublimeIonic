@@ -1,6 +1,0 @@
-<snippet>
-<content><![CDATA[\$ionicSideMenuDelegate.\$getByHandle('${1:handle}').${2:toggleLeft()}]]></content>
-<tabTrigger>$ionicSideMenuDelegate.$getByHandle</tabTrigger>
-<scope>source.js</scope>
-<description>...</description>
-</snippet>

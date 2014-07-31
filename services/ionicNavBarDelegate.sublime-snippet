@@ -1,6 +1,0 @@
-<snippet>
-<content><![CDATA[\$ionicNavBarDelegate]]></content>
-<tabTrigger>$ionicNavBarDelegate</tabTrigger>
-<scope>source.js</scope>
-<description>Controlls ionNavBar</description>
-</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[\$ionicScrollDelegate.getScrollPosition()]]></content>
-	<tabTrigger>$ionicScrollDelegate.getScrollPosition</tabTrigger>
-	<source>source.js</source>
-	<description>...</description>
-</snippet>

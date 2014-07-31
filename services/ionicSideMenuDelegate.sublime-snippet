@@ -1,6 +1,0 @@
-<snippet>
-<content><![CDATA[\$ionicSideMenuDelegate]]></content>
-<tabTrigger>$ionicSideMenuDelegate</tabTrigger>
-<scope>source.js</scope>
-<description>Ctrl ionSideMenus</description>
-</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-<content><![CDATA[\$ionicSideMenuDelegate.isOpenRight()]]></content>
-<tabTrigger>$ionicSideMenuDelegate.isOpenRight</tabTrigger>
-<scope>source.js</scope>
-<description>...</description>
-</snippet>
