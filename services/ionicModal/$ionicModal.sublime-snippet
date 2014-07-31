@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$ionicModal]]></content>
+	<tabTrigger>$ionicModal</tabTrigger>
+	<source>source.js</source>
+	<description>Related to ionicModal</description>
+</snippet>
