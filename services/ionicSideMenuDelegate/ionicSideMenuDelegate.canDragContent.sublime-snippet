@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$ionicSideMenuDelegate.canDragContent(${1:[canDrag]})]]></content>
+	<tabTrigger>$ionicSideMenuDelegate.canDragContent</tabTrigger>
+	<scope>source.js</scope>
+	<description>...</description>
+</snippet>

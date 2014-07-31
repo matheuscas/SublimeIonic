@@ -1,0 +1,7 @@
+#FORMAT: <tabTrigger> | <content> | <source> | <description>
+$ionicListDelegate|\$ionicListDelegate|source.js|Ctrl ionList|
+$ionicListDelegate.showReorder|\$ionicListDelegate.showReorder(${1:[showReorder]})|source.js||
+$ionicListDelegate.showDelete|\$ionicListDelegate.showDelete(${1:[showReorder]})|source.js||
+$ionicListDelegate.canSwipeItems|\$ionicListDelegate.canSwipeItems(${1:[showReorder]})|source.js||
+$ionicListDelegate.closeOptionButtons|\$ionicListDelegate.closeOptionButtons()|source.js||
+$ionicListDelegate.$getByHandle|\$ionicScrollDelegate.\$getByHandle('${1:my-handle}').showReorder(true)|source.js||

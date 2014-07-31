@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$ionicSideMenuDelegate.getOpenRatio()]]></content>
+	<tabTrigger>$ionicSideMenuDelegate.getOpenRatio</tabTrigger>
+	<scope>source.js</scope>
+	<description>...</description>
+</snippet>

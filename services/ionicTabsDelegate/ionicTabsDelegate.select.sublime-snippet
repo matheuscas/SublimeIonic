@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[\$ionicTabsDelegate.select(${1:index}, ${2:[shouldChangeHistory]})]]></content>
+    <tabTrigger>$ionicTabsDelegate.select</tabTrigger>
+    <scope>source.js</scope>
+    <description>Select tab</description>
+</snippet>

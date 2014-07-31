@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$ionicScrollDelegate.scrollBottom(${1:[shouldAnimate]})]]></content>
+	<tabTrigger>$ionicScrollDelegate.scrollBottom</tabTrigger>
+	<source>source.js</source>
+	<description>...</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$ionicScrollDelegate.\$getByHandle('${1:my-handle}').showReorder(true)]]></content>
+	<tabTrigger>$ionicListDelegate.$getByHandle</tabTrigger>
+	<source>source.js</source>
+	<description>...</description>
+</snippet>

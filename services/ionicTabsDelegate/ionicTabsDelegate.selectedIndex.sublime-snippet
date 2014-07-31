@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[\$ionicTabsDelegate.selectedIndex()]]></content>
+    <tabTrigger>$ionicTabsDelegate.selectedIndex</tabTrigger>
+    <scope>source.js</scope>
+    <description>Index</description>
+</snippet>

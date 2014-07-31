@@ -1,0 +1,2 @@
+#FORMAT: <tabTrigger> | <content> | <source> | <description>
+$ionicSlideBoxDelegate|\$ionicSlideBoxDelegate|source.js|Ctrl ionSlideBox|

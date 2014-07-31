@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$ionicListDelegate.canSwipeItems(${1:[showReorder]})]]></content>
+	<tabTrigger>$ionicListDelegate.canSwipeItems</tabTrigger>
+	<source>source.js</source>
+	<description>...</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$ionicScrollDelegate.scrollToRememberedPosition(${1:[shouldAnimate]})]]></content>
+	<tabTrigger>$ionicScrollDelegate.scrollToRememberedPosition</tabTrigger>
+	<source>source.js</source>
+	<description>...</description>
+</snippet>
