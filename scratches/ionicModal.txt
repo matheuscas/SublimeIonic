@@ -1,3 +1,0 @@
-$ionicModal|\$ionicModal|source.js|Related to ionicModal|
-$ionicModal.fromTemplate|\$ionicModal.fromTemplate(${1:templateString}, ${2:options})|source.js||
-$ionicModal.fromTemplateUrl|\$ionicModal.fromTemplateUrl(${1:templateUrl}, ${2:options})|source.js||
