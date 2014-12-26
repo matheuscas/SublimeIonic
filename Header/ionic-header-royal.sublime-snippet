@@ -2,7 +2,7 @@
 	<content><![CDATA[<div class="bar bar-header bar-royal"> 
 	 <h1 class="title">${1:bar-royal}</h1> 
 </div>]]></content>
-	<tabTrigger>ionic-bar-royal</tabTrigger>
+	<tabTrigger>ionic-header-royal</tabTrigger>
 	<scope>text.html</scope>
-	<description>bar-royal snippet</description>
+	<description>ionic-header-royal</description>
 </snippet>

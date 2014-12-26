@@ -2,7 +2,7 @@
 	<content><![CDATA[<div class="bar bar-header bar-assertive"> 
 	 <h1 class="title">${1:bar-assertive}</h1> 
 </div>]]></content>
-	<tabTrigger>ionic-bar-assertive</tabTrigger>
+	<tabTrigger>ionic-header-assertive</tabTrigger>
 	<scope>text.html</scope>
-	<description>bar-assertive snippet</description>
+	<description>ionic-header-assertive</description>
 </snippet>

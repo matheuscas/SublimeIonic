@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[<div class="bar bar-footer bar-positive"> 
+	 <div class="title">${1:bar-positive}</div> 
+</div>]]></content>
+	<tabTrigger>ionic-footer-positive</tabTrigger>
+	<scope>text.html</scope>
+	<description>ionic-footer-positive</description>
+</snippet>

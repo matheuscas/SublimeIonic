@@ -2,7 +2,7 @@
 	<content><![CDATA[<div class="bar bar-header bar-balanced"> 
 	 <h1 class="title">${1:bar-balanced}</h1> 
 </div>]]></content>
-	<tabTrigger>ionic-bar-balanced</tabTrigger>
+	<tabTrigger>ionic-header-balanced</tabTrigger>
 	<scope>text.html</scope>
-	<description>bar-balanced snippet</description>
+	<description>ionic-header-balanced</description>
 </snippet>
