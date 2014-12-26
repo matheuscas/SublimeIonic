@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[\$ionicSlideBoxDelegate]]></content>
-	<tabTrigger>$ionicSlideBoxDelegate</tabTrigger>
-	<source>source.js</source>
-	<description>Ctrl ionSlideBox</description>
-</snippet>

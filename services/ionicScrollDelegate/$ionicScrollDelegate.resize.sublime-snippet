@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[\$ionicScrollDelegate.resize()]]></content>
-	<tabTrigger>$ionicScrollDelegate.resize</tabTrigger>
-	<source>source.js</source>
-	<description>...</description>
-</snippet>

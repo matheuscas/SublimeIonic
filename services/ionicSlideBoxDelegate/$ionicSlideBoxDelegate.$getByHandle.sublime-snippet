@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[\$ionicSlideBoxDelegate.\$getByHandle('${1:my-handle}').${2:stop()}]]></content>
-	<tabTrigger>$ionicSlideBoxDelegate.$getByHandle</tabTrigger>
-	<source>source.js</source>
-	<description>...</description>
-</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[\$ionicSlideBoxDelegate.slide(${1:to}, ${2:[speed]})]]></content>
-	<tabTrigger>$ionicSlideBoxDelegate.slide</tabTrigger>
-	<source>source.js</source>
-	<description>...</description>
-</snippet>

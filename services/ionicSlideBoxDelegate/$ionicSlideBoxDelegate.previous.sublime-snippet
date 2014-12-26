@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[\$ionicSlideBoxDelegate.previous()]]></content>
-	<tabTrigger>$ionicSlideBoxDelegate.previous</tabTrigger>
-	<source>source.js</source>
-	<description>...</description>
-</snippet>

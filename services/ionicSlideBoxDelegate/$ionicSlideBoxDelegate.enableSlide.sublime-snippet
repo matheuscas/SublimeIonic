@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[\$ionicSlideBoxDelegate.enableSlide(${1:[shouldEnable]})]]></content>
-	<tabTrigger>$ionicSlideBoxDelegate.enableSlide</tabTrigger>
-	<source>source.js</source>
-	<description>...</description>
-</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[\$ionicScrollDelegate.\$getByHandle('${1:my-handle}').${2:scrollTop()}]]></content>
-	<tabTrigger>$ionicScrollDelegate.$getByHandle</tabTrigger>
-	<source>source.js</source>
-	<description>...</description>
-</snippet>

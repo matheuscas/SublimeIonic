@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[\$ionicListDelegate]]></content>
-	<tabTrigger>$ionicListDelegate</tabTrigger>
-	<source>source.js</source>
-	<description>Ctrl ionList</description>
-</snippet>

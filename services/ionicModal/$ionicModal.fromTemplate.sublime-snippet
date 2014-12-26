@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[\$ionicModal.fromTemplate(${1:templateString}, ${2:options})]]></content>
-	<tabTrigger>$ionicModal.fromTemplate</tabTrigger>
-	<source>source.js</source>
-	<description>...</description>
-</snippet>

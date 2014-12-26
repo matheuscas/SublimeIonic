@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[\$ionicSlideBoxDelegate.slidesCount()]]></content>
-	<tabTrigger>$ionicSlideBoxDelegate.slidesCount</tabTrigger>
-	<source>source.js</source>
-	<description>...</description>
-</snippet>

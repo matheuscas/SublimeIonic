@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[\$ionicListDelegate.showReorder(${1:[showReorder]})]]></content>
-	<tabTrigger>$ionicListDelegate.showReorder</tabTrigger>
-	<source>source.js</source>
-	<description>...</description>
-</snippet>

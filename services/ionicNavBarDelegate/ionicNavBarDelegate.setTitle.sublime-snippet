@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[\$ionicNavBarDelegate.setTitle('${1:Title}')]]></content>
-	<tabTrigger>$ionicNavBarDelegate.setTitle</tabTrigger>
-	<scope>source.js</scope>
-	<description>...</description>
-</snippet>
