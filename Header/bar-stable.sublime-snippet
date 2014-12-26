@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[<div class="bar bar-header bar-stable"> 
+	 <h1 class="title">${1:bar-stable}</h1> 
+</div>]]></content>
+	<tabTrigger>ionic-bar-stable</tabTrigger>
+	<scope>text.html</scope>
+	<description>bar-stable snippet</description>
+</snippet>

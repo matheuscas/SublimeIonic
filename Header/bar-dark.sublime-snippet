@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[<div class="bar bar-header bar-dark"> 
+	 <h1 class="title">${1:bar-dark}</h1> 
+</div>]]></content>
+	<tabTrigger>ionic-bar-dark</tabTrigger>
+	<scope>text.html</scope>
+	<description>bar-dark snippet</description>
+</snippet>
