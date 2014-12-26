@@ -18,6 +18,12 @@ class ExtensionsCompletions(sublime_plugin.EventListener):
             ("ion-footer-bar\tIonic Extension", 'ion-footer-bar align-title="${1:left}" class="${2:bar-assertive}">$0</ion-footer-bar>')
         ]
 
+        content = [
+            ("ion-content\tIonic Extension", 'ion-content has-subheader="${1:false}">$0</ion-content>'),
+            ("ion-refresher\tIonic Extension", 'ion-refresher pulling-text="${1:Pull to refresh...}" on-refresh="${2:doRefresh()}">$0</ion-refresher>'),
+            ("ion-pane\tIonic Extension", 'ion-pane>$0</ion-pane>')
+        ]
+
         # tabs = [
         #     ("ion-tabs\tIonic Extension", 'ion-tabs class="${1:tabs-positive} ${2:tabs-icon-only}">$0</ion-tabs>'),
         #     ("ion-tab\tIonic Extension", 'ion-tab title="${1:Title}" icon-on="${2:icon_on}" icon-off="${3:icon_off}">$0</ion-tab>')
@@ -88,6 +94,6 @@ class ExtensionsCompletions(sublime_plugin.EventListener):
         #                 content + scroll + lists + form_inputs + \
         #                 slide_box + events   
 
-        completions = headers_footers
+        completions = headers_footers + content
 
         return (completions, sublime.INHIBIT_WORD_COMPLETIONS | sublime.INHIBIT_EXPLICIT_COMPLETIONS)
