@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[<a class="item item-button-right" href="#">$0</a>]]></content>
+	<tabTrigger>item-button-right</tabTrigger>
+	<scope>text.html</scope>
+	<description>item-button-right</description>
+</snippet>

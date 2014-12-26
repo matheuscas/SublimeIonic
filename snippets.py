@@ -4,7 +4,8 @@ current_path = os.path.dirname(os.path.abspath(__file__))
 header = False
 sub_header = False
 footer = False
-buttons = True
+buttons = False
+lists = True
 
 def create_snippet_string(tabTrigger,content,scope,description):
 	tabTrigger_tag = "<tabTrigger>"+tabTrigger+"</tabTrigger>"
@@ -129,4 +130,99 @@ if buttons:
 		output_file = open(output_folder+'ionic-button-bar-'+button_color[7:]+".sublime-snippet","w+")
 		output_file.write(snippet_str)
 		output_file.close()
+
+if lists:
+
+	output_folder = current_path + '/Lists/'
+	item_divider = '<div class="item item-divider">$0</div>'
+	item_icon_left = '<a class="item item-icon-left" href="#">$0</a>'
+	item_icon_right = '<a class="item item-icon-right" href="#">$0</a>'
+	item_icon_left_right = '<a class="item item-icon-left item-icon-right" href="#">$0</a>'
+	item_button_right = '<a class="item item-button-right" href="#">$0</a>'
+	item_button_left= '<a class="item item-button-left" href="#">$0</a>'
+	item_avatar= '<a class="item item-avatar" href="#">\n' + '\t<img src="${1:image_source}">\n' + '\t<h2>${2:title}</h2>\n' + '\t<p>${3:description}</p>\n' + '</a>'
+	item_thumbnail_left= '<a class="item item-thumbnail-left" href="#">\n' + '\t<img src="${1:image_source}">\n' + '\t<h2>${2:title}</h2>\n' + '\t<p>${3:description}</p>\n' + '</a>'
+	item_thumbnail_right= '<a class="item item-thumbnail-right" href="#">\n' + '\t<img src="${1:image_source}">\n' + '\t<h2>${2:title}</h2>\n' + '\t<p>${3:description}</p>\n' + '</a>'
+	list_inset = '<div class="list list-inset">$0</div>'
+	collection_repeat = '<div class="item ${1:your_item_css_class}"\n' + '\tcollection-repeat="${2:item in items}"\n' + '\tcollection-item-width="${3:\'100%\'}"\n' + '\tcollection-item-height="${4:getItemHeight(item, \$index)}"\n' + '\tng-style="${5:{height: getItemHeight(item, \$index)}\}">$0\n' + '</div>'
+
+	ionicListDelegate_showReorder = '\$ionicListDelegate.showReorder(${1:true});'
+	ionicListDelegate_showDelete = '\$ionicListDelegate.showDelete(${1:true});'
+	ionicListDelegate_canSwipeItems = '\$ionicListDelegate.canSwipeItems(${1:true});'
+	ionicListDelegate_closeOptionButtons = '\$ionicListDelegate.closeOptionButtons();'
+
+	snippet_str = create_snippet_string('item-divider',item_divider,'text.html','item-divider')
+	output_file = open(output_folder+'item-divider'+".sublime-snippet","w+")
+	output_file.write(snippet_str)
+	output_file.close()
+
+	snippet_str = create_snippet_string('item-icon-left',item_icon_left,'text.html','item-icon-left')
+	output_file = open(output_folder+'item-icon-left'+".sublime-snippet","w+")
+	output_file.write(snippet_str)
+	output_file.close()
+
+	snippet_str = create_snippet_string('item-icon-right',item_icon_right,'text.html','item-icon-right')
+	output_file = open(output_folder+'item-icon-right'+".sublime-snippet","w+")
+	output_file.write(snippet_str)
+	output_file.close()
+
+	snippet_str = create_snippet_string('item-icon-left-right',item_icon_left_right,'text.html','item-icon-left-right')
+	output_file = open(output_folder+'item-icon-left-right'+".sublime-snippet","w+")
+	output_file.write(snippet_str)
+	output_file.close()
+
+	snippet_str = create_snippet_string('item-button-right',item_button_right,'text.html','item-button-right')
+	output_file = open(output_folder+'item-button-right'+".sublime-snippet","w+")
+	output_file.write(snippet_str)
+	output_file.close()
+
+	snippet_str = create_snippet_string('item-button-left',item_button_left,'text.html','item-button-left')
+	output_file = open(output_folder+'item-button-left'+".sublime-snippet","w+")
+	output_file.write(snippet_str)
+	output_file.close()
+
+	snippet_str = create_snippet_string('item-avatar',item_avatar,'text.html','item-avatar')
+	output_file = open(output_folder+'item-avatar'+".sublime-snippet","w+")
+	output_file.write(snippet_str)
+	output_file.close()
+
+	snippet_str = create_snippet_string('item-thumbnail-left',item_thumbnail_left,'text.html','item-thumbnail-left')
+	output_file = open(output_folder+'item-thumbnail-left'+".sublime-snippet","w+")
+	output_file.write(snippet_str)
+	output_file.close()
+
+	snippet_str = create_snippet_string('item-thumbnail-right',item_thumbnail_right,'text.html','item-thumbnail-right')
+	output_file = open(output_folder+'item-thumbnail-right'+".sublime-snippet","w+")
+	output_file.write(snippet_str)
+	output_file.close()
+
+	snippet_str = create_snippet_string('list-inset',list_inset,'text.html','list-inset')
+	output_file = open(output_folder+'list-inset'+".sublime-snippet","w+")
+	output_file.write(snippet_str)
+	output_file.close()
+
+	snippet_str = create_snippet_string('collection-repeat',collection_repeat,'text.html','collection-repeat')
+	output_file = open(output_folder+'collection-repeat'+".sublime-snippet","w+")
+	output_file.write(snippet_str)
+	output_file.close()
+
+	snippet_str = create_snippet_string('ionicListDelegate.showReorder',ionicListDelegate_showReorder,'source.js','ionicListDelegate.showReorder')
+	output_file = open(output_folder+'ionicListDelegate.showReorder'+".sublime-snippet","w+")
+	output_file.write(snippet_str)
+	output_file.close()
+
+	snippet_str = create_snippet_string('ionicListDelegate.showDelete',ionicListDelegate_showDelete,'source.js','ionicListDelegate.showDelete')
+	output_file = open(output_folder+'ionicListDelegate.showDelete'+".sublime-snippet","w+")
+	output_file.write(snippet_str)
+	output_file.close()
+
+	snippet_str = create_snippet_string('ionicListDelegate.canSwipeItems',ionicListDelegate_canSwipeItems,'source.js','ionicListDelegate.canSwipeItems')
+	output_file = open(output_folder+'ionicListDelegate.canSwipeItems'+".sublime-snippet","w+")
+	output_file.write(snippet_str)
+	output_file.close()
+
+	snippet_str = create_snippet_string('ionicListDelegate.closeOptionButtons',ionicListDelegate_closeOptionButtons,'source.js','ionicListDelegate.closeOptionButtons')
+	output_file = open(output_folder+'ionicListDelegate.closeOptionButtons'+".sublime-snippet","w+")
+	output_file.write(snippet_str)
+	output_file.close()
 

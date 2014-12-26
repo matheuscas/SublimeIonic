@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$ionicListDelegate.closeOptionButtons();]]></content>
+	<tabTrigger>ionicListDelegate.closeOptionButtons</tabTrigger>
+	<scope>source.js</scope>
+	<description>ionicListDelegate.closeOptionButtons</description>
+</snippet>

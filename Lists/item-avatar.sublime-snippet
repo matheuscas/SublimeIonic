@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[<a class="item item-avatar" href="#">
+	<img src="${1:image_source}">
+	<h2>${2:title}</h2>
+	<p>${3:description}</p>
+</a>]]></content>
+	<tabTrigger>item-avatar</tabTrigger>
+	<scope>text.html</scope>
+	<description>item-avatar</description>
+</snippet>

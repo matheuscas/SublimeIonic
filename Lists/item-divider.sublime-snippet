@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[<div class="item item-divider">$0</div>]]></content>
+	<tabTrigger>item-divider</tabTrigger>
+	<scope>text.html</scope>
+	<description>item-divider</description>
+</snippet>

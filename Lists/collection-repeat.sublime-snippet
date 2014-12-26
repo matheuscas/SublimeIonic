@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[<div class="item ${1:your_item_css_class}"
+	collection-repeat="${2:item in items}"
+	collection-item-width="${3:'100%'}"
+	collection-item-height="${4:getItemHeight(item, \$index)}"
+	ng-style="${5:{height: getItemHeight(item, \$index)}\}">$0
+</div>]]></content>
+	<tabTrigger>collection-repeat</tabTrigger>
+	<scope>text.html</scope>
+	<description>collection-repeat</description>
+</snippet>

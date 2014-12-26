@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[<a class="item item-thumbnail-left" href="#">
+	<img src="${1:image_source}">
+	<h2>${2:title}</h2>
+	<p>${3:description}</p>
+</a>]]></content>
+	<tabTrigger>item-thumbnail-left</tabTrigger>
+	<scope>text.html</scope>
+	<description>item-thumbnail-left</description>
+</snippet>
