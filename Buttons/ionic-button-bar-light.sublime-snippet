@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[<div class="button-bar bar-light">$0</div>]]></content>
+	<tabTrigger>ionic-button-bar-light</tabTrigger>
+	<scope>text.html</scope>
+	<description>ionic-button-bar-light</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[<div class="button-bar bar-balanced">$0</div>]]></content>
+	<tabTrigger>ionic-button-bar-balanced</tabTrigger>
+	<scope>text.html</scope>
+	<description>ionic-button-bar-balanced</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[<button class="button button-clear button-light"> 
+	 ${1:button-light}
+</button>]]></content>
+	<tabTrigger>ionic-button-clear-light</tabTrigger>
+	<scope>text.html</scope>
+	<description>ionic-button-clear-light</description>
+</snippet>

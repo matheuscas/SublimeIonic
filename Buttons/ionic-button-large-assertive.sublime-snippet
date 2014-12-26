@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[<button class="button button-large button-assertive"> 
+	 ${1:button-assertive}
+</button>]]></content>
+	<tabTrigger>ionic-button-large-assertive</tabTrigger>
+	<scope>text.html</scope>
+	<description>ionic-button-large-assertive</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[<button class="button icon-right ${1:ionicon} button-dark"> 
+	 ${2:button-dark}
+</button>]]></content>
+	<tabTrigger>ionic-button-icon-right-dark</tabTrigger>
+	<scope>text.html</scope>
+	<description>ionic-button-icon-right-dark</description>
+</snippet>

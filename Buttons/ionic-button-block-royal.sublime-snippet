@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[<button class="button button-block button-royal"> 
+	 ${1:button-royal}
+</button>]]></content>
+	<tabTrigger>ionic-button-block-royal</tabTrigger>
+	<scope>text.html</scope>
+	<description>ionic-button-block-royal</description>
+</snippet>
