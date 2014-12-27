@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[<a class="item item-icon-left" href="#">$0</a>]]></content>
-	<tabTrigger>item-icon-left</tabTrigger>
+	<tabTrigger>ionic-item-icon-left</tabTrigger>
 	<scope>text.html</scope>
-	<description>item-icon-left</description>
+	<description>ionic-item-icon-left</description>
 </snippet>

@@ -5,7 +5,7 @@
 	collection-item-height="${4:getItemHeight(item, \$index)}"
 	ng-style="${5:{height: getItemHeight(item, \$index)}\}">$0
 </div>]]></content>
-	<tabTrigger>collection-repeat</tabTrigger>
+	<tabTrigger>ionic-collection-repeat</tabTrigger>
 	<scope>text.html</scope>
-	<description>collection-repeat</description>
+	<description>ionic-collection-repeat</description>
 </snippet>

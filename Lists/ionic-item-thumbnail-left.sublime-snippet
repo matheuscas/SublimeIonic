@@ -4,7 +4,7 @@
 	<h2>${2:title}</h2>
 	<p>${3:description}</p>
 </a>]]></content>
-	<tabTrigger>item-thumbnail-left</tabTrigger>
+	<tabTrigger>ionic-item-thumbnail-left</tabTrigger>
 	<scope>text.html</scope>
-	<description>item-thumbnail-left</description>
+	<description>ionic-item-thumbnail-left</description>
 </snippet>
