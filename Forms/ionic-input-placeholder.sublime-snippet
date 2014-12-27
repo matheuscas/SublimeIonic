@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[<label class="item item-input">
+	<input type="text" placeholder="${1:placeholder_1}">
+</label>]]></content>
+	<tabTrigger>ionic-input-placeholder</tabTrigger>
+	<scope>text.html</scope>
+	<description>ionic-input-placeholder</description>
+</snippet>

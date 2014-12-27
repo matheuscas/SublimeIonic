@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[<div class="bar bar-header item-input-inset">
+	<label class="item-input-wrapper">
+		<i class="icon ion-ios7-search placeholder-icon"></i>
+		<input type="search" placeholder="${1:Search}">
+	</label>
+	<button class="button button-clear">
+		${2:Cancel}
+	</button>
+</div>]]></content>
+	<tabTrigger>ionic-input-header</tabTrigger>
+	<scope>text.html</scope>
+	<description>ionic-input-header</description>
+</snippet>

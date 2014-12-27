@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[<label class="item item-input">
+	<i class="icon ion-search placeholder-icon"></i>
+	<input type="text" placeholder="${1:Search}">
+</label>]]></content>
+	<tabTrigger>ionic-input-icon</tabTrigger>
+	<scope>text.html</scope>
+	<description>ionic-input-icon</description>
+</snippet>

@@ -6,7 +6,8 @@ sub_header = False
 footer = False
 buttons = False
 lists = False
-cards = True
+cards = False
+forms = True
 
 def create_snippet_string(tabTrigger,content,scope,description):
 	tabTrigger_tag = "<tabTrigger>"+tabTrigger+"</tabTrigger>"
@@ -308,7 +309,88 @@ if cards:
 	output_file.write(snippet_str)
 	output_file.close()
 
+if forms:
+	output_folder = current_path + '/Forms/'
 
+	basic_input_html_start = '<label class="item item-input'
+	basic_input_html_end = '</label>'
+	input_placeholder = basic_input_html_start + '">\n' + \
+						'\t<input type="text" placeholder="${1:placeholder_1}">\n' + \
+						basic_input_html_end
+
+	input_inline = basic_input_html_start + '">\n' + \
+					'\t<span class="input-label">${1:input_name}</span>\n' + \
+					'\t<input type="text">\n' + \
+					basic_input_html_end
+
+	input_stacked = basic_input_html_start + ' item-stacked-label">\n' + \
+					'\t<span class="input-label">${1:input_name}</span>\n' + \
+					'\t<input type="text" placeholder="${2:input_placeholder}">\n' + \
+					basic_input_html_end
+
+	input_floating = basic_input_html_start + ' item-floating-label">\n' + \
+					'\t<span class="input-label">${1:input_name}</span>\n' + \
+					'\t<input type="text" placeholder="${2:input_placeholder}">\n' + \
+					basic_input_html_end
+
+	input_inset = '<div class="item item-input-inset">\n' + \
+				    '\t<label class="item-input-wrapper">\n' + \
+				      '\t\t<input type="text" placeholder="${1:input_placeholder}">\n' + \
+				    '\t</label>\n' + \
+				    '\t<button class="button button-small">\n' + \
+				      '\t\t${2:button_name}\n' + \
+				    '\t</button>\n' + \
+				  '</div>\n'
+
+	input_icon = basic_input_html_start + '">\n' + \
+				'\t<i class="icon ion-search placeholder-icon"></i>\n' + \
+				'\t<input type="text" placeholder="${1:Search}">\n' + \
+				basic_input_html_end
+
+	input_header = '<div class="bar bar-header item-input-inset">\n' + \
+					  '\t<label class="item-input-wrapper">\n'+ \
+					    '\t\t<i class="icon ion-ios7-search placeholder-icon"></i>\n' + \
+					    '\t\t<input type="search" placeholder="${1:Search}">\n' + \
+					  '\t</label>\n' + \
+					  '\t<button class="button button-clear">\n' + \
+					    '\t\t${2:Cancel}\n' + \
+					  '\t</button>\n' + \
+					'</div>'
+
+	snippet_str = create_snippet_string('ionic-input-placeholder',input_placeholder,'text.html','ionic-input-placeholder')
+	output_file = open(output_folder+'ionic-input-placeholder'+".sublime-snippet","w+")
+	output_file.write(snippet_str)
+	output_file.close()
+
+	snippet_str = create_snippet_string('ionic-input-inline',input_inline,'text.html','ionic-input-inline')
+	output_file = open(output_folder+'ionic-input-inline'+".sublime-snippet","w+")
+	output_file.write(snippet_str)
+	output_file.close()
+
+	snippet_str = create_snippet_string('ionic-input-stacked',input_stacked,'text.html','ionic-input-stacked')
+	output_file = open(output_folder+'ionic-input-stacked'+".sublime-snippet","w+")
+	output_file.write(snippet_str)
+	output_file.close()
+
+	snippet_str = create_snippet_string('ionic-input-floating',input_floating,'text.html','ionic-input-floating')
+	output_file = open(output_folder+'ionic-input-floating'+".sublime-snippet","w+")
+	output_file.write(snippet_str)
+	output_file.close()
+
+	snippet_str = create_snippet_string('ionic-input-inset',input_inset,'text.html','ionic-input-inset')
+	output_file = open(output_folder+'ionic-input-inset'+".sublime-snippet","w+")
+	output_file.write(snippet_str)
+	output_file.close()
+
+	snippet_str = create_snippet_string('ionic-input-icon',input_icon,'text.html','ionic-input-icon')
+	output_file = open(output_folder+'ionic-input-icon'+".sublime-snippet","w+")
+	output_file.write(snippet_str)
+	output_file.close()
+
+	snippet_str = create_snippet_string('ionic-input-header',input_header,'text.html','ionic-input-header')
+	output_file = open(output_folder+'ionic-input-header'+".sublime-snippet","w+")
+	output_file.write(snippet_str)
+	output_file.close()
 
 
 

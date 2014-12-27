@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[<label class="item item-input item-stacked-label">
+	<span class="input-label">${1:input_name}</span>
+	<input type="text" placeholder="${2:input_placeholder}">
+</label>]]></content>
+	<tabTrigger>ionic-input-stacked</tabTrigger>
+	<scope>text.html</scope>
+	<description>ionic-input-stacked</description>
+</snippet>

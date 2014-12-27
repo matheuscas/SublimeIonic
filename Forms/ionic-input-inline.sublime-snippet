@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[<label class="item item-input">
+	<span class="input-label">${1:input_name}</span>
+	<input type="text">
+</label>]]></content>
+	<tabTrigger>ionic-input-inline</tabTrigger>
+	<scope>text.html</scope>
+	<description>ionic-input-inline</description>
+</snippet>
