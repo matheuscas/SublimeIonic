@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[<div class="item item-avatar" href="#">
+	<img src="${1:image_source}">
+	<h2>${2:title}</h2>
+	<p>${3:description}</p>
+</div>
+<div class="item item-image">
+	<img src="${4:image_source}">
+</div>
+<a class="item ${5:item-icon-left} ${6:assertive}" href="#">
+	<i class="icon ${7:ionicon}"></i>
+	${8:text_link}
+</a>]]></content>
+	<tabTrigger>ionic-card-image</tabTrigger>
+	<scope>text.html</scope>
+	<description>ionic-card-image</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[<div class="list card">
+	$0
+</div>]]></content>
+	<tabTrigger>ionic-card-list</tabTrigger>
+	<scope>text.html</scope>
+	<description>ionic-card-list</description>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[<div class="card">
+	<div class="item item-divider">
+		${1:header}
+	</div>
+	<div class="item item-text-wrap">
+		${2:desc}
+	</div>
+	<div class="item item-divider">
+		${3:footer}
+	</div>
+</div>]]></content>
+	<tabTrigger>ionic-card-header-footer</tabTrigger>
+	<scope>text.html</scope>
+	<description>ionic-card-header-footer</description>
+</snippet>

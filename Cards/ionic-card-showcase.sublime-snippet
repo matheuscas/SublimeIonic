@@ -1,0 +1,34 @@
+<snippet>
+	<content><![CDATA[<div class="item item-avatar" href="#">
+	<img src="${1:image_source}">
+	<h2>${2:title}</h2>
+	<p>${3:description}</p>
+</div>
+<div class="item item-body">
+	<img class="full-image" src="${4:image_source}">
+	<p>${5:description}</p>
+	<p>
+		<a href="#" class="subdued">1 Like</a>
+		<a href="#" class="subdued">5 Comments</a>
+	</p>
+</div>
+
+<div class="item tabs tabs-secondary tabs-icon-left">
+	<a class="tab-item" href="#">
+		<i class="icon ion-thumbsup"></i>
+		Like
+	</a>
+	<a class="tab-item" href="#">
+		<i class="icon ion-chatbox"></i>
+		Comments
+	</a>
+	<a class="tab-item" href="#">
+		<i class="icon ion-share"></i>
+		Share
+	</a>
+</div>
+]]></content>
+	<tabTrigger>ionic-card-showcase</tabTrigger>
+	<scope>text.html</scope>
+	<description>ionic-card-showcase</description>
+</snippet>

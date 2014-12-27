@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[<a href="#" class="item item-icon-left">
+	<i class="icon ${1:ionicon}"></i>
+	${2:desc}
+</a>]]></content>
+	<tabTrigger>ionic-card-list-item</tabTrigger>
+	<scope>text.html</scope>
+	<description>ionic-card-list-item</description>
+</snippet>
