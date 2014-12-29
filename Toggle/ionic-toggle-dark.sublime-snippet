@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[<li class="item item-toggle">
+	${1:desc}
+	<label class="toggle toggle-dark">
+		<input type="checkbox">
+		<div class="track">
+			<div class="handle"></div>
+		</div>
+	</label>
+</li>
+]]></content>
+	<tabTrigger>ionic-toggle-dark</tabTrigger>
+	<scope>text.html</scope>
+	<description>ionic-toggle-dark</description>
+</snippet>

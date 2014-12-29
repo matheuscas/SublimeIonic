@@ -7,7 +7,8 @@ footer = False
 buttons = False
 lists = False
 cards = False
-forms = True
+forms = False
+toogle = True
 
 
 def create_snippet_string(tabTrigger, content, scope, description):
@@ -515,3 +516,28 @@ if forms:
         output_folder + 'ionic-input-header' + ".sublime-snippet", "w+")
     output_file.write(snippet_str)
     output_file.close()
+
+if toogle:
+    output_folder = current_path + '/Toggle/'
+
+    css_toggles = ['toggle-light', 'toggle-stable', 'toggle-positive',
+                   'toggle-calm', 'toggle-balanced', 'toggle-energized',
+                   'toggle-assertive', 'toggle-royal', 'toggle-dark']
+
+    for toggle_color in css_toggles:
+        toggle_str = '<li class="item item-toggle">\n' + \
+            '\t${1:desc}\n' + \
+            '\t<label class="toggle ' + toggle_color + '">\n' + \
+            '\t\t<input type="checkbox">\n' + \
+            '\t\t<div class="track">\n' + \
+            '\t\t\t<div class="handle"></div>\n' + \
+            '\t\t</div>\n' + \
+            '\t</label>\n' + \
+            '</li>\n'
+
+        snippet_str = create_snippet_string('ionic-toggle-' + toggle_color[7:], toggle_str,
+                                            'text.html', 'ionic-toggle-' + toggle_color[7:])
+        output_file = open(
+            output_folder + 'ionic-toggle-' + toggle_color[7:] + ".sublime-snippet", "w+")
+        output_file.write(snippet_str)
+        output_file.close()
