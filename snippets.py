@@ -8,7 +8,8 @@ buttons = False
 lists = False
 cards = False
 forms = False
-toogle = True
+toogle = False
+checkbox = True
 
 
 def create_snippet_string(tabTrigger, content, scope, description):
@@ -541,3 +542,25 @@ if toogle:
             output_folder + 'ionic-toggle-' + toggle_color[7:] + ".sublime-snippet", "w+")
         output_file.write(snippet_str)
         output_file.close()
+
+if checkbox:
+    output_folder = current_path + '/Checkbox/'
+
+    css_checkboxs = ['checkbox-light', 'checkbox-stable', 'checkbox-positive',
+                     'checkbox-calm', 'checkbox-balanced', 'checkbox-energized',
+                     'checkbox-assertive', 'checkbox-royal', 'checkbox-dark']
+
+    for checkbox_color in css_checkboxs:
+	    checkbox_str = '<li class="item item-checkbox">\n' + \
+	        '\t<label class="checkbox ' + checkbox_color + '">\n' + \
+	        '\t\t<input type="checkbox">\n' + \
+	        '\t</label>\n' + \
+	        '\t${1:desc}\n' + \
+	        '</li>\n'
+
+	    snippet_str = create_snippet_string('ionic-checkbox-' + checkbox_color[9:], checkbox_str,
+	                                        'text.html', 'ionic-checkbox-' + checkbox_color[9:])
+	    output_file = open(
+	        output_folder + 'ionic-checkbox-' + checkbox_color[9:] + ".sublime-snippet", "w+")
+	    output_file.write(snippet_str)
+	    output_file.close()

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[<li class="item item-checkbox">
+	<label class="checkbox checkbox-balanced">
+		<input type="checkbox">
+	</label>
+	${1:desc}
+</li>
+]]></content>
+	<tabTrigger>ionic-checkbox-balanced</tabTrigger>
+	<scope>text.html</scope>
+	<description>ionic-checkbox-balanced</description>
+</snippet>
