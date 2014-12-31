@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[\$ionicListDelegate.canSwipeItems(${1:true});]]></content>
-	<tabTrigger>ionicListDelegate.canSwipeItems</tabTrigger>
+	<tabTrigger>$ionicListDelegate.canSwipeItems</tabTrigger>
 	<scope>source.js</scope>
-	<description>ionicListDelegate.canSwipeItems</description>
+	<description>Ionic List Delegate</description>
 </snippet>

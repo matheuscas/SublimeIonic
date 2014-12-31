@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[\$ionicListDelegate.showDelete(${1:true});]]></content>
-	<tabTrigger>ionicListDelegate.showDelete</tabTrigger>
+	<tabTrigger>$ionicListDelegate.showDelete</tabTrigger>
 	<scope>source.js</scope>
-	<description>ionicListDelegate.showDelete</description>
+	<description>Ionic List Delegate</description>
 </snippet>

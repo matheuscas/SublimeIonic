@@ -5,7 +5,7 @@ header = False
 sub_header = False
 footer = False
 buttons = False
-lists = False
+lists = True
 cards = False
 forms = False
 toogle = False
@@ -285,28 +285,28 @@ if lists:
     output_file.close()
 
     snippet_str = create_snippet_string(
-        'ionicListDelegate.showReorder', ionicListDelegate_showReorder, 'source.js', 'ionicListDelegate.showReorder')
+        '$ionicListDelegate.showReorder', ionicListDelegate_showReorder, 'source.js', 'Ionic List Delegate')
     output_file = open(
         output_folder + 'ionicListDelegate.showReorder' + ".sublime-snippet", "w+")
     output_file.write(snippet_str)
     output_file.close()
 
     snippet_str = create_snippet_string(
-        'ionicListDelegate.showDelete', ionicListDelegate_showDelete, 'source.js', 'ionicListDelegate.showDelete')
+        '$ionicListDelegate.showDelete', ionicListDelegate_showDelete, 'source.js', 'Ionic List Delegate')
     output_file = open(
         output_folder + 'ionicListDelegate.showDelete' + ".sublime-snippet", "w+")
     output_file.write(snippet_str)
     output_file.close()
 
     snippet_str = create_snippet_string(
-        'ionicListDelegate.canSwipeItems', ionicListDelegate_canSwipeItems, 'source.js', 'ionicListDelegate.canSwipeItems')
+        '$ionicListDelegate.canSwipeItems', ionicListDelegate_canSwipeItems, 'source.js', 'Ionic List Delegate')
     output_file = open(
         output_folder + 'ionicListDelegate.canSwipeItems' + ".sublime-snippet", "w+")
     output_file.write(snippet_str)
     output_file.close()
 
     snippet_str = create_snippet_string(
-        'ionicListDelegate.closeOptionButtons', ionicListDelegate_closeOptionButtons, 'source.js', 'ionicListDelegate.closeOptionButtons')
+        '$ionicListDelegate.closeOptionButtons', ionicListDelegate_closeOptionButtons, 'source.js', 'Ionic List Delegate')
     output_file = open(
         output_folder + 'ionicListDelegate.closeOptionButtons' + ".sublime-snippet", "w+")
     output_file.write(snippet_str)
