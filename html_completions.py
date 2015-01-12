@@ -52,10 +52,10 @@ class ExtensionsCompletions(sublime_plugin.EventListener):
              'ion-toggle ng-model="${1:airplaneMode}" toggle-class="${2:toggle-calm}">${3:Airplane Mode}</ion-toggle>')
         ]
 
-        # tabs = [
-        #     ("ion-tabs\tIonic Extension", 'ion-tabs class="${1:tabs-positive} ${2:tabs-icon-only}">$0</ion-tabs>'),
-        #     ("ion-tab\tIonic Extension", 'ion-tab title="${1:Title}" icon-on="${2:icon_on}" icon-off="${3:icon_off}">$0</ion-tab>')
-        # ]
+        tabs = [
+            ("ion-tabs\tIonic Extension", 'ion-tabs class=":tabs-${1:positive} ${2:tabs-icon-only}">$0</ion-tabs>'),
+            ("ion-tab\tIonic Extension", 'ion-tab title="${1:Title}" href="${2:tab-link}" icon-on="${3:icon_on}" icon-off="${4:icon_off}">$0</ion-tab>')
+        ]
 
         # side_menus = [
         #     ("ion-side-menus\tIonic Extension", 'ion-side-menus>$0</ion-side-menus>'),
@@ -108,6 +108,6 @@ class ExtensionsCompletions(sublime_plugin.EventListener):
         #                 content + scroll + lists + form_inputs + \
         #                 slide_box + events
 
-        completions = headers_footers + content + lists + forms
+        completions = headers_footers + content + lists + forms + tabs
 
         return (completions, sublime.INHIBIT_WORD_COMPLETIONS | sublime.INHIBIT_EXPLICIT_COMPLETIONS)
