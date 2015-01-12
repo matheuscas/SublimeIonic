@@ -11,7 +11,8 @@ forms = False
 toogle = False
 checkbox = False
 radio_button = False
-range_control = True
+range_control = False
+select_control = True
 
 
 def create_snippet_string(tabTrigger, content, scope, description):
@@ -617,5 +618,30 @@ if range_control:
                                             'text.html', 'ionic-range-item-' + range_color[6:])
         output_file = open(
             output_folder + 'ionic-range-item-' + range_color[6:] + ".sublime-snippet", "w+")
+        output_file.write(snippet_str)
+        output_file.close()
+
+if select_control:
+    output_folder = current_path + '/Select/'
+
+    css_selects = ['item-light', 'item-stable', 'item-positive',
+                   'item-calm', 'item-balanced', 'item-energized',
+                   'item-assertive', 'item-royal', 'item-dark']
+
+    for select_color in css_selects:
+        select_str = '<label class="item item-input item-select ' + select_color + '">\n' + \
+            '\t<div class="input-label">\n' + \
+            '\t\t${1:desc}\n' + \
+            '\t</div>\n' + \
+            '\t<select>\n' + \
+            '\t\t<option selected>${2:opt1}</option>\n' + \
+            '\t\t<option>${3:opt2}</option>\n' + \
+            '\t<select>\n' + \
+            '</label>\n'
+
+        snippet_str = create_snippet_string('ionic-select-' + select_color[5:], select_str,
+                                            'text.html', 'ionic-select-' + select_color[5:])
+        output_file = open(
+            output_folder + 'ionic-select-' + select_color[5:] + ".sublime-snippet", "w+")
         output_file.write(snippet_str)
         output_file.close()

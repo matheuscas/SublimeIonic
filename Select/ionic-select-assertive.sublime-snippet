@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[<label class="item item-input item-select item-assertive">
+	<div class="input-label">
+		${1:desc}
+	</div>
+	<select>
+		<option selected>${2:opt1}</option>
+		<option>${3:opt2}</option>
+	<select>
+</label>
+]]></content>
+	<tabTrigger>ionic-select-assertive</tabTrigger>
+	<scope>text.html</scope>
+	<description>ionic-select-assertive</description>
+</snippet>
