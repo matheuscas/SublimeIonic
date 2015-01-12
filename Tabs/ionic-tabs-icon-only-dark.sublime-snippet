@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[<div class="tabs tabs-icon-only tabs-dark">
+	<a class="tab-item" href="#">
+		<i class="icon ${1:ion-home}"></i>
+	</a>
+	<a class="tab-item" href="#">
+		<i class="icon ${2:ion-star}"></i>
+	</a>
+	<a class="tab-item" href="#">
+		<i class="icon ${3:ion-gear-a}"></i>
+	</a>
+</div>
+]]></content>
+	<tabTrigger>ionic-tabs-icon-only-dark</tabTrigger>
+	<scope>text.html</scope>
+	<description>tabs-icon-only-dark</description>
+</snippet>

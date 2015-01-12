@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[<div class="tabs tabs-calm">
+	<a class="tab-item" href="#">
+		${1:Tab1}
+	</a>
+	<a class="tab-item" href="#">
+		${2:Tab2}
+	</a>
+	<a class="tab-item" href="#">
+		${3:Tab3}
+	</a>
+</div>
+]]></content>
+	<tabTrigger>ionic-tabs-calm</tabTrigger>
+	<scope>text.html</scope>
+	<description>ionic-tabs-calm</description>
+</snippet>

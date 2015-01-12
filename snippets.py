@@ -12,7 +12,8 @@ toogle = False
 checkbox = False
 radio_button = False
 range_control = False
-select_control = True
+select_control = False
+tabs = True
 
 
 def create_snippet_string(tabTrigger, content, scope, description):
@@ -643,5 +644,119 @@ if select_control:
                                             'text.html', 'ionic-select-' + select_color[5:])
         output_file = open(
             output_folder + 'ionic-select-' + select_color[5:] + ".sublime-snippet", "w+")
+        output_file.write(snippet_str)
+        output_file.close()
+
+if tabs:
+    output_folder = current_path + '/Tabs/'
+
+    css_tabs = ['tabs-light', 'tabs-stable', 'tabs-positive',
+                'tabs-calm', 'tabs-balanced', 'tabs-energized',
+                'tabs-assertive', 'tabs-royal', 'tabs-dark']
+
+    for tabs_color in css_tabs:
+        tabs_str_default = '<div class="tabs ' + tabs_color + '">\n' + \
+            '\t<a class="tab-item" href="#">\n' + \
+            '\t\t${1:Tab1}\n' + \
+            '\t</a>\n' + \
+            '\t<a class="tab-item" href="#">\n' + \
+            '\t\t${2:Tab2}\n' + \
+            '\t</a>\n' + \
+            '\t<a class="tab-item" href="#">\n' + \
+            '\t\t${3:Tab3}\n' + \
+            '\t</a>\n' + \
+            '</div>\n'
+
+        snippet_str = create_snippet_string('ionic-tabs-' + tabs_color[5:], tabs_str_default,
+                                            'text.html', 'ionic-tabs-' + tabs_color[5:])
+        output_file = open(
+            output_folder + 'ionic-tabs-' + tabs_color[5:] + ".sublime-snippet", "w+")
+        output_file.write(snippet_str)
+        output_file.close()
+
+        tabs_str_icon_only = '<div class="tabs tabs-icon-only ' + tabs_color + '">\n' + \
+            '\t<a class="tab-item" href="#">\n' + \
+            '\t\t<i class="icon ${1:ion-home}"></i>\n' + \
+            '\t</a>\n' + \
+            '\t<a class="tab-item" href="#">\n' + \
+            '\t\t<i class="icon ${2:ion-star}"></i>\n' + \
+            '\t</a>\n' + \
+            '\t<a class="tab-item" href="#">\n' + \
+            '\t\t<i class="icon ${3:ion-gear-a}"></i>\n' + \
+            '\t</a>\n' + \
+            '</div>\n'
+
+        snippet_str = create_snippet_string('ionic-tabs-icon-only-' + tabs_color[5:], tabs_str_icon_only,
+                                            'text.html', 'tabs-icon-only-' + tabs_color[5:])
+        output_file = open(
+            output_folder + 'ionic-tabs-icon-only-' + tabs_color[5:] + ".sublime-snippet", "w+")
+        output_file.write(snippet_str)
+        output_file.close()
+
+        tabs_str_icon_top = '<div class="tabs tabs-icon-top ' + tabs_color + '">\n' + \
+            '\t<a class="tab-item" href="#">\n' + \
+            '\t\t<i class="icon ${1:ion-home}"></i>\n' + \
+            '\t\t${2:Tab1}\n' + \
+            '\t</a>\n' + \
+            '\t<a class="tab-item" href="#">\n' + \
+            '\t\t<i class="icon ${3:ion-star}"></i>\n' + \
+            '\t\t${4:Tab2}\n' + \
+            '\t</a>\n' + \
+            '\t<a class="tab-item" href="#">\n' + \
+            '\t\t<i class="icon ${5:ion-gear-a}"></i>\n' + \
+            '\t\t${6:Tab3}\n' + \
+            '\t</a>\n' + \
+            '</div>\n'
+
+        snippet_str = create_snippet_string('ionic-tabs-icon-top-' + tabs_color[5:], tabs_str_icon_top,
+                                            'text.html', 'tabs-icon-top-' + tabs_color[5:])
+        output_file = open(
+            output_folder + 'ionic-tabs-icon-top-' + tabs_color[5:] + ".sublime-snippet", "w+")
+        output_file.write(snippet_str)
+        output_file.close()
+
+        tabs_str_icon_left = '<div class="tabs tabs-icon-left ' + tabs_color + '">\n' + \
+            '\t<a class="tab-item" href="#">\n' + \
+            '\t\t<i class="icon ${1:ion-home}"></i>\n' + \
+            '\t\t${2:Tab1}\n' + \
+            '\t</a>\n' + \
+            '\t<a class="tab-item" href="#">\n' + \
+            '\t\t<i class="icon ${3:ion-star}"></i>\n' + \
+            '\t\t${4:Tab2}\n' + \
+            '\t</a>\n' + \
+            '\t<a class="tab-item" href="#">\n' + \
+            '\t\t<i class="icon ${5:ion-gear-a}"></i>\n' + \
+            '\t\t${6:Tab3}\n' + \
+            '\t</a>\n' + \
+            '</div>\n'
+
+        snippet_str = create_snippet_string('ionic-tabs-icon-left-' + tabs_color[5:], tabs_str_icon_left,
+                                            'text.html', 'tabs-icon-left-' + tabs_color[5:])
+        output_file = open(
+            output_folder + 'ionic-tabs-icon-left-' + tabs_color[5:] + ".sublime-snippet", "w+")
+        output_file.write(snippet_str)
+        output_file.close()
+
+        tabs_str_striped = '<div class="tabs-striped tabs-color-' + tabs_color[5:] + '">\n' + \
+            '\t<div class="tabs">\n' + \
+            '\t\t<a class="tab-item" href="#">\n' + \
+            '\t\t\t<i class="icon ${1:ion-home}"></i>\n' + \
+            '\t\t\t${2:Tab1}\n' + \
+            '\t\t</a>\n' + \
+            '\t\t<a class="tab-item" href="#">\n' + \
+            '\t\t\t<i class="icon ${3:ion-star}"></i>\n' + \
+            '\t\t\t${4:Tab2}\n' + \
+            '\t\t</a>\n' + \
+            '\t\t<a class="tab-item" href="#">\n' + \
+            '\t\t\t<i class="icon ${5:ion-gear-a}"></i>\n' + \
+            '\t\t\t${6:Tab3}\n' + \
+            '\t\t</a>\n' + \
+            '\t</div>\n' + \
+            '</div>\n'
+
+        snippet_str = create_snippet_string('ionic-tabs-striped-' + tabs_color[5:], tabs_str_striped,
+                                            'text.html', 'tabs-striped-' + tabs_color[5:])
+        output_file = open(
+            output_folder + 'ionic-tabs-striped-' + tabs_color[5:] + ".sublime-snippet", "w+")
         output_file.write(snippet_str)
         output_file.close()
