@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[<label class="item item-radio">
+	<input type="radio" name="group">
+	<div class="item-content">
+		${1:desc}
+	</div>
+	<i class="radio-icon ${2:ion-checkmark}"></i>
+</label>
+]]></content>
+	<tabTrigger>ionic-radio-button</tabTrigger>
+	<scope>text.html</scope>
+	<description>ionic-radio-button</description>
+</snippet>

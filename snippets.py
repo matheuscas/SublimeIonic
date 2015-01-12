@@ -5,11 +5,12 @@ header = False
 sub_header = False
 footer = False
 buttons = False
-lists = True
+lists = False
 cards = False
 forms = False
 toogle = False
-checkbox = True
+checkbox = False
+radio_button = True
 
 
 def create_snippet_string(tabTrigger, content, scope, description):
@@ -564,3 +565,25 @@ if checkbox:
 	        output_folder + 'ionic-checkbox-' + checkbox_color[9:] + ".sublime-snippet", "w+")
 	    output_file.write(snippet_str)
 	    output_file.close()
+
+if radio_button:
+    output_folder = current_path + '/Radio Buttons/'
+
+    radio_str = '<label class="item item-radio">\n' + \
+                '\t<input type="radio" name="group">\n' + \
+                '\t<div class="item-content">\n' + \
+                '\t\t${1:desc}\n' + \
+                '\t</div>\n' + \
+                '\t<i class="radio-icon ${2:ion-checkmark}"></i>\n' + \
+                '</label>\n'
+
+    snippet_str = create_snippet_string('ionic-radio-button', radio_str, 'text.html', 'ionic-radio-button')
+    output_file = open(output_folder + 'ionic-radio-button.sublime-snippet', 'w+')
+    output_file.write(snippet_str)
+    output_file.close()
+
+
+
+
+
+
