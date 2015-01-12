@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[<div class="item range range-royal">
+	<i class="icon ${1:ion-volume-low}"></i>
+	<input type="range" name="volume" min="0" max="100" value="33">
+	<i class="icon ${2:ion-volume-high}"></i>
+</div>
+]]></content>
+	<tabTrigger>ionic-range-item-royal</tabTrigger>
+	<scope>text.html</scope>
+	<description>ionic-range-item-royal</description>
+</snippet>

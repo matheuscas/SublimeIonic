@@ -10,7 +10,8 @@ cards = False
 forms = False
 toogle = False
 checkbox = False
-radio_button = True
+radio_button = False
+range_control = True
 
 
 def create_snippet_string(tabTrigger, content, scope, description):
@@ -552,19 +553,19 @@ if checkbox:
                      'checkbox-assertive', 'checkbox-royal', 'checkbox-dark']
 
     for checkbox_color in css_checkboxs:
-	    checkbox_str = '<li class="item item-checkbox">\n' + \
-	        '\t<label class="checkbox ' + checkbox_color + '">\n' + \
-	        '\t\t<input type="checkbox">\n' + \
-	        '\t</label>\n' + \
-	        '\t${1:desc}\n' + \
-	        '</li>\n'
+        checkbox_str = '<li class="item item-checkbox">\n' + \
+            '\t<label class="checkbox ' + checkbox_color + '">\n' + \
+            '\t\t<input type="checkbox">\n' + \
+            '\t</label>\n' + \
+            '\t${1:desc}\n' + \
+            '</li>\n'
 
-	    snippet_str = create_snippet_string('ionic-checkbox-' + checkbox_color[9:], checkbox_str,
-	                                        'text.html', 'ionic-checkbox-' + checkbox_color[9:])
-	    output_file = open(
-	        output_folder + 'ionic-checkbox-' + checkbox_color[9:] + ".sublime-snippet", "w+")
-	    output_file.write(snippet_str)
-	    output_file.close()
+        snippet_str = create_snippet_string('ionic-checkbox-' + checkbox_color[9:], checkbox_str,
+                                            'text.html', 'ionic-checkbox-' + checkbox_color[9:])
+        output_file = open(
+            output_folder + 'ionic-checkbox-' + checkbox_color[9:] + ".sublime-snippet", "w+")
+        output_file.write(snippet_str)
+        output_file.close()
 
 if radio_button:
     output_folder = current_path + '/Radio Buttons/'
@@ -577,13 +578,44 @@ if radio_button:
                 '\t<i class="radio-icon ${2:ion-checkmark}"></i>\n' + \
                 '</label>\n'
 
-    snippet_str = create_snippet_string('ionic-radio-button', radio_str, 'text.html', 'ionic-radio-button')
-    output_file = open(output_folder + 'ionic-radio-button.sublime-snippet', 'w+')
+    snippet_str = create_snippet_string(
+        'ionic-radio-button', radio_str, 'text.html', 'ionic-radio-button')
+    output_file = open(
+        output_folder + 'ionic-radio-button.sublime-snippet', 'w+')
     output_file.write(snippet_str)
     output_file.close()
 
+if range_control:
 
+    output_folder = current_path + '/Range/'
 
+    css_ranges = ['range-light', 'range-stable', 'range-positive',
+                  'range-calm', 'range-balanced', 'range-energized',
+                  'range-assertive', 'range-royal', 'range-dark']
 
+    for range_color in css_ranges:
+        range_str_default = '<div class="range ' + range_color + '">\n' + \
+            '\t<i class="icon ${1:ion-volume-low}"></i>\n' + \
+            '\t<input type="range" name="volume" min="0" max="100" value="33">\n' + \
+            '\t<i class="icon ${2:ion-volume-high}"></i>\n' + \
+            '</div>\n'
 
+        snippet_str = create_snippet_string('ionic-range-' + range_color[6:], range_str_default,
+                                            'text.html', 'ionic-range-' + range_color[6:])
+        output_file = open(
+            output_folder + 'ionic-range-' + range_color[6:] + ".sublime-snippet", "w+")
+        output_file.write(snippet_str)
+        output_file.close()
 
+        range_str_in_list = '<div class="item range ' + range_color + '">\n' + \
+            '\t<i class="icon ${1:ion-volume-low}"></i>\n' + \
+            '\t<input type="range" name="volume" min="0" max="100" value="33">\n' + \
+            '\t<i class="icon ${2:ion-volume-high}"></i>\n' + \
+            '</div>\n'
+
+        snippet_str = create_snippet_string('ionic-range-item-' + range_color[6:], range_str_in_list,
+                                            'text.html', 'ionic-range-item-' + range_color[6:])
+        output_file = open(
+            output_folder + 'ionic-range-item-' + range_color[6:] + ".sublime-snippet", "w+")
+        output_file.write(snippet_str)
+        output_file.close()
