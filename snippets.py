@@ -13,7 +13,8 @@ checkbox = False
 radio_button = False
 range_control = False
 select_control = False
-tabs = True
+tabs = False
+actionSheet = True
 
 
 def create_snippet_string(tabTrigger, content, scope, description):
@@ -760,3 +761,28 @@ if tabs:
             output_folder + 'ionic-tabs-striped-' + tabs_color[5:] + ".sublime-snippet", "w+")
         output_file.write(snippet_str)
         output_file.close()
+
+if actionSheet:
+    output_folder = current_path + '/Action Sheet/'
+    actionSheet_str = '\$ionicActionSheet.show({\n' + \
+        '\t\tbuttons: [\n' + \
+        '\t\t\t{ text: "${1:Button text 1}" },\n' + \
+        '\t\t\t{ text: "${2:Move}" }\n' + \
+        '\t\t],\n' + \
+        '\t\tdestructiveText: "${3:Delete}",\n' + \
+        '\t\ttitleText: "${4:Title}",\n' + \
+        '\t\tcancelText: "${5:Cancel}",\n' + \
+        '\t\tcancel: function() {\n' + \
+        '\t\t\t${6: //your code goes here}\n' + \
+        '\t\t},\n' + \
+        '\t\tbuttonClicked: function(index) {\n' + \
+        '\t\t\t${7: return true;}\n' + \
+        '\t\t}\n' + \
+        '});'
+
+    snippet_str = create_snippet_string(
+        '$ionicActionSheet.show', actionSheet_str, 'source.js', 'Ionic Action Sheet')
+    output_file = open(
+        output_folder + 'ionicActionSheet.show' + ".sublime-snippet", "w+")
+    output_file.write(snippet_str)
+    output_file.close()

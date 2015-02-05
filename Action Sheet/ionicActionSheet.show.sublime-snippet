@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[\$ionicActionSheet.show({
+		buttons: [
+			{ text: "${1:Button text 1}" },
+			{ text: "${2:Move}" }
+		],
+		destructiveText: "${3:Delete}",
+		titleText: "${4:Title}",
+		cancelText: "${5:Cancel}",
+		cancel: function() {
+			${6: your code goes here}
+		},
+		buttonClicked: function(index) {
+			${7: return true;}
+		}
+});]]></content>
+	<tabTrigger>$ionicActionSheet.show</tabTrigger>
+	<scope>source.js</scope>
+	<description>Ionic Action Sheet</description>
+</snippet>
