@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$ionicBackdrop.release();]]></content>
+	<tabTrigger>$ionicBackdrop.release</tabTrigger>
+	<scope>source.js</scope>
+	<description>Ionic Backdrop</description>
+</snippet>

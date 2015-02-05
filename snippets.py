@@ -14,7 +14,8 @@ radio_button = False
 range_control = False
 select_control = False
 tabs = False
-actionSheet = True
+actionSheet = False
+backdrop = True
 
 
 def create_snippet_string(tabTrigger, content, scope, description):
@@ -786,3 +787,22 @@ if actionSheet:
         output_folder + 'ionicActionSheet.show' + ".sublime-snippet", "w+")
     output_file.write(snippet_str)
     output_file.close()
+
+if backdrop:
+	output_folder = current_path + '/Backdrop/'
+	backdrop_retain = '\$ionicBackdrop.retain();'
+	backdrop_release = '\$ionicBackdrop.release();'
+
+	snippet_str = create_snippet_string(
+            '$ionicBackdrop.retain', backdrop_retain, 'source.js', 'Ionic Backdrop')
+	output_file = open(
+            output_folder + 'ionicBackdrop.retain' + ".sublime-snippet", "w+")
+	output_file.write(snippet_str)
+	output_file.close()
+
+   	snippet_str = create_snippet_string(
+            '$ionicBackdrop.release', backdrop_release, 'source.js', 'Ionic Backdrop')
+	output_file = open(
+            output_folder + 'ionicBackdrop.release' + ".sublime-snippet", "w+")
+	output_file.write(snippet_str)
+	output_file.close()
