@@ -2,5 +2,5 @@
 	<content><![CDATA[\$ionicLoading.hide()]]></content>
 	<tabTrigger>$ionicLoading.hide</tabTrigger>
 	<scope>source.js</scope>
-	<description> Ionic ScrollDelegate</description>
+	<description> Ionic Loading Service</description>
 </snippet>

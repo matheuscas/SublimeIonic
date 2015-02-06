@@ -4,5 +4,5 @@
 });]]></content>
 	<tabTrigger>$ionicLoading.show</tabTrigger>
 	<scope>source.js</scope>
-	<description> Ionic ScrollDelegate</description>
+	<description> Ionic Loading Service</description>
 </snippet>
