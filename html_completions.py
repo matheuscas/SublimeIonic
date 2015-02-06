@@ -76,12 +76,6 @@ class ExtensionsCompletions(sublime_plugin.EventListener):
         #     ("ion-infinite-scroll\tIonic Extension", 'ion-infinite-scroll on-infinite="${1:loadMore()}">$0</ion-infinite-scroll>')
         # ]
 
-        # form_inputs = [
-        #     ("ion-checkbox\tIonic Extension", 'ion-checkbox ng-model="${1:isChecked}">$0</ion-checkbox>'),
-        #     ("ion-radio\tIonic Extension", 'ion-radio ng-model="${1:choice}" ng-value="${2:value}">$0</ion-radio>'),
-        #     ("ion-toggle\tIonic Extension", 'ion-toggle ng-model="${1:airplaneMode}" toggle-class="${2:toggle-calm}">$0</ion-toggle>')
-        # ]
-
         # slide_box = [
         #     ("ion-slide-box\tIonic Extension", 'ion-slide-box on-slide-changed="${1:slideHasChanged($index)}">$0</ion-slide-box>'),
         #     ("ion-slide\tIonic Extension", 'ion-slide>$0</ion-slide>'),
