@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$ionicScrollDelegate.zoomTo(${1:level}, ${2:animate}, ${3:originLeft}, ${4:originTop})]]></content>
+	<tabTrigger>$ionicScrollDelegate.zoomTo</tabTrigger>
+	<scope>source.js</scope>
+	<description> Ionic ScrollDelegate</description>
+</snippet>

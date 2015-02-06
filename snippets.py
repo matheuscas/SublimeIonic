@@ -15,7 +15,8 @@ range_control = False
 select_control = False
 tabs = False
 actionSheet = False
-backdrop = True
+backdrop = False
+scrollDelegate = True
 
 
 def create_snippet_string(tabTrigger, content, scope, description):
@@ -29,6 +30,14 @@ def create_snippet_string(tabTrigger, content, scope, description):
     snippet_string = "<snippet>\n\t" + content_tag + "\n\t" + tabTrigger_tag +\
         "\n\t" + scope_tag + "\n\t" + description_tag + "\n" + "</snippet>"
     return snippet_string
+
+
+def create_snippet_file(path_name_file, tabTrigger, content, scope, description):
+
+	snippet_str = create_snippet_string(tabTrigger, content, scope, description)
+	output_file = open(path_name_file, "w+")
+	output_file.write(snippet_str)
+	output_file.close()
 
 if header:
     output_folder = current_path + '/Header/'
@@ -806,3 +815,95 @@ if backdrop:
             output_folder + 'ionicBackdrop.release' + ".sublime-snippet", "w+")
 	output_file.write(snippet_str)
 	output_file.close()
+
+if scrollDelegate:
+	output_folder = current_path + '/Content/'
+	service = '\$ionicScrollDelegate.'
+	resize = service + 'resize()'
+	scrollTop = service + 'scrollTop(${1:shouldAnimate})'
+	scrollBottom = service + 'scrollBottom(${1:shouldAnimate})'
+	scrollTo = service + 'scrollTo(${1:left}, ${2:top}, ${3:shouldAnimate})'
+	scrollBy = service + 'scrollBy(${1:left}, ${2:top}, ${3:shouldAnimate})'
+	zoomTo = service + 'zoomTo(${1:level}, ${2:animate}, ${3:originLeft}, ${4:originTop})'
+	zoomBy = service + 'zoomBy(${1:factor}, ${2:animate}, ${3:originLeft}, ${4:originTop})'
+	getScrollPosition = service + 'getScrollPosition()'
+	anchorScroll = service + 'anchorScroll(${1:shouldAnimate})'
+	getScrollView = service + 'getScrollView()'
+	getByHandle = service + '\$getByHandle(${1:handle})'
+
+	path_name_file = output_folder + 'ionicScrollDelegate.resize' + ".sublime-snippet"
+	tabTrigger = '$ionicScrollDelegate.resize'
+	content = resize
+	scope = 'source.js'
+	description = ' Ionic ScrollDelegate'
+	create_snippet_file(path_name_file, tabTrigger, content, scope, description)
+
+	path_name_file = output_folder + 'ionicScrollDelegate.scrollTop' + ".sublime-snippet"
+	tabTrigger = '$ionicScrollDelegate.scrollTop'
+	content = scrollTop
+	scope = 'source.js'
+	description = ' Ionic ScrollDelegate'
+	create_snippet_file(path_name_file, tabTrigger, content, scope, description)
+
+	path_name_file = output_folder + 'ionicScrollDelegate.scrollBottom' + ".sublime-snippet"
+	tabTrigger = '$ionicScrollDelegate.scrollBottom'
+	content = scrollBottom
+	scope = 'source.js'
+	description = ' Ionic ScrollDelegate'
+	create_snippet_file(path_name_file, tabTrigger, content, scope, description)
+
+	path_name_file = output_folder + 'ionicScrollDelegate.scrollTo' + ".sublime-snippet"
+	tabTrigger = '$ionicScrollDelegate.scrollTo'
+	content = scrollTo
+	scope = 'source.js'
+	description = ' Ionic ScrollDelegate'
+	create_snippet_file(path_name_file, tabTrigger, content, scope, description)
+
+	path_name_file = output_folder + 'ionicScrollDelegate.scrollBy' + ".sublime-snippet"
+	tabTrigger = '$ionicScrollDelegate.scrollBy'
+	content = scrollBy
+	scope = 'source.js'
+	description = ' Ionic ScrollDelegate'
+	create_snippet_file(path_name_file, tabTrigger, content, scope, description)
+
+	path_name_file = output_folder + 'ionicScrollDelegate.zoomTo' + ".sublime-snippet"
+	tabTrigger = '$ionicScrollDelegate.zoomTo'
+	content = zoomTo
+	scope = 'source.js'
+	description = ' Ionic ScrollDelegate'
+	create_snippet_file(path_name_file, tabTrigger, content, scope, description)
+
+	path_name_file = output_folder + 'ionicScrollDelegate.zoomBy' + ".sublime-snippet"
+	tabTrigger = '$ionicScrollDelegate.zoomBy'
+	content = zoomBy
+	scope = 'source.js'
+	description = ' Ionic ScrollDelegate'
+	create_snippet_file(path_name_file, tabTrigger, content, scope, description)
+
+	path_name_file = output_folder + 'ionicScrollDelegate.getScrollPosition' + ".sublime-snippet"
+	tabTrigger = '$ionicScrollDelegate.getScrollPosition'
+	content = getScrollPosition
+	scope = 'source.js'
+	description = ' Ionic ScrollDelegate'
+	create_snippet_file(path_name_file, tabTrigger, content, scope, description)
+
+	path_name_file = output_folder + 'ionicScrollDelegate.anchorScroll' + ".sublime-snippet"
+	tabTrigger = '$ionicScrollDelegate.anchorScroll'
+	content = anchorScroll
+	scope = 'source.js'
+	description = ' Ionic ScrollDelegate'
+	create_snippet_file(path_name_file, tabTrigger, content, scope, description)
+
+	path_name_file = output_folder + 'ionicScrollDelegate.getScrollView' + ".sublime-snippet"
+	tabTrigger = '$ionicScrollDelegate.getScrollView'
+	content = getScrollView
+	scope = 'source.js'
+	description = ' Ionic ScrollDelegate'
+	create_snippet_file(path_name_file, tabTrigger, content, scope, description)
+
+	path_name_file = output_folder + 'ionicScrollDelegate.getByHandle' + ".sublime-snippet"
+	tabTrigger = '$ionicScrollDelegate.getByHandle'
+	content = getByHandle
+	scope = 'source.js'
+	description = ' Ionic ScrollDelegate'
+	create_snippet_file(path_name_file, tabTrigger, content, scope, description)
