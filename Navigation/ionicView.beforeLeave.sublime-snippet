@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[\$scope.\$on("\$ionicView.beforeLeave", function () {
+$0
+});]]></content>
+	<tabTrigger>$ionicView.beforeLeave</tabTrigger>
+	<scope>source.js</scope>
+	<description> Ionic View Event</description>
+</snippet>

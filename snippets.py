@@ -17,8 +17,9 @@ tabs = False
 actionSheet = False
 backdrop = False
 scrollDelegate = False
-loading = True
-modal = True
+loading = False
+modal = False
+navigation = True
 
 
 def create_snippet_string(tabTrigger, content, scope, description):
@@ -962,7 +963,8 @@ if modal:
     output_folder = current_path + '/Modal/'
 
     ionicModal_fromTemplateUrl = '\$ionicModal.fromTemplateUrl(${1:templateUrl}, ${2:options})'
-    path_name_file = output_folder + 'ionicModal.fromTemplateUrl' + ".sublime-snippet"
+    path_name_file = output_folder + \
+        'ionicModal.fromTemplateUrl' + ".sublime-snippet"
     tabTrigger = '$ionicModal.fromTemplateUrl'
     content = ionicModal_fromTemplateUrl
     scope = 'source.js'
@@ -971,10 +973,64 @@ if modal:
         path_name_file, tabTrigger, content, scope, description)
 
     ionicModal_fromTemplate = '\$ionicModal.fromTemplate(${1:templateString}, ${2:options})'
-    path_name_file = output_folder + 'ionicModal.fromTemplate' + ".sublime-snippet"
+    path_name_file = output_folder + \
+        'ionicModal.fromTemplate' + ".sublime-snippet"
     tabTrigger = '$ionicModal.fromTemplate'
     content = ionicModal_fromTemplate
     scope = 'source.js'
     description = ' Ionic Modal Service'
     create_snippet_file(
         path_name_file, tabTrigger, content, scope, description)
+
+if navigation:
+    output_folder = current_path + '/Navigation/'
+
+    # $ionicView
+    events = ['loaded', 'enter', 'leave', 'beforeEnter',
+              'beforeLeave', 'afterEnter', 'afterLeave', 'unloaded']
+
+    for event in events:
+        ionicView_event = '\$scope.\$on("\$ionicView.' + \
+            event + '", function () {\n$0\n});'
+        path_name_file = output_folder + \
+            'ionicView.' + event + ".sublime-snippet"
+        tabTrigger = '$ionicView.' + event
+        content = ionicView_event
+        scope = 'source.js'
+        description = ' Ionic View Event'
+        create_snippet_file(
+            path_name_file, tabTrigger, content, scope, description)
+
+    # ionicNavBarDelegate
+    methods = ['align', 'showBackButton', 'showBar', 'title', 'back']
+    params = ['direction', 'show', 'show', 'title', '']
+
+    for idx, method in enumerate(methods):
+        ionicNavBarDelegate = '\$ionicNavBarDelegate.%s(${1:%s})' % (
+            method, params[idx])
+        path_name_file = output_folder + \
+            'ionicNavBarDelegate.' + method + ".sublime-snippet"
+        tabTrigger = '$ionicNavBarDelegate.' + method
+        content = ionicNavBarDelegate
+        scope = 'source.js'
+        description = ' Ionic Nav Methods'
+        create_snippet_file(
+            path_name_file, tabTrigger, content, scope, description)
+
+    # ionicHistory
+    methods = ['viewHistory', 'currentView', 'currentHistoryId',
+               'currentTitle', 'backView', 'backTitle',
+               'forwardView', 'currentStateName', 'goBack',
+               'clearHistory', 'clearCache', 'nextViewOptions']
+    params = ['', '', '', '${1:val}', '', '', '', '', '', '', '', '\n\tdisableAnimate: ${1:true},\n \tdisableBack: ${2:true}\n']
+
+    for idx, method in enumerate(methods):
+        ionicHistory = '\$ionicHistory.%s(%s)' % (method, params[idx])
+        path_name_file = output_folder + \
+            'ionicHistory.' + method + ".sublime-snippet"
+        tabTrigger = '$ionicHistory.' + method
+        content = ionicHistory
+        scope = 'source.js'
+        description = ' Ionic Hist View'
+        create_snippet_file(
+            path_name_file, tabTrigger, content, scope, description)

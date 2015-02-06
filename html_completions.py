@@ -61,18 +61,19 @@ class ExtensionsCompletions(sublime_plugin.EventListener):
             ("ion-modal-view\tIonic Extension", 'ion-modal-view>$0</ion-modal-view>')
         ]
 
+        navigation = [
+            ("ion-nav-view\tIonic Extension", 'ion-nav-view>$0</ion-nav-view>'),
+            ("ion-view\tIonic Extension", 'ion-view view-title="${1:Your Title!}">$0</ion-view>'),
+            ("ion-nav-bar\tIonic Extension", 'ion-nav-bar class="${1:bar-positive}" align-title="${2:left}">$0</ion-nav-bar>'),
+            ("ion-nav-buttons\tIonic Extension", 'ion-nav-buttons side="${1:primary}">$0</ion-nav-buttons>'),
+            ("ion-nav-back-button\tIonic Extension", 'ion-nav-back-button class="${1:button-clear}">$0</ion-nav-back-button>'),
+            ("ion-nav-title\tIonic Extension", 'ion-nav-title>$0</ion-nav-title>')
+        ]
+
         # side_menus = [
         #     ("ion-side-menus\tIonic Extension", 'ion-side-menus>$0</ion-side-menus>'),
         #     ("ion-side-menu-content\tIonic Extension", 'ion-side-menu-content drag-content="${1:true}">$0</ion-side-menu-content>'),
         #     ("ion-side-menu\tIonic Extension", 'ion-side-menu side="${1:left}">$0</ion-side-menu>')
-        # ]
-
-        # navigation = [
-        #     ("ion-nav-view\tIonic Extension", 'ion-nav-view animation="${1:slide-left-right}">$0</ion-nav-view>'),
-        #     ("ion-view\tIonic Extension", 'ion-view title="${1:Title}">$0</ion-view>'),
-        #     ("ion-nav-bar\tIonic Extension", 'ion-nav-bar class="${1:bar-positive} ${2:nav-title-slide-ios7}">$0</ion-nav-bar>'),
-        #     ("ion-nav-buttons\tIonic Extension", 'ion-nav-buttons side="${1:left}">$0</ion-nav-buttons>'),
-        #     ("ion-nav-back-button\tIonic Extension", 'ion-nav-back-button class="${1:button-clear}">$0</ion-nav-back-button>'),
         # ]
 
         # scroll = [
@@ -106,6 +107,6 @@ class ExtensionsCompletions(sublime_plugin.EventListener):
         #                 content + scroll + lists + form_inputs + \
         #                 slide_box + events
 
-        completions = headers_footers + content + lists + forms + tabs + modal
+        completions = headers_footers + content + lists + forms + tabs + modal + navigation
 
         return (completions, sublime.INHIBIT_WORD_COMPLETIONS | sublime.INHIBIT_EXPLICIT_COMPLETIONS)

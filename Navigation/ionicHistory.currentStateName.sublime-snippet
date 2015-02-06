@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$ionicHistory.currentStateName()]]></content>
+	<tabTrigger>$ionicHistory.currentStateName</tabTrigger>
+	<scope>source.js</scope>
+	<description> Ionic Hist View</description>
+</snippet>

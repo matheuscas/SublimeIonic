@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[\$ionicHistory.nextViewOptions(
+	disableAnimate: ${1:true},
+ 	disableBack: ${2:true}
+)]]></content>
+	<tabTrigger>$ionicHistory.nextViewOptions</tabTrigger>
+	<scope>source.js</scope>
+	<description> Ionic Hist View</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$ionicHistory.currentView()]]></content>
+	<tabTrigger>$ionicHistory.currentView</tabTrigger>
+	<scope>source.js</scope>
+	<description> Ionic Hist View</description>
+</snippet>

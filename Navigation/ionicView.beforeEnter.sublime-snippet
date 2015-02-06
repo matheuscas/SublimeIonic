@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[\$scope.\$on("\$ionicView.beforeEnter", function () {
+$0
+});]]></content>
+	<tabTrigger>$ionicView.beforeEnter</tabTrigger>
+	<scope>source.js</scope>
+	<description> Ionic View Event</description>
+</snippet>

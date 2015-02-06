@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$ionicNavBarDelegate.showBackButton(${1:show})]]></content>
+	<tabTrigger>$ionicNavBarDelegate.showBackButton</tabTrigger>
+	<scope>source.js</scope>
+	<description> Ionic Nav Methods</description>
+</snippet>
