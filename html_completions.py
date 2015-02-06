@@ -57,6 +57,10 @@ class ExtensionsCompletions(sublime_plugin.EventListener):
             ("ion-tab\tIonic Extension", 'ion-tab title="${1:Title}" href="${2:tab-link}" icon-on="${3:icon_on}" icon-off="${4:icon_off}">$0</ion-tab>')
         ]
 
+        modal = [
+            ("ion-modal-view\tIonic Extension", 'ion-modal-view>$0</ion-modal-view>')
+        ]
+
         # side_menus = [
         #     ("ion-side-menus\tIonic Extension", 'ion-side-menus>$0</ion-side-menus>'),
         #     ("ion-side-menu-content\tIonic Extension", 'ion-side-menu-content drag-content="${1:true}">$0</ion-side-menu-content>'),
@@ -102,6 +106,6 @@ class ExtensionsCompletions(sublime_plugin.EventListener):
         #                 content + scroll + lists + form_inputs + \
         #                 slide_box + events
 
-        completions = headers_footers + content + lists + forms + tabs
+        completions = headers_footers + content + lists + forms + tabs + modal
 
         return (completions, sublime.INHIBIT_WORD_COMPLETIONS | sublime.INHIBIT_EXPLICIT_COMPLETIONS)

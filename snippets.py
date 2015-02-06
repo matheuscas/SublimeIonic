@@ -16,8 +16,9 @@ select_control = False
 tabs = False
 actionSheet = False
 backdrop = False
-scrollDelegate = True
+scrollDelegate = False
 loading = True
+modal = True
 
 
 def create_snippet_string(tabTrigger, content, scope, description):
@@ -944,7 +945,7 @@ if loading:
     tabTrigger = '$ionicLoading.show'
     content = ionicLoading_show
     scope = 'source.js'
-    description = ' Ionic ScrollDelegate'
+    description = ' Ionic Loading Service'
     create_snippet_file(
         path_name_file, tabTrigger, content, scope, description)
 
@@ -953,6 +954,27 @@ if loading:
     tabTrigger = '$ionicLoading.hide'
     content = ionicLoading_hide
     scope = 'source.js'
-    description = ' Ionic ScrollDelegate'
+    description = ' Ionic Loading Service'
+    create_snippet_file(
+        path_name_file, tabTrigger, content, scope, description)
+
+if modal:
+    output_folder = current_path + '/Modal/'
+
+    ionicModal_fromTemplateUrl = '\$ionicModal.fromTemplateUrl(${1:templateUrl}, ${2:options})'
+    path_name_file = output_folder + 'ionicModal.fromTemplateUrl' + ".sublime-snippet"
+    tabTrigger = '$ionicModal.fromTemplateUrl'
+    content = ionicModal_fromTemplateUrl
+    scope = 'source.js'
+    description = ' Ionic Modal Service'
+    create_snippet_file(
+        path_name_file, tabTrigger, content, scope, description)
+
+    ionicModal_fromTemplate = '\$ionicModal.fromTemplate(${1:templateString}, ${2:options})'
+    path_name_file = output_folder + 'ionicModal.fromTemplate' + ".sublime-snippet"
+    tabTrigger = '$ionicModal.fromTemplate'
+    content = ionicModal_fromTemplate
+    scope = 'source.js'
+    description = ' Ionic Modal Service'
     create_snippet_file(
         path_name_file, tabTrigger, content, scope, description)

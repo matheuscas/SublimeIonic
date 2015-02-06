@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$ionicModal.fromTemplateUrl(${1:templateUrl}, ${2:options})]]></content>
+	<tabTrigger>$ionicModal.fromTemplateUrl</tabTrigger>
+	<scope>source.js</scope>
+	<description> Ionic Modal Service</description>
+</snippet>
