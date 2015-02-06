@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[\$ionicLoading.show({
+	template: "${1:Loading...}"
+});]]></content>
+	<tabTrigger>$ionicLoading.show</tabTrigger>
+	<scope>source.js</scope>
+	<description> Ionic ScrollDelegate</description>
+</snippet>
