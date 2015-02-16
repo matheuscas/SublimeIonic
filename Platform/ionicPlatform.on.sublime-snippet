@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$ionicPlatform.on(${1:type}, ${2:callback})]]></content>
+	<tabTrigger>$ionicPlatform.on</tabTrigger>
+	<scope>source.js</scope>
+	<description> Ionic Platform Methods</description>
+</snippet>

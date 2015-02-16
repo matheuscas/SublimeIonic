@@ -19,7 +19,8 @@ backdrop = False
 scrollDelegate = False
 loading = False
 modal = False
-navigation = True
+navigation = False
+platform = True
 
 
 def create_snippet_string(tabTrigger, content, scope, description):
@@ -1022,7 +1023,8 @@ if navigation:
                'currentTitle', 'backView', 'backTitle',
                'forwardView', 'currentStateName', 'goBack',
                'clearHistory', 'clearCache', 'nextViewOptions']
-    params = ['', '', '', '${1:val}', '', '', '', '', '', '', '', '\n\tdisableAnimate: ${1:true},\n \tdisableBack: ${2:true}\n']
+    params = ['', '', '', '${1:val}', '', '', '', '', '', '', '',
+              '\n\tdisableAnimate: ${1:true},\n \tdisableBack: ${2:true}\n']
 
     for idx, method in enumerate(methods):
         ionicHistory = '\$ionicHistory.%s(%s)' % (method, params[idx])
@@ -1032,5 +1034,21 @@ if navigation:
         content = ionicHistory
         scope = 'source.js'
         description = ' Ionic Hist View'
+        create_snippet_file(
+            path_name_file, tabTrigger, content, scope, description)
+
+if platform:
+    output_folder = current_path + '/Platform/'
+    methods = ['onHardwareBackButton(${1:callback})', 'offHardwareBackButton(${1:callback})',
+               'registerBackButtonAction(${1:callback}, ${2:priority})', 'on(${1:type}, ${2:callback})',
+               'ready()']
+    for method in methods:
+        platformDelegate = '\$ionicPlatform.' + method
+        path_name_file = output_folder + \
+            'ionicPlatform.' + method.split('(')[0] + ".sublime-snippet"
+        tabTrigger = '$ionicPlatform.' + method.split('(')[0]
+        content = platformDelegate
+        scope = 'source.js'
+        description = ' Ionic Platform Methods'
         create_snippet_file(
             path_name_file, tabTrigger, content, scope, description)
