@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[\$ionicPopup.confirm({
+	title: $1,
+	template: $2
+});]]></content>
+	<tabTrigger>$ionicPopup.confirm</tabTrigger>
+	<scope>source.js</scope>
+	<description> Ionic Popup</description>
+</snippet>

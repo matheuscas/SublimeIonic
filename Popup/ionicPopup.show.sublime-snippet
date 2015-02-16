@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[\$ionicPopup.show({
+	template: $1,
+	title: $2,
+	subTitle: $3,
+	scope: \$scope,
+	buttons: [$4]
+});]]></content>
+	<tabTrigger>$ionicPopup.show</tabTrigger>
+	<scope>source.js</scope>
+	<description> Ionic Popup</description>
+</snippet>

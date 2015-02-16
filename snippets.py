@@ -21,7 +21,8 @@ loading = False
 modal = False
 navigation = False
 platform = False
-popover = True
+popover = False
+popup = True
 
 
 def create_snippet_string(tabTrigger, content, scope, description):
@@ -1067,5 +1068,44 @@ if popover:
         content = popoverDelegate
         scope = 'source.js'
         description = ' Ionic Popover'
+        create_snippet_file(
+            path_name_file, tabTrigger, content, scope, description)
+
+if popup:
+    output_folder = current_path + '/Popup/'
+    show = 'show({\n' + \
+        '\ttemplate: $1,\n' + \
+        '\ttitle: $2,\n' + \
+        '\tsubTitle: $3,\n' + \
+        '\tscope: \$scope,\n' + \
+        '\tbuttons: [$4]\n' + \
+        '});'
+
+    confirm = 'confirm({\n' + \
+        '\ttitle: $1,\n' + \
+        '\ttemplate: $2\n' + \
+        '});'
+
+    alert = 'alert({\n' + \
+        '\ttitle: $1,\n' + \
+        '\ttemplate: $2\n' + \
+        '});'
+
+    prompt = 'prompt({\n' + \
+        '\ttitle: $1,\n' + \
+        '\ttemplate: $2,\n' + \
+        '\tinputType: $3,\n' + \
+        '\tinputPlaceholder: $4\n' + \
+        '})'
+
+    methods = [show, confirm, alert, prompt]
+    for method in methods:
+        popupDelegate = '\$ionicPopup.' + method
+        path_name_file = output_folder + \
+            'ionicPopup.' + method.split('(')[0] + ".sublime-snippet"
+        tabTrigger = '$ionicPopup.' + method.split('(')[0]
+        content = popupDelegate
+        scope = 'source.js'
+        description = ' Ionic Popup'
         create_snippet_file(
             path_name_file, tabTrigger, content, scope, description)

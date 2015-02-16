@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[\$ionicPopup.prompt({
+	title: $1,
+	template: $2,
+	inputType: $3,
+	inputPlaceholder: $4
+})]]></content>
+	<tabTrigger>$ionicPopup.prompt</tabTrigger>
+	<scope>source.js</scope>
+	<description> Ionic Popup</description>
+</snippet>
