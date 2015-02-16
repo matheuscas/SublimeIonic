@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[\$ionicPopover.fromTemplateUrl(${1:templateUrl}, {
+ 	${2:options}
+})]]></content>
+	<tabTrigger>$ionicPopover.fromTemplateUrl</tabTrigger>
+	<scope>source.js</scope>
+	<description> Ionic Popover</description>
+</snippet>

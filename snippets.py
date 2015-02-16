@@ -20,7 +20,8 @@ scrollDelegate = False
 loading = False
 modal = False
 navigation = False
-platform = True
+platform = False
+popover = True
 
 
 def create_snippet_string(tabTrigger, content, scope, description):
@@ -1050,5 +1051,21 @@ if platform:
         content = platformDelegate
         scope = 'source.js'
         description = ' Ionic Platform Methods'
+        create_snippet_file(
+            path_name_file, tabTrigger, content, scope, description)
+
+if popover:
+    output_folder = current_path + '/Popover/'
+    methodsDelegate = ['fromTemplate(${1:templateString}, {\n \t${2:options}\n});',
+                       'fromTemplateUrl(${1:templateUrl}, {\n \t${2:options}\n})']
+
+    for method in methodsDelegate:
+        popoverDelegate = '\$ionicPopover.' + method
+        path_name_file = output_folder + \
+            'ionicPopover.' + method.split('(')[0] + ".sublime-snippet"
+        tabTrigger = '$ionicPopover.' + method.split('(')[0]
+        content = popoverDelegate
+        scope = 'source.js'
+        description = ' Ionic Popover'
         create_snippet_file(
             path_name_file, tabTrigger, content, scope, description)
