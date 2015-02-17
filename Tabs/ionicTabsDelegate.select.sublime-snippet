@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$ionicTabsDelegate.select(${1:index})]]></content>
+	<tabTrigger>$ionicTabsDelegate.select</tabTrigger>
+	<scope>source.js</scope>
+	<description> Ionic Tabs Delegate</description>
+</snippet>

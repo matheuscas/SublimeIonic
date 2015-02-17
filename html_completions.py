@@ -53,7 +53,7 @@ class ExtensionsCompletions(sublime_plugin.EventListener):
         ]
 
         tabs = [
-            ("ion-tabs\tIonic Extension", 'ion-tabs class=":tabs-${1:positive} ${2:tabs-icon-only}">$0</ion-tabs>'),
+            ("ion-tabs\tIonic Extension", 'ion-tabs class="tabs-${1:positive} ${2:tabs-icon-only}">$0</ion-tabs>'),
             ("ion-tab\tIonic Extension", 'ion-tab title="${1:Title}" href="${2:tab-link}" icon-on="${3:icon_on}" icon-off="${4:icon_off}">$0</ion-tab>')
         ]
 

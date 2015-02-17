@@ -13,7 +13,7 @@ checkbox = False
 radio_button = False
 range_control = False
 select_control = False
-tabs = False
+tabs = True
 actionSheet = False
 backdrop = False
 scrollDelegate = False
@@ -23,7 +23,7 @@ navigation = False
 platform = False
 popover = False
 popup = False
-side_menu = True
+side_menu = False
 
 
 def create_snippet_string(tabTrigger, content, scope, description):
@@ -780,6 +780,29 @@ if tabs:
         output_file.write(snippet_str)
         output_file.close()
 
+        methods = ['select(${1:index})', 'selectedIndex()']
+        for method in methods:
+            ionicTabsDelegate = '\$ionicTabsDelegate.' + method
+            path_name_file = output_folder + \
+                'ionicTabsDelegate.' + \
+                method.split('(')[0] + ".sublime-snippet"
+            tabTrigger = '$ionicTabsDelegate.' + method.split('(')[0]
+            content = ionicTabsDelegate
+            scope = 'source.js'
+            description = ' Ionic Tabs Delegate'
+            create_snippet_file(
+                path_name_file, tabTrigger, content, scope, description)
+
+        ionicTabsDelegate = '\$ionicTabsDelegate.\$getByHandle(${1:handle})'
+        path_name_file = output_folder + \
+            'ionicTabsDelegate.getByHandle.sublime-snippet'
+        tabTrigger = '$ionicTabsDelegate.$getByHandle'
+        content = ionicTabsDelegate
+        scope = 'source.js'
+        description = ' Ionic Tabs Delegate'
+        create_snippet_file(
+            path_name_file, tabTrigger, content, scope, description)
+
 if actionSheet:
     output_folder = current_path + '/Action Sheet/'
     actionSheet_str = '\$ionicActionSheet.show({\n' + \
@@ -1137,4 +1160,3 @@ if side_menu:
     description = ' Ionic Side Menu'
     create_snippet_file(
         path_name_file, tabTrigger, content, scope, description)
-
