@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$ionicPosition.position(${1:element})]]></content>
+	<tabTrigger>$ionicPosition.position</tabTrigger>
+	<scope>source.js</scope>
+	<description> Ionic ConfigProvider</description>
+</snippet>

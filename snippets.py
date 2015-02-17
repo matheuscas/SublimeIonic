@@ -1236,3 +1236,17 @@ if utility:
         description = ' Ionic EventController'
         create_snippet_file(
             path_name_file, tabTrigger, content, scope, description)
+
+    # $ionicPosition
+    methods = ['position(${1:element})', 'offset(${1:element})']
+    for method in methods:
+        ionicPosition = '\$ionicPosition.' + method
+        path_name_file = output_folder + \
+            'ionicPosition.' + \
+            method.split('(')[0] + ".sublime-snippet"
+        tabTrigger = '$ionicPosition.' + method.split('(')[0]
+        content = ionicPosition
+        scope = 'source.js'
+        description = ' Ionic ConfigProvider'
+        create_snippet_file(
+            path_name_file, tabTrigger, content, scope, description)
