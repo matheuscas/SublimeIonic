@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[ionic.Platform.setGrade(${1:grade})]]></content>
+	<tabTrigger>ionic.Platform.setGrade</tabTrigger>
+	<scope>source.js</scope>
+	<description> Ionic Side Menu</description>
+</snippet>

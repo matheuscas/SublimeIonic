@@ -1181,3 +1181,19 @@ if utility:
         description = ' Ionic Side Menu'
         create_snippet_file(
             path_name_file, tabTrigger, content, scope, description)
+
+    methods = ['ready(${1:callback})', 'setGrade(${1:grade})',
+               'device()', 'isWebView()', 'isIPad()', 'isIOS()', 'isAndroid()', 'isWindowsPhone()',
+               'platform()', 'version()', 'exitApp()', 'showStatusBar(${1:shouldShow})', 'fullScreen()',
+               'isReady', 'isFullScreen', 'platforms', 'grade']
+    for method in methods:
+        ionic_Platform = 'ionic.Platform.' + method
+        path_name_file = output_folder + \
+            'ionicPlatform.' + \
+            method.split('(')[0] + ".sublime-snippet"
+        tabTrigger = 'ionic.Platform.' + method.split('(')[0]
+        content = ionic_Platform
+        scope = 'source.js'
+        description = ' Ionic Side Menu'
+        create_snippet_file(
+            path_name_file, tabTrigger, content, scope, description)

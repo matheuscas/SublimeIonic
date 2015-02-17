@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[ionic.Platform.exitApp()]]></content>
+	<tabTrigger>ionic.Platform.exitApp</tabTrigger>
+	<scope>source.js</scope>
+	<description> Ionic Side Menu</description>
+</snippet>

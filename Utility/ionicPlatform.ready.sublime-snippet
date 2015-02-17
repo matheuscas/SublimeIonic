@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[ionic.Platform.ready(${1:callback})]]></content>
+	<tabTrigger>ionic.Platform.ready</tabTrigger>
+	<scope>source.js</scope>
+	<description> Ionic Side Menu</description>
+</snippet>
