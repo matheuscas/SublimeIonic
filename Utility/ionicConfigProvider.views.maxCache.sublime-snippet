@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$ionicConfigProvider.views.maxCache(${1:maxNumber})]]></content>
+	<tabTrigger>$ionicConfigProvider.views.maxCache</tabTrigger>
+	<scope>source.js</scope>
+	<description> Ionic Side Menu</description>
+</snippet>

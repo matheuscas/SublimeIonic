@@ -13,7 +13,7 @@ checkbox = False
 radio_button = False
 range_control = False
 select_control = False
-tabs = True
+tabs = False
 actionSheet = False
 backdrop = False
 scrollDelegate = False
@@ -24,6 +24,7 @@ platform = False
 popover = False
 popup = False
 side_menu = False
+utility = True
 
 
 def create_snippet_string(tabTrigger, content, scope, description):
@@ -1160,3 +1161,23 @@ if side_menu:
     description = ' Ionic Side Menu'
     create_snippet_file(
         path_name_file, tabTrigger, content, scope, description)
+
+if utility:
+    output_folder = current_path + '/Utility/'
+    methods = ['views.transition(${1:transition})', 'views.maxCache(${1:maxNumber})',
+               'views.forwardCache(${1:value})', 'backButton.icon(${1:value})',
+               'backButton.text(${1:value})', 'backButton.previousTitleText(${1:value})',
+               'tabs.style(${1:value})', 'tabs.position(${1:value})',
+               'templates.maxPrefetch(${1:value})', 'navBar.alignTitle(${1:value})',
+               'navBar.positionPrimaryButtons(${1:value})', 'navBar.positionSecondaryButtons(${1:value})']
+    for method in methods:
+        ionicConfigProvider = '\$ionicConfigProvider.' + method
+        path_name_file = output_folder + \
+            'ionicConfigProvider.' + \
+            method.split('(')[0] + ".sublime-snippet"
+        tabTrigger = '$ionicConfigProvider.' + method.split('(')[0]
+        content = ionicConfigProvider
+        scope = 'source.js'
+        description = ' Ionic Side Menu'
+        create_snippet_file(
+            path_name_file, tabTrigger, content, scope, description)

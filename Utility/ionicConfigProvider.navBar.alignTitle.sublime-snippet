@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$ionicConfigProvider.navBar.alignTitle(${1:value})]]></content>
+	<tabTrigger>$ionicConfigProvider.navBar.alignTitle</tabTrigger>
+	<scope>source.js</scope>
+	<description> Ionic Side Menu</description>
+</snippet>

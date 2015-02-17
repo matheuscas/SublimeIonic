@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$ionicConfigProvider.navBar.positionPrimaryButtons(${1:value})]]></content>
+	<tabTrigger>$ionicConfigProvider.navBar.positionPrimaryButtons</tabTrigger>
+	<scope>source.js</scope>
+	<description> Ionic Side Menu</description>
+</snippet>
