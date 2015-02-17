@@ -103,10 +103,6 @@ class ExtensionsCompletions(sublime_plugin.EventListener):
         #     ("button-on-swipe-right\tIonic Extension", 'button on-swipe-right="${1:onSwipeRight()}" class="${2:button}">$0</button>')
         # ]
 
-        # completions =  tabs + side_menus + navigation + headers_footers + \
-        #                 content + scroll + lists + form_inputs + \
-        #                 slide_box + events
-
         completions = headers_footers + content + lists + forms + tabs + modal + navigation + scroll + side_menus + slide_box
 
         return (completions, sublime.INHIBIT_WORD_COMPLETIONS | sublime.INHIBIT_EXPLICIT_COMPLETIONS)
