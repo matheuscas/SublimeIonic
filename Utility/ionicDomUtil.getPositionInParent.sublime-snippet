@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[ionic.DomUtil.getPositionInParent(${1:element})]]></content>
+	<tabTrigger>ionicDomUtil.getPositionInParent</tabTrigger>
+	<scope>source.js</scope>
+	<description> Ionic DomUtil</description>
+</snippet>

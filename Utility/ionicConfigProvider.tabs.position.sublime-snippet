@@ -2,5 +2,5 @@
 	<content><![CDATA[\$ionicConfigProvider.tabs.position(${1:value})]]></content>
 	<tabTrigger>$ionicConfigProvider.tabs.position</tabTrigger>
 	<scope>source.js</scope>
-	<description> Ionic Side Menu</description>
+	<description> Ionic ConfigProvider</description>
 </snippet>

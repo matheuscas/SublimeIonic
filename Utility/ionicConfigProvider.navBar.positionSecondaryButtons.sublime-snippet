@@ -2,5 +2,5 @@
 	<content><![CDATA[\$ionicConfigProvider.navBar.positionSecondaryButtons(${1:value})]]></content>
 	<tabTrigger>$ionicConfigProvider.navBar.positionSecondaryButtons</tabTrigger>
 	<scope>source.js</scope>
-	<description> Ionic Side Menu</description>
+	<description> Ionic ConfigProvider</description>
 </snippet>

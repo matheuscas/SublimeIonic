@@ -2,5 +2,5 @@
 	<content><![CDATA[\$ionicConfigProvider.views.transition(${1:transition})]]></content>
 	<tabTrigger>$ionicConfigProvider.views.transition</tabTrigger>
 	<scope>source.js</scope>
-	<description> Ionic Side Menu</description>
+	<description> Ionic ConfigProvider</description>
 </snippet>

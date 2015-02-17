@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[ionic.Platform.fullScreen()]]></content>
-	<tabTrigger>ionic.Platform.fullScreen</tabTrigger>
+	<tabTrigger>ionicPlatform.fullScreen</tabTrigger>
 	<scope>source.js</scope>
-	<description> Ionic Side Menu</description>
+	<description> Ionic Platform</description>
 </snippet>

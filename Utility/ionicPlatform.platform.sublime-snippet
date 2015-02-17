@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[ionic.Platform.platform()]]></content>
-	<tabTrigger>ionic.Platform.platform</tabTrigger>
+	<tabTrigger>ionicPlatform.platform</tabTrigger>
 	<scope>source.js</scope>
-	<description> Ionic Side Menu</description>
+	<description> Ionic Platform</description>
 </snippet>

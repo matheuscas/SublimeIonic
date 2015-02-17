@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[ionic.DomUtil.requestAnimationFrame(${1:callback})]]></content>
+	<tabTrigger>ionicDomUtil.requestAnimationFrame</tabTrigger>
+	<scope>source.js</scope>
+	<description> Ionic DomUtil</description>
+</snippet>

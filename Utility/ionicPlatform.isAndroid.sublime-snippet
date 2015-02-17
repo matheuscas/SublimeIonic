@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[ionic.Platform.isAndroid()]]></content>
-	<tabTrigger>ionic.Platform.isAndroid</tabTrigger>
+	<tabTrigger>ionicPlatform.isAndroid</tabTrigger>
 	<scope>source.js</scope>
-	<description> Ionic Side Menu</description>
+	<description> Ionic Platform</description>
 </snippet>

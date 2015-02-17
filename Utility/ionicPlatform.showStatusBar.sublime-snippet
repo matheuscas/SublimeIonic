@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[ionic.Platform.showStatusBar(${1:shouldShow})]]></content>
-	<tabTrigger>ionic.Platform.showStatusBar</tabTrigger>
+	<tabTrigger>ionicPlatform.showStatusBar</tabTrigger>
 	<scope>source.js</scope>
-	<description> Ionic Side Menu</description>
+	<description> Ionic Platform</description>
 </snippet>

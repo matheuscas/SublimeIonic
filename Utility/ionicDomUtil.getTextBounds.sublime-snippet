@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[ionic.DomUtil.getTextBounds(${1:textNode})]]></content>
+	<tabTrigger>ionicDomUtil.getTextBounds</tabTrigger>
+	<scope>source.js</scope>
+	<description> Ionic DomUtil</description>
+</snippet>

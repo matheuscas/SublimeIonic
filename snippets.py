@@ -1164,6 +1164,8 @@ if side_menu:
 
 if utility:
     output_folder = current_path + '/Utility/'
+
+    # ionicConfigProvider
     methods = ['views.transition(${1:transition})', 'views.maxCache(${1:maxNumber})',
                'views.forwardCache(${1:value})', 'backButton.icon(${1:value})',
                'backButton.text(${1:value})', 'backButton.previousTitleText(${1:value})',
@@ -1178,10 +1180,11 @@ if utility:
         tabTrigger = '$ionicConfigProvider.' + method.split('(')[0]
         content = ionicConfigProvider
         scope = 'source.js'
-        description = ' Ionic Side Menu'
+        description = ' Ionic ConfigProvider'
         create_snippet_file(
             path_name_file, tabTrigger, content, scope, description)
 
+    # ionic.Platform
     methods = ['ready(${1:callback})', 'setGrade(${1:grade})',
                'device()', 'isWebView()', 'isIPad()', 'isIOS()', 'isAndroid()', 'isWindowsPhone()',
                'platform()', 'version()', 'exitApp()', 'showStatusBar(${1:shouldShow})', 'fullScreen()',
@@ -1191,9 +1194,27 @@ if utility:
         path_name_file = output_folder + \
             'ionicPlatform.' + \
             method.split('(')[0] + ".sublime-snippet"
-        tabTrigger = 'ionic.Platform.' + method.split('(')[0]
+        tabTrigger = 'ionicPlatform.' + method.split('(')[0]
         content = ionic_Platform
         scope = 'source.js'
-        description = ' Ionic Side Menu'
+        description = ' Ionic Platform'
+        create_snippet_file(
+            path_name_file, tabTrigger, content, scope, description)
+
+    # ionic.DomUtil
+    methods = ['requestAnimationFrame(${1:callback})', 'animationFrameThrottle(${1:callback})',
+               'getPositionInParent(${1:element})', 'ready(${1:callback})',
+               'getTextBounds(${1:textNode})', 'getChildIndex(${1:element}, ${2:type})',
+               'getParentWithClass(${1:element}, ${2:className})', 'getParentOrSelfWithClass(${1:element}, ${2:className})',
+               'rectContains(${1:x}, ${2:y}, ${3:x1}, ${4:y1}, ${5:x2}, ${6:y2})', 'blurAll()']
+    for method in methods:
+        ionic_DomUtil = 'ionic.DomUtil.' + method
+        path_name_file = output_folder + \
+            'ionicDomUtil.' + \
+            method.split('(')[0] + ".sublime-snippet"
+        tabTrigger = 'ionicDomUtil.' + method.split('(')[0]
+        content = ionic_DomUtil
+        scope = 'source.js'
+        description = ' Ionic DomUtil'
         create_snippet_file(
             path_name_file, tabTrigger, content, scope, description)

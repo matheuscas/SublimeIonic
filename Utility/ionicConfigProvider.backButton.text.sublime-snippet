@@ -2,5 +2,5 @@
 	<content><![CDATA[\$ionicConfigProvider.backButton.text(${1:value})]]></content>
 	<tabTrigger>$ionicConfigProvider.backButton.text</tabTrigger>
 	<scope>source.js</scope>
-	<description> Ionic Side Menu</description>
+	<description> Ionic ConfigProvider</description>
 </snippet>

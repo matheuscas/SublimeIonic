@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[ionic.Platform.isWebView()]]></content>
-	<tabTrigger>ionic.Platform.isWebView</tabTrigger>
+	<tabTrigger>ionicPlatform.isWebView</tabTrigger>
 	<scope>source.js</scope>
-	<description> Ionic Side Menu</description>
+	<description> Ionic Platform</description>
 </snippet>
