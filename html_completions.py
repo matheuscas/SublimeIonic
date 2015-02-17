@@ -81,10 +81,10 @@ class ExtensionsCompletions(sublime_plugin.EventListener):
             ("ion-side-menu\tIonic Extension", 'ion-side-menu side="${1:left}">$0</ion-side-menu>')
         ]
 
-        # slide_box = [
-        #     ("ion-slide-box\tIonic Extension", 'ion-slide-box on-slide-changed="${1:slideHasChanged($index)}">$0</ion-slide-box>'),
-        #     ("ion-slide\tIonic Extension", 'ion-slide>$0</ion-slide>'),
-        # ]
+        slide_box = [
+            ("ion-slide-box\tIonic Extension", 'ion-slide-box on-slide-changed="${1:slideHasChanged($index)}">$0</ion-slide-box>'),
+            ("ion-slide\tIonic Extension", 'ion-slide>$0</ion-slide>'),
+        ]
 
         # events = [
         #     ("button-on-hold\tIonic Extension", 'button on-hold="${1:onHold()}" class="${2:button}">$0</button>'),
@@ -107,6 +107,6 @@ class ExtensionsCompletions(sublime_plugin.EventListener):
         #                 content + scroll + lists + form_inputs + \
         #                 slide_box + events
 
-        completions = headers_footers + content + lists + forms + tabs + modal + navigation + scroll + side_menus
+        completions = headers_footers + content + lists + forms + tabs + modal + navigation + scroll + side_menus + slide_box
 
         return (completions, sublime.INHIBIT_WORD_COMPLETIONS | sublime.INHIBIT_EXPLICIT_COMPLETIONS)
