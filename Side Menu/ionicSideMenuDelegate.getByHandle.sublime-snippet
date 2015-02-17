@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$ionicSideMenuDelegate.\$getByHandle(${1:handle})]]></content>
+	<tabTrigger>$ionicSideMenuDelegate.$getByHandle</tabTrigger>
+	<scope>source.js</scope>
+	<description> Ionic Side Menu</description>
+</snippet>

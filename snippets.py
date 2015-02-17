@@ -22,7 +22,8 @@ modal = False
 navigation = False
 platform = False
 popover = False
-popup = True
+popup = False
+side_menu = True
 
 
 def create_snippet_string(tabTrigger, content, scope, description):
@@ -1109,3 +1110,31 @@ if popup:
         description = ' Ionic Popup'
         create_snippet_file(
             path_name_file, tabTrigger, content, scope, description)
+
+if side_menu:
+    output_folder = current_path + '/Side Menu/'
+    methods = ['toggleLeft()', 'toggleRight()', 'getOpenRatio()',
+               'isOpen()', 'isOpenLeft()', 'isOpenRight()',
+               'canDragContent()', 'edgeDragThreshold(${1:value})']
+    for method in methods:
+        ionicSideMenuDelegate = '\$ionicSideMenuDelegate.' + method
+        path_name_file = output_folder + \
+            'ionicSideMenuDelegate.' + \
+            method.split('(')[0] + ".sublime-snippet"
+        tabTrigger = '$ionicSideMenuDelegate.' + method.split('(')[0]
+        content = ionicSideMenuDelegate
+        scope = 'source.js'
+        description = ' Ionic Side Menu'
+        create_snippet_file(
+            path_name_file, tabTrigger, content, scope, description)
+
+    ionicSideMenuDelegate = '\$ionicSideMenuDelegate.\$getByHandle(${1:handle})'
+    path_name_file = output_folder + \
+        'ionicSideMenuDelegate.getByHandle.sublime-snippet'
+    tabTrigger = '$ionicSideMenuDelegate.$getByHandle'
+    content = ionicSideMenuDelegate
+    scope = 'source.js'
+    description = ' Ionic Side Menu'
+    create_snippet_file(
+        path_name_file, tabTrigger, content, scope, description)
+

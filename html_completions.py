@@ -75,11 +75,11 @@ class ExtensionsCompletions(sublime_plugin.EventListener):
             ("ion-infinite-scroll\tIonic Extension", 'ion-infinite-scroll on-infinite="${1:loadMore()}">$0</ion-infinite-scroll>')
         ]
 
-        # side_menus = [
-        #     ("ion-side-menus\tIonic Extension", 'ion-side-menus>$0</ion-side-menus>'),
-        #     ("ion-side-menu-content\tIonic Extension", 'ion-side-menu-content drag-content="${1:true}">$0</ion-side-menu-content>'),
-        #     ("ion-side-menu\tIonic Extension", 'ion-side-menu side="${1:left}">$0</ion-side-menu>')
-        # ]
+        side_menus = [
+            ("ion-side-menus\tIonic Extension", 'ion-side-menus>$0</ion-side-menus>'),
+            ("ion-side-menu-content\tIonic Extension", 'ion-side-menu-content drag-content="${1:true}">$0</ion-side-menu-content>'),
+            ("ion-side-menu\tIonic Extension", 'ion-side-menu side="${1:left}">$0</ion-side-menu>')
+        ]
 
         # slide_box = [
         #     ("ion-slide-box\tIonic Extension", 'ion-slide-box on-slide-changed="${1:slideHasChanged($index)}">$0</ion-slide-box>'),
@@ -107,6 +107,6 @@ class ExtensionsCompletions(sublime_plugin.EventListener):
         #                 content + scroll + lists + form_inputs + \
         #                 slide_box + events
 
-        completions = headers_footers + content + lists + forms + tabs + modal + navigation + scroll
+        completions = headers_footers + content + lists + forms + tabs + modal + navigation + scroll + side_menus
 
         return (completions, sublime.INHIBIT_WORD_COMPLETIONS | sublime.INHIBIT_EXPLICIT_COMPLETIONS)
