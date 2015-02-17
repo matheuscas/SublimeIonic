@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[ionic.EventController.trigger(${1:eventType}, ${2:data})]]></content>
+	<tabTrigger>ionicEventController.trigger</tabTrigger>
+	<scope>source.js</scope>
+	<description> Ionic EventController</description>
+</snippet>

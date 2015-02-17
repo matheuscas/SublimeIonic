@@ -1218,3 +1218,21 @@ if utility:
         description = ' Ionic DomUtil'
         create_snippet_file(
             path_name_file, tabTrigger, content, scope, description)
+
+    # ionic.EventController
+    methods = ['trigger(${1:eventType}, ${2:data})',
+               'on(${1:type}, ${2:callback}, ${3:element})',
+               'off(${1:type}, ${2:callback}, ${3:element})',
+               'onGesture(${1:eventType}, ${2:callback}, ${3:element})',
+               'offGesture(${1:eventType}, ${2:callback}, ${3:element})']
+    for method in methods:
+        ionic_EventController = 'ionic.EventController.' + method
+        path_name_file = output_folder + \
+            'ionicEventController.' + \
+            method.split('(')[0] + ".sublime-snippet"
+        tabTrigger = 'ionicEventController.' + method.split('(')[0]
+        content = ionic_EventController
+        scope = 'source.js'
+        description = ' Ionic EventController'
+        create_snippet_file(
+            path_name_file, tabTrigger, content, scope, description)
