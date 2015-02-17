@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[<a class="item">$0</a>]]></content>
+	<tabTrigger>ionic-item</tabTrigger>
+	<scope>text.html</scope>
+	<description>ionic-item</description>
+</snippet>

@@ -5,7 +5,7 @@ header = False
 sub_header = False
 footer = False
 buttons = False
-lists = False
+lists = True
 cards = False
 forms = False
 toogle = False
@@ -24,7 +24,7 @@ platform = False
 popover = False
 popup = False
 side_menu = False
-utility = True
+utility = False
 
 
 def create_snippet_string(tabTrigger, content, scope, description):
@@ -205,6 +205,7 @@ if buttons:
 if lists:
 
     output_folder = current_path + '/Lists/'
+    item_basic = '<a class="item">$0</a>'
     item_divider = '<div class="item item-divider">$0</div>'
     item_icon_left = '<a class="item item-icon-left" href="#">$0</a>'
     item_icon_right = '<a class="item item-icon-right" href="#">$0</a>'
@@ -230,6 +231,13 @@ if lists:
     ionicListDelegate_showDelete = '\$ionicListDelegate.showDelete(${1:true});'
     ionicListDelegate_canSwipeItems = '\$ionicListDelegate.canSwipeItems(${1:true});'
     ionicListDelegate_closeOptionButtons = '\$ionicListDelegate.closeOptionButtons();'
+
+    snippet_str = create_snippet_string(
+        'ionic-item', item_basic, 'text.html', 'ionic-item')
+    output_file = open(
+        output_folder + 'ionic-item' + ".sublime-snippet", "w+")
+    output_file.write(snippet_str)
+    output_file.close()
 
     snippet_str = create_snippet_string(
         'ionic-item-divider', item_divider, 'text.html', 'ionic-item-divider')
