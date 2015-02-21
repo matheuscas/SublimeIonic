@@ -44,7 +44,7 @@ You can see the whole plugin reference [here](#reference).
 
 How to contribute?
 -------
-You can contribute submiting issues, forking and sending pull requests. Atempt to two files: "html_completions.py" and "snippets.py". 
+You can contribute submitting issues, forking and sending pull requests. Attempt to two files: "html_completions.py" and "snippets.py". 
 
 The first one is a basic Sublime Text plugin file that handles the html only autocomplete. To change or add Ionic directives, please refer to **html_completions.py** file.
 
@@ -55,8 +55,8 @@ Contribute and let's make a even better plugin to the awesome Ionic Framework. :
 Finally, how to install this awesome plugin?
 -------
 
- 1. First, if didt'n install yet, you must install the Package Control
- 2. Once installed, open the **Command Pallete** and search for **Ionic Framework Extended Autocomplete** and install it. 
+ 1. First, if you didn't install yet, you must install the Package Control;
+ 2. Once installed, open the **Command Palette** and search for **Ionic Framework Extended Autocomplete** and install it. 
 
 And you are done. You don't need to configure anything. Just install it, use it and start ASAP a new awesome Ionic app. 
 
@@ -67,14 +67,11 @@ There are two related plugins for ST2/ST3 that provides snippets and completions
  - [Ionic Snippets - Sublime Plugin](https://github.com/PixelDropInc/ionic-snippets-sublime-plugin)
  - [Ionic - Sublime Plugin](https://github.com/imsingh/ionic-sublime-plugin)
 
-They are far from the covering of this plugin, however they have a different approach. They provide big snippets (the second one, in recent updates has been breaking down some pieces too) instead of parts of elements. If you are interested in generate entire stuff like tabs, list, etc. please refer to them. 
+They are far from the covering of this plugin, however they have a different approach. They provide big snippets (the second one, in recent updates has been breaking down some pieces too) instead of parts of elements. If you are interested in generate whole stuff like tabs, list (with pre established items), etc. please refer to them.
 
-I must say that [Ionic - Sublime Plugin](https://github.com/imsingh/ionic-sublime-plugin) was my inspiration. In early releases I even contribute to the plugin. But I wanted more controll over the what would be generated, so I developed this plugin.
+I must say that [Ionic - Sublime Plugin](https://github.com/imsingh/ionic-sublime-plugin) was my inspiration. In early releases I even contribute to the plugin. But I wanted more control over the what would be generated, so I developed this plugin.
 
 Reference
 ---------
-
- 
- 
 
  
