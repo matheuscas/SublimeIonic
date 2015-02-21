@@ -10,8 +10,8 @@ cards = False
 forms = False
 toogle = False
 checkbox = False
-radio_button = True
-range_control = False
+radio_button = False
+range_control = True
 select_control = False
 tabs = False
 actionSheet = False
@@ -631,7 +631,15 @@ if range_control:
                   'range-calm', 'range-balanced', 'range-energized',
                   'range-assertive', 'range-royal', 'range-dark']
 
-    for range_color in css_ranges:
+    range_desc = ['Ionic Light Range', 'Ionic Stable Range', 'Ionic Positive Range',
+                  'Ionic Calm Range', 'Ionic Balanced Range', 'Ionic Energized Range',
+                  'Ionic Assertive Range', 'Ionic Royal Range', 'Ionic Dark Range']
+
+    range_desc_list = ['Ionic Light List Range', 'Ionic Stable List Range', 'Ionic Positive List Range',
+                       'Ionic Calm List Range', 'Ionic Balanced List Range', 'Ionic Energized List Range',
+                       'Ionic Assertive List Range', 'Ionic Royal List Range', 'Ionic Dark List Range']
+
+    for idx, range_color in enumerate(css_ranges):
         range_str_default = '<div class="range ' + range_color + '">\n' + \
             '\t<i class="icon ${1:ion-volume-low}"></i>\n' + \
             '\t<input type="range" name="volume" min="0" max="100" value="33">\n' + \
@@ -639,7 +647,7 @@ if range_control:
             '</div>\n'
 
         snippet_str = create_snippet_string('ionic-range-' + range_color[6:], range_str_default,
-                                            'text.html', 'ionic-range-' + range_color[6:])
+                                            'text.html', range_desc[idx])
         output_file = open(
             output_folder + 'ionic-range-' + range_color[6:] + ".sublime-snippet", "w+")
         output_file.write(snippet_str)
@@ -652,7 +660,7 @@ if range_control:
             '</div>\n'
 
         snippet_str = create_snippet_string('ionic-range-item-' + range_color[6:], range_str_in_list,
-                                            'text.html', 'ionic-range-item-' + range_color[6:])
+                                            'text.html', range_desc_list[idx])
         output_file = open(
             output_folder + 'ionic-range-item-' + range_color[6:] + ".sublime-snippet", "w+")
         output_file.write(snippet_str)
