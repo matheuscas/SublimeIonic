@@ -2,7 +2,7 @@ import os
 
 current_path = os.path.dirname(os.path.abspath(__file__))
 header = False
-sub_header = False
+sub_header = True
 footer = False
 buttons = False
 lists = False
@@ -12,7 +12,7 @@ toogle = False
 checkbox = False
 radio_button = False
 range_control = False
-select_control = True
+select_control = False
 tabs = False
 actionSheet = False
 backdrop = False
@@ -70,17 +70,22 @@ if header:
 
 if sub_header:
     output_folder = current_path + '/SubHeader/'
-    css_bars = ['bar-subheader']
 
-    for bar in css_bars:
-        strr = '<div class="bar ' + bar + '"> \n' + \
-            '\t <h2 class="title">${1:' + bar + '}</h2> \n' + '</div>'
+    css_bars = ['bar-light', 'bar-stable', 'bar-positive',
+                'bar-calm', 'bar-balanced', 'bar-energized',
+                            'bar-assertive', 'bar-royal', 'bar-dark']
+
+    subheader_desc = ['Ionic Light SubHeader', 'Ionic Stable SubHeader', 'Ionic Positive SubHeader',
+                      'Ionic Calm SubHeader', 'Ionic Balanced SubHeader', 'Ionic Energized SubHeader',
+                      'Ionic Assertive SubHeader', 'Ionic Royal SubHeader', 'Ionic Dark SubHeader']
+
+    for idx, bar in enumerate(css_bars):
+        strr = '<div class="bar bar-subheader ' + bar + '"> \n' + \
+            '\t <h2 class="title">$0</h2> \n' + '</div>'
         snippet_str = create_snippet_string(
-            'ionic-subheader', strr, 'text.html', bar + ' snippet')
-        print snippet_str
-        print '----------'
+            'ionic-subheader-'+bar.split('-')[1], strr, 'text.html', subheader_desc[idx])
         output_file = open(
-            output_folder + 'ionic-subheader' + ".sublime-snippet", "w+")
+            output_folder + 'ionic-subheader-'+bar.split('-')[1] + ".sublime-snippet", "w+")
         output_file.write(snippet_str)
         output_file.close()
 

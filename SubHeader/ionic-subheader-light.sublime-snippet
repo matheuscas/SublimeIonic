@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[<div class="bar bar-subheader bar-light"> 
+	 <h2 class="title">$0</h2> 
+</div>]]></content>
+	<tabTrigger>ionic-subheader-light</tabTrigger>
+	<scope>text.html</scope>
+	<description>Ionic Light SubHeader</description>
+</snippet>
