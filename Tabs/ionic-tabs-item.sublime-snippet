@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[<a class="tab-item" href="#">
+	${1:Tab}
+</a>
+]]></content>
+	<tabTrigger>ionic-tabs-item</tabTrigger>
+	<scope>text.html</scope>
+	<description>Ionic Tabs Item</description>
+</snippet>

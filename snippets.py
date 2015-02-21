@@ -13,7 +13,7 @@ checkbox = False
 radio_button = False
 range_control = False
 select_control = False
-tabs = False
+tabs = True
 actionSheet = False
 backdrop = False
 scrollDelegate = False
@@ -83,9 +83,9 @@ if sub_header:
         strr = '<div class="bar bar-subheader ' + bar + '"> \n' + \
             '\t <h2 class="title">$0</h2> \n' + '</div>'
         snippet_str = create_snippet_string(
-            'ionic-subheader-'+bar.split('-')[1], strr, 'text.html', subheader_desc[idx])
+            'ionic-subheader-' + bar.split('-')[1], strr, 'text.html', subheader_desc[idx])
         output_file = open(
-            output_folder + 'ionic-subheader-'+bar.split('-')[1] + ".sublime-snippet", "w+")
+            output_folder + 'ionic-subheader-' + bar.split('-')[1] + ".sublime-snippet", "w+")
         output_file.write(snippet_str)
         output_file.close()
 
@@ -711,21 +711,15 @@ if tabs:
                 'tabs-calm', 'tabs-balanced', 'tabs-energized',
                 'tabs-assertive', 'tabs-royal', 'tabs-dark']
 
-    for tabs_color in css_tabs:
-        tabs_str_default = '<div class="tabs ' + tabs_color + '">\n' + \
-            '\t<a class="tab-item" href="#">\n' + \
-            '\t\t${1:Tab1}\n' + \
-            '\t</a>\n' + \
-            '\t<a class="tab-item" href="#">\n' + \
-            '\t\t${2:Tab2}\n' + \
-            '\t</a>\n' + \
-            '\t<a class="tab-item" href="#">\n' + \
-            '\t\t${3:Tab3}\n' + \
-            '\t</a>\n' + \
-            '</div>\n'
+    tabs_desc = ['Ionic Light Tabs', 'Ionic Stable Tabs', 'Ionic Positive Tabs',
+                 'Ionic Calm Tabs', 'Ionic Balanced Tabs', 'Ionic Energized Tabs',
+                 'Ionic Assertive Tabs', 'Ionic Royal Tabs', 'Ionic Dark Tabs']
+
+    for idx, tabs_color in enumerate(css_tabs):
+        tabs_str_default = '<div class="tabs ' + tabs_color + '">$0</div>\n'
 
         snippet_str = create_snippet_string('ionic-tabs-' + tabs_color[5:], tabs_str_default,
-                                            'text.html', 'ionic-tabs-' + tabs_color[5:])
+                                            'text.html', tabs_desc[idx])
         output_file = open(
             output_folder + 'ionic-tabs-' + tabs_color[5:] + ".sublime-snippet", "w+")
         output_file.write(snippet_str)
@@ -744,7 +738,7 @@ if tabs:
             '</div>\n'
 
         snippet_str = create_snippet_string('ionic-tabs-icon-only-' + tabs_color[5:], tabs_str_icon_only,
-                                            'text.html', 'tabs-icon-only-' + tabs_color[5:])
+                                            'text.html', tabs_desc[idx])
         output_file = open(
             output_folder + 'ionic-tabs-icon-only-' + tabs_color[5:] + ".sublime-snippet", "w+")
         output_file.write(snippet_str)
@@ -766,7 +760,7 @@ if tabs:
             '</div>\n'
 
         snippet_str = create_snippet_string('ionic-tabs-icon-top-' + tabs_color[5:], tabs_str_icon_top,
-                                            'text.html', 'tabs-icon-top-' + tabs_color[5:])
+                                            'text.html', tabs_desc[idx])
         output_file = open(
             output_folder + 'ionic-tabs-icon-top-' + tabs_color[5:] + ".sublime-snippet", "w+")
         output_file.write(snippet_str)
@@ -788,7 +782,7 @@ if tabs:
             '</div>\n'
 
         snippet_str = create_snippet_string('ionic-tabs-icon-left-' + tabs_color[5:], tabs_str_icon_left,
-                                            'text.html', 'tabs-icon-left-' + tabs_color[5:])
+                                            'text.html', tabs_desc[idx])
         output_file = open(
             output_folder + 'ionic-tabs-icon-left-' + tabs_color[5:] + ".sublime-snippet", "w+")
         output_file.write(snippet_str)
@@ -812,7 +806,7 @@ if tabs:
             '</div>\n'
 
         snippet_str = create_snippet_string('ionic-tabs-striped-' + tabs_color[5:], tabs_str_striped,
-                                            'text.html', 'tabs-striped-' + tabs_color[5:])
+                                            'text.html',tabs_desc[idx])
         output_file = open(
             output_folder + 'ionic-tabs-striped-' + tabs_color[5:] + ".sublime-snippet", "w+")
         output_file.write(snippet_str)
@@ -830,6 +824,17 @@ if tabs:
             description = ' Ionic Tabs Delegate'
             create_snippet_file(
                 path_name_file, tabTrigger, content, scope, description)
+
+        tabs_item_str_default = '<a class="tab-item" href="#">\n' + \
+            '\t${1:Tab}\n' + \
+            '</a>\n'
+
+        snippet_str = create_snippet_string('ionic-tabs-item', tabs_item_str_default,
+                                            'text.html', 'Ionic Tabs Item')
+        output_file = open(
+            output_folder + 'ionic-tabs-item' + ".sublime-snippet", "w+")
+        output_file.write(snippet_str)
+        output_file.close()
 
         ionicTabsDelegate = '\$ionicTabsDelegate.\$getByHandle(${1:handle})'
         path_name_file = output_folder + \

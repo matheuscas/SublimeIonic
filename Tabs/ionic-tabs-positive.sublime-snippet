@@ -1,17 +1,7 @@
 <snippet>
-	<content><![CDATA[<div class="tabs tabs-positive">
-	<a class="tab-item" href="#">
-		${1:Tab1}
-	</a>
-	<a class="tab-item" href="#">
-		${2:Tab2}
-	</a>
-	<a class="tab-item" href="#">
-		${3:Tab3}
-	</a>
-</div>
+	<content><![CDATA[<div class="tabs tabs-positive">$0</div>
 ]]></content>
 	<tabTrigger>ionic-tabs-positive</tabTrigger>
 	<scope>text.html</scope>
-	<description>ionic-tabs-positive</description>
+	<description>Ionic Positive Tabs</description>
 </snippet>
