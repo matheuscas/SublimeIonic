@@ -4,9 +4,9 @@ current_path = os.path.dirname(os.path.abspath(__file__))
 header = False
 sub_header = False
 footer = False
-buttons = True
-lists = True
-cards = False
+buttons = False
+lists = False
+cards = True
 forms = False
 toogle = False
 checkbox = False
@@ -399,55 +399,55 @@ if cards:
     card_showcase = item_avatar + item_body + item_tabs
 
     snippet_str = create_snippet_string(
-        'ionic-card', card, 'text.html', 'ionic-card')
+        'ionic-card', card, 'text.html', 'Ionic Card')
     output_file = open(output_folder + 'ionic-card' + ".sublime-snippet", "w+")
     output_file.write(snippet_str)
     output_file.close()
 
     snippet_str = create_snippet_string(
-        'ionic-card-header', card_header, 'text.html', 'ionic-card-header')
+        'ionic-card-header', card_header, 'text.html', 'Ionic Header Card')
     output_file = open(
         output_folder + 'ionic-card-header' + ".sublime-snippet", "w+")
     output_file.write(snippet_str)
     output_file.close()
 
     snippet_str = create_snippet_string(
-        'ionic-card-footer', card_footer, 'text.html', 'ionic-card-footer')
+        'ionic-card-footer', card_footer, 'text.html', 'Ionic Footer Card')
     output_file = open(
         output_folder + 'ionic-card-footer' + ".sublime-snippet", "w+")
     output_file.write(snippet_str)
     output_file.close()
 
     snippet_str = create_snippet_string(
-        'ionic-card-header-footer', card_header_footer, 'text.html', 'ionic-card-header-footer')
+        'ionic-card-header-footer', card_header_footer, 'text.html', 'Ionic Header Footer Card')
     output_file = open(
         output_folder + 'ionic-card-header-footer' + ".sublime-snippet", "w+")
     output_file.write(snippet_str)
     output_file.close()
 
     snippet_str = create_snippet_string(
-        'ionic-card-list-item', card_list_item, 'text.html', 'ionic-card-list-item')
+        'ionic-card-list-item', card_list_item, 'text.html', 'Ionic Item Card')
     output_file = open(
         output_folder + 'ionic-card-list-item' + ".sublime-snippet", "w+")
     output_file.write(snippet_str)
     output_file.close()
 
     snippet_str = create_snippet_string(
-        'ionic-card-list', card_list, 'text.html', 'ionic-card-list')
+        'ionic-card-list', card_list, 'text.html', 'Ionic List Card')
     output_file = open(
         output_folder + 'ionic-card-list' + ".sublime-snippet", "w+")
     output_file.write(snippet_str)
     output_file.close()
 
     snippet_str = create_snippet_string(
-        'ionic-card-image', card_image, 'text.html', 'ionic-card-image')
+        'ionic-card-image', card_image, 'text.html', 'Ionic Image Card')
     output_file = open(
         output_folder + 'ionic-card-image' + ".sublime-snippet", "w+")
     output_file.write(snippet_str)
     output_file.close()
 
     snippet_str = create_snippet_string(
-        'ionic-card-showcase', card_showcase, 'text.html', 'ionic-card-showcase')
+        'ionic-card-showcase', card_showcase, 'text.html', 'Ionic Showcase Card')
     output_file = open(
         output_folder + 'ionic-card-showcase' + ".sublime-snippet", "w+")
     output_file.write(snippet_str)
