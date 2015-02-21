@@ -3,13 +3,13 @@ import os
 current_path = os.path.dirname(os.path.abspath(__file__))
 header = False
 sub_header = False
-footer = False
+footer = True
 buttons = False
 lists = False
 cards = False
 forms = False
 toogle = False
-checkbox = True
+checkbox = False
 radio_button = False
 range_control = False
 select_control = False
@@ -89,13 +89,15 @@ if footer:
                 'bar-calm', 'bar-balanced', 'bar-energized',
                             'bar-assertive', 'bar-royal', 'bar-dark']
 
-    for bar in css_bars:
+    footer_desc = ['Ionic Light Footer', 'Ionic Stable Footer', 'Ionic Positive Footer',
+                   'Ionic Calm Footer', 'Ionic Balanced Footer', 'Ionic Energized Footer',
+                   'Ionic Assertive Footer', 'Ionic Royal Footer', 'Ionic Dark Footer']
+
+    for idx, bar in enumerate(css_bars):
         strr = '<div class="bar bar-footer ' + bar + '"> \n' + \
             '\t <div class="title">${1:' + bar + '}</div> \n' + '</div>'
         snippet_str = create_snippet_string(
-            'ionic-footer-' + bar[4:], strr, 'text.html', 'ionic-footer-' + bar[4:])
-        print snippet_str
-        print '----------'
+            'ionic-footer-' + bar[4:], strr, 'text.html', footer_desc[idx])
         output_file = open(
             output_folder + 'ionic-footer-' + bar[4:] + ".sublime-snippet", "w+")
         output_file.write(snippet_str)
