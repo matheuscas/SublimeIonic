@@ -1,9 +1,9 @@
 import os
 
 current_path = os.path.dirname(os.path.abspath(__file__))
-header = False
+header = True
 sub_header = False
-footer = True
+footer = False
 buttons = False
 lists = False
 cards = False
@@ -54,13 +54,15 @@ if header:
                 'bar-calm', 'bar-balanced', 'bar-energized',
                             'bar-assertive', 'bar-royal', 'bar-dark']
 
-    for bar in css_bars:
+    header_desc = ['Ionic Light Header', 'Ionic Stable Header', 'Ionic Positive Header',
+                   'Ionic Calm Header', 'Ionic Balanced Header', 'Ionic Energized Header',
+                   'Ionic Assertive Header', 'Ionic Royal Header', 'Ionic Dark Header']
+
+    for idx, bar in enumerate(css_bars):
         header_str = '<div class="bar bar-header ' + bar + '"> \n' + \
             '\t <h1 class="title">${1:' + bar + '}</h1> \n' + '</div>'
         snippet_str = create_snippet_string(
-            'ionic-header-' + bar[4:], header_str, 'text.html', 'ionic-header-' + bar[4:])
-        print snippet_str
-        print '----------'
+            'ionic-header-' + bar[4:], header_str, 'text.html', header_desc[idx])
         output_file = open(
             output_folder + 'ionic-header-' + bar[4:] + ".sublime-snippet", "w+")
         output_file.write(snippet_str)
