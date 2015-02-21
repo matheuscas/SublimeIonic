@@ -1,6 +1,7 @@
 <snippet>
 	<content><![CDATA[<a class="tab-item" href="#">
 	<i class="icon ${1:ion-home}"></i>
+	$0
 </a>
 ]]></content>
 	<tabTrigger>ionic-tabs-item-icon</tabTrigger>

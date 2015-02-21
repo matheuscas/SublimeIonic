@@ -752,22 +752,7 @@ if tabs:
         output_file.write(snippet_str)
         output_file.close()
 
-        tabs_str_striped = '<div class="tabs-striped tabs-color-' + tabs_color[5:] + '">\n' + \
-            '\t<div class="tabs">\n' + \
-            '\t\t<a class="tab-item" href="#">\n' + \
-            '\t\t\t<i class="icon ${1:ion-home}"></i>\n' + \
-            '\t\t\t${2:Tab1}\n' + \
-            '\t\t</a>\n' + \
-            '\t\t<a class="tab-item" href="#">\n' + \
-            '\t\t\t<i class="icon ${3:ion-star}"></i>\n' + \
-            '\t\t\t${4:Tab2}\n' + \
-            '\t\t</a>\n' + \
-            '\t\t<a class="tab-item" href="#">\n' + \
-            '\t\t\t<i class="icon ${5:ion-gear-a}"></i>\n' + \
-            '\t\t\t${6:Tab3}\n' + \
-            '\t\t</a>\n' + \
-            '\t</div>\n' + \
-            '</div>\n'
+        tabs_str_striped = '<div class="tabs-striped tabs-color-' + tabs_color[5:] + '">$0</div>\n'
 
         snippet_str = create_snippet_string('ionic-tabs-striped-' + tabs_color[5:], tabs_str_striped,
                                             'text.html',tabs_desc[idx])
@@ -804,6 +789,7 @@ if tabs:
         # item icon tab
         tabs_item_str_icon = '<a class="tab-item" href="#">\n' + \
             '\t<i class="icon ${1:ion-home}"></i>\n' + \
+            '\t$0\n' + \
             '</a>\n'
 
         snippet_str = create_snippet_string('ionic-tabs-item-icon', tabs_item_str_icon,
