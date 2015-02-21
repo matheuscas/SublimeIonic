@@ -10,7 +10,7 @@ cards = False
 forms = False
 toogle = False
 checkbox = False
-radio_button = False
+radio_button = True
 range_control = False
 select_control = False
 tabs = False
@@ -617,7 +617,7 @@ if radio_button:
                 '</label>\n'
 
     snippet_str = create_snippet_string(
-        'ionic-radio-button', radio_str, 'text.html', 'ionic-radio-button')
+        'ionic-radio-button', radio_str, 'text.html', 'Ionic Radio Button')
     output_file = open(
         output_folder + 'ionic-radio-button.sublime-snippet', 'w+')
     output_file.write(snippet_str)
