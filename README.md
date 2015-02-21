@@ -40,7 +40,7 @@ Let's take a look in another example. If you want a list of thumbnails, just **c
 ```  
 Again, this plugin won't generate to you a whole thumbnail list, but will, for certain, help you to build one more quickly, assuming that you know to build one. Got me?
 
-You can see the whole plugin reference [here](#reference). 
+You can see the whole plugin reference [here](#Reference). 
 
 How to contribute?
 -------
@@ -74,4 +74,47 @@ I must say that [Ionic - Sublime Plugin](https://github.com/imsingh/ionic-sublim
 Reference
 ---------
 
- 
+First, you can easily find out how this plugin works in ST2/ST3 with the following tips:
+ - In HTML you can type "<" followed by "ion" and all the directives will show up for you;
+ - Still in HTML for CSS Components, just type "ionic-" and the snippets will popup for you;
+ - In a JS script, most of snippets are services. So just type "$" followed by "ionic" and the services will be there for you;
+   - Exception are from Utility snippets, such as "ionic.Platform" ou "ionic.DomUtil". You will find this snippets typing "ionic" and following the capital letter case, looking for "ionicPlatform" and "ionicDomUtil" respectively. 
+
+But still the whole reference are put below in case of any doubts. Have fun. :)
+
+** CSS Components **
+ - Header
+ - Content
+ - Footer
+ - Buttons
+ - List
+ - Cards
+ - Forms
+ - Toggle
+ - Checkbox
+ - Radio Buttons
+ - Range
+ - Select
+ - Tabs
+ - Utility
+
+** JavaScript **
+ - Action Sheet
+ - Backdrop
+ - Content
+ - Form Inputs
+ - Gesture
+ - Headers/Footers
+ - Lists
+ - Loading
+ - Modal
+ - Navigation
+ - Platform
+ - Popover
+ - Popup
+ - Scroll
+ - Side Menus
+ - Slide Box
+ - Tabs
+ - Tap & Click
+ - Utility
