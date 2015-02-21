@@ -6,10 +6,10 @@ sub_header = False
 footer = False
 buttons = False
 lists = False
-cards = True
+cards = False
 forms = False
 toogle = False
-checkbox = False
+checkbox = True
 radio_button = False
 range_control = False
 select_control = False
@@ -582,7 +582,11 @@ if checkbox:
                      'checkbox-calm', 'checkbox-balanced', 'checkbox-energized',
                      'checkbox-assertive', 'checkbox-royal', 'checkbox-dark']
 
-    for checkbox_color in css_checkboxs:
+    checkbox_desc = ['Ionic Light Checkbox', 'Ionic Stable Checkbox', 'Ionic Positive Checkbox',
+                     'Ionic Calm Checkbox', 'Ionic Balanced Checkbox', 'Ionic Energized Checkbox',
+                     'Ionic Assertive Checkbox', 'Ionic Royal Checkbox', 'Ionic Dark Checkbox']
+
+    for idx, checkbox_color in enumerate(css_checkboxs):
         checkbox_str = '<li class="item item-checkbox">\n' + \
             '\t<label class="checkbox ' + checkbox_color + '">\n' + \
             '\t\t<input type="checkbox">\n' + \
@@ -591,7 +595,7 @@ if checkbox:
             '</li>\n'
 
         snippet_str = create_snippet_string('ionic-checkbox-' + checkbox_color[9:], checkbox_str,
-                                            'text.html', 'ionic-checkbox-' + checkbox_color[9:])
+                                            'text.html', checkbox_desc[idx])
         output_file = open(
             output_folder + 'ionic-checkbox-' + checkbox_color[9:] + ".sublime-snippet", "w+")
         output_file.write(snippet_str)
