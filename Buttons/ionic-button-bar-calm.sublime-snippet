@@ -2,5 +2,5 @@
 	<content><![CDATA[<div class="button-bar bar-calm">$0</div>]]></content>
 	<tabTrigger>ionic-button-bar-calm</tabTrigger>
 	<scope>text.html</scope>
-	<description>ionic-button-bar-calm</description>
+	<description>Ionic Bar Button</description>
 </snippet>

@@ -4,7 +4,7 @@ current_path = os.path.dirname(os.path.abspath(__file__))
 header = False
 sub_header = False
 footer = False
-buttons = False
+buttons = True
 lists = True
 cards = False
 forms = False
@@ -133,70 +133,70 @@ if buttons:
             button_color[7:] + '">$0</div>'
 
         snippet_str = create_snippet_string(
-            'ionic-button-' + button_color[7:], regular_button, 'text.html', 'ionic-button-' + button_color[7:])
+            'ionic-button-' + button_color[7:], regular_button, 'text.html', 'Ionic Button')
         output_file = open(
             output_folder + 'ionic-button-' + button_color[7:] + ".sublime-snippet", "w+")
         output_file.write(snippet_str)
         output_file.close()
 
         snippet_str = create_snippet_string('ionic-button-block-' + button_color[
-                                            7:], block_button, 'text.html', 'ionic-button-block-' + button_color[7:])
+                                            7:], block_button, 'text.html', 'Ionic Block Button')
         output_file = open(
             output_folder + 'ionic-button-block-' + button_color[7:] + ".sublime-snippet", "w+")
         output_file.write(snippet_str)
         output_file.close()
 
         snippet_str = create_snippet_string(
-            'ionic-button-full-' + button_color[7:], full_button, 'text.html', 'ionic-button-full-' + button_color[7:])
+            'ionic-button-full-' + button_color[7:], full_button, 'text.html', 'Ionic Full Button')
         output_file = open(
             output_folder + 'ionic-button-full-' + button_color[7:] + ".sublime-snippet", "w+")
         output_file.write(snippet_str)
         output_file.close()
 
         snippet_str = create_snippet_string('ionic-button-small-' + button_color[
-                                            7:], small_button, 'text.html', 'ionic-button-small-' + button_color[7:])
+                                            7:], small_button, 'text.html', 'Ionic Small Button')
         output_file = open(
             output_folder + 'ionic-button-small-' + button_color[7:] + ".sublime-snippet", "w+")
         output_file.write(snippet_str)
         output_file.close()
 
         snippet_str = create_snippet_string('ionic-button-large-' + button_color[
-                                            7:], large_button, 'text.html', 'ionic-button-large-' + button_color[7:])
+                                            7:], large_button, 'text.html', 'Ionic Large Button')
         output_file = open(
             output_folder + 'ionic-button-large-' + button_color[7:] + ".sublime-snippet", "w+")
         output_file.write(snippet_str)
         output_file.close()
 
         snippet_str = create_snippet_string('ionic-button-outline-' + button_color[
-                                            7:], outline_button, 'text.html', 'ionic-button-outline-' + button_color[7:])
+                                            7:], outline_button, 'text.html', 'Ionic Outline Button')
         output_file = open(
             output_folder + 'ionic-button-outline-' + button_color[7:] + ".sublime-snippet", "w+")
         output_file.write(snippet_str)
         output_file.close()
 
         snippet_str = create_snippet_string('ionic-button-clear-' + button_color[
-                                            7:], clear_button, 'text.html', 'ionic-button-clear-' + button_color[7:])
+                                            7:], clear_button, 'text.html', 'Ionic Clear Button')
         output_file = open(
             output_folder + 'ionic-button-clear-' + button_color[7:] + ".sublime-snippet", "w+")
         output_file.write(snippet_str)
         output_file.close()
 
         snippet_str = create_snippet_string('ionic-button-icon-left-' + button_color[
-                                            7:], icon_left_button, 'text.html', 'ionic-button-icon-left-' + button_color[7:])
+                                            7:], icon_left_button, 'text.html', 'Ionic Icon Left Button')
         output_file = open(
             output_folder + 'ionic-button-icon-left-' + button_color[7:] + ".sublime-snippet", "w+")
         output_file.write(snippet_str)
         output_file.close()
 
         snippet_str = create_snippet_string('ionic-button-icon-right-' + button_color[
-                                            7:], icon_right_button, 'text.html', 'ionic-button-icon-right-' + button_color[7:])
+                                            7:], icon_right_button, 'text.html', 'Ionic Icon Right Button')
         output_file = open(
             output_folder + 'ionic-button-icon-right-' + button_color[7:] + ".sublime-snippet", "w+")
         output_file.write(snippet_str)
         output_file.close()
 
         snippet_str = create_snippet_string(
-            'ionic-button-bar-' + button_color[7:], button_bar, 'text.html', 'ionic-button-bar-' + button_color[7:])
+            'ionic-button-bar-' + button_color[7:], button_bar, 'text.html', 'Ionic Bar Button')
         output_file = open(
             output_folder + 'ionic-button-bar-' + button_color[7:] + ".sublime-snippet", "w+")
         output_file.write(snippet_str)
