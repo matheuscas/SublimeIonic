@@ -11,5 +11,5 @@
 ]]></content>
 	<tabTrigger>ionic-toggle-dark</tabTrigger>
 	<scope>text.html</scope>
-	<description>ionic-toggle-dark</description>
+	<description>Ionic Dark Toggle</description>
 </snippet>

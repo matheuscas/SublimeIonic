@@ -2,13 +2,13 @@ import os
 
 current_path = os.path.dirname(os.path.abspath(__file__))
 header = False
-sub_header = True
+sub_header = False
 footer = False
 buttons = False
 lists = False
 cards = False
 forms = False
-toogle = False
+toogle = True
 checkbox = False
 radio_button = False
 range_control = False
@@ -566,7 +566,11 @@ if toogle:
                    'toggle-calm', 'toggle-balanced', 'toggle-energized',
                    'toggle-assertive', 'toggle-royal', 'toggle-dark']
 
-    for toggle_color in css_toggles:
+    toggle_desc = ['Ionic Light Toggle', 'Ionic Stable Toggle', 'Ionic Positive Toggle',
+                   'Ionic Calm Toggle', 'Ionic Balanced Toggle', 'Ionic Energized Toggle',
+                   'Ionic Assertive Toggle', 'Ionic Royal Toggle', 'Ionic Dark Toggle']
+
+    for idx, toggle_color in enumerate(css_toggles):
         toggle_str = '<li class="item item-toggle">\n' + \
             '\t${1:desc}\n' + \
             '\t<label class="toggle ' + toggle_color + '">\n' + \
@@ -578,7 +582,7 @@ if toogle:
             '</li>\n'
 
         snippet_str = create_snippet_string('ionic-toggle-' + toggle_color[7:], toggle_str,
-                                            'text.html', 'ionic-toggle-' + toggle_color[7:])
+                                            'text.html', toggle_desc[idx])
         output_file = open(
             output_folder + 'ionic-toggle-' + toggle_color[7:] + ".sublime-snippet", "w+")
         output_file.write(snippet_str)
