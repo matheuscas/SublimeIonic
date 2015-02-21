@@ -2,5 +2,5 @@
 	<content><![CDATA[<a class="item item-icon-left item-icon-right" href="#">$0</a>]]></content>
 	<tabTrigger>ionic-item-icon-left-right</tabTrigger>
 	<scope>text.html</scope>
-	<description>ionic-item-icon-left-right</description>
+	<description>Ionic Icon Left Right Item</description>
 </snippet>

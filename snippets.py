@@ -1,11 +1,11 @@
 import os
 
 current_path = os.path.dirname(os.path.abspath(__file__))
-header = True
+header = False
 sub_header = False
 footer = False
 buttons = False
-lists = False
+lists = True
 cards = False
 forms = False
 toogle = False
@@ -237,84 +237,84 @@ if lists:
     ionicListDelegate_closeOptionButtons = '\$ionicListDelegate.closeOptionButtons();'
 
     snippet_str = create_snippet_string(
-        'ionic-item', item_basic, 'text.html', 'ionic-item')
+        'ionic-item', item_basic, 'text.html', 'Ionic Item')
     output_file = open(
         output_folder + 'ionic-item' + ".sublime-snippet", "w+")
     output_file.write(snippet_str)
     output_file.close()
 
     snippet_str = create_snippet_string(
-        'ionic-item-divider', item_divider, 'text.html', 'ionic-item-divider')
+        'ionic-item-divider', item_divider, 'text.html', 'Ionic Item Divider')
     output_file = open(
         output_folder + 'ionic-item-divider' + ".sublime-snippet", "w+")
     output_file.write(snippet_str)
     output_file.close()
 
     snippet_str = create_snippet_string(
-        'ionic-item-icon-left', item_icon_left, 'text.html', 'ionic-item-icon-left')
+        'ionic-item-icon-left', item_icon_left, 'text.html', 'Ionic Icon Left Item')
     output_file = open(
         output_folder + 'ionic-item-icon-left' + ".sublime-snippet", "w+")
     output_file.write(snippet_str)
     output_file.close()
 
     snippet_str = create_snippet_string(
-        'ionic-item-icon-right', item_icon_right, 'text.html', 'ionic-item-icon-right')
+        'ionic-item-icon-right', item_icon_right, 'text.html', 'Ionic Icon Right Item')
     output_file = open(
         output_folder + 'ionic-item-icon-right' + ".sublime-snippet", "w+")
     output_file.write(snippet_str)
     output_file.close()
 
     snippet_str = create_snippet_string(
-        'ionic-item-icon-left-right', item_icon_left_right, 'text.html', 'ionic-item-icon-left-right')
+        'ionic-item-icon-left-right', item_icon_left_right, 'text.html', 'Ionic Icon Left Right Item')
     output_file = open(
         output_folder + 'ionic-item-icon-left-right' + ".sublime-snippet", "w+")
     output_file.write(snippet_str)
     output_file.close()
 
     snippet_str = create_snippet_string(
-        'ionic-item-button-right', item_button_right, 'text.html', 'ionic-item-button-right')
+        'ionic-item-button-right', item_button_right, 'text.html', 'Ionic Button Right Item')
     output_file = open(
         output_folder + 'ionic-item-button-right' + ".sublime-snippet", "w+")
     output_file.write(snippet_str)
     output_file.close()
 
     snippet_str = create_snippet_string(
-        'ionic-item-button-left', item_button_left, 'text.html', 'ionic-item-button-left')
+        'ionic-item-button-left', item_button_left, 'text.html', 'Ionic Button Left Item')
     output_file = open(
         output_folder + 'ionic-item-button-left' + ".sublime-snippet", "w+")
     output_file.write(snippet_str)
     output_file.close()
 
     snippet_str = create_snippet_string(
-        'ionic-item-avatar', item_avatar, 'text.html', 'ionic-item-avatar')
+        'ionic-item-avatar', item_avatar, 'text.html', 'Ionic Avatar Item')
     output_file = open(
         output_folder + 'ionic-item-avatar' + ".sublime-snippet", "w+")
     output_file.write(snippet_str)
     output_file.close()
 
     snippet_str = create_snippet_string(
-        'ionic-item-thumbnail-left', item_thumbnail_left, 'text.html', 'ionic-item-thumbnail-left')
+        'ionic-item-thumbnail-left', item_thumbnail_left, 'text.html', 'Ionic Left Thumbnail Item')
     output_file = open(
         output_folder + 'ionic-item-thumbnail-left' + ".sublime-snippet", "w+")
     output_file.write(snippet_str)
     output_file.close()
 
     snippet_str = create_snippet_string(
-        'ionic-item-thumbnail-right', item_thumbnail_right, 'text.html', 'ionic-item-thumbnail-right')
+        'ionic-item-thumbnail-right', item_thumbnail_right, 'text.html', 'Ionic Right Thumbnail Item')
     output_file = open(
         output_folder + 'ionic-item-thumbnail-right' + ".sublime-snippet", "w+")
     output_file.write(snippet_str)
     output_file.close()
 
     snippet_str = create_snippet_string(
-        'ionic-list-inset', list_inset, 'text.html', 'ionic-list-inset')
+        'ionic-list-inset', list_inset, 'text.html', 'Ionic Inset List')
     output_file = open(
         output_folder + 'ionic-list-inset' + ".sublime-snippet", "w+")
     output_file.write(snippet_str)
     output_file.close()
 
     snippet_str = create_snippet_string(
-        'ionic-collection-repeat', collection_repeat, 'text.html', 'ionic-collection-repeat')
+        'ionic-collection-repeat', collection_repeat, 'text.html', 'Ionic Collection Repeat')
     output_file = open(
         output_folder + 'ionic-collection-repeat' + ".sublime-snippet", "w+")
     output_file.write(snippet_str)

@@ -2,5 +2,5 @@
 	<content><![CDATA[<div class="list list-inset">$0</div>]]></content>
 	<tabTrigger>ionic-list-inset</tabTrigger>
 	<scope>text.html</scope>
-	<description>ionic-list-inset</description>
+	<description>Ionic Inset List</description>
 </snippet>

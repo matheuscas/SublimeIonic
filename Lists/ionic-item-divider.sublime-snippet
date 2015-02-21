@@ -2,5 +2,5 @@
 	<content><![CDATA[<div class="item item-divider">$0</div>]]></content>
 	<tabTrigger>ionic-item-divider</tabTrigger>
 	<scope>text.html</scope>
-	<description>ionic-item-divider</description>
+	<description>Ionic Item Divider</description>
 </snippet>
