@@ -725,17 +725,7 @@ if tabs:
         output_file.write(snippet_str)
         output_file.close()
 
-        tabs_str_icon_only = '<div class="tabs tabs-icon-only ' + tabs_color + '">\n' + \
-            '\t<a class="tab-item" href="#">\n' + \
-            '\t\t<i class="icon ${1:ion-home}"></i>\n' + \
-            '\t</a>\n' + \
-            '\t<a class="tab-item" href="#">\n' + \
-            '\t\t<i class="icon ${2:ion-star}"></i>\n' + \
-            '\t</a>\n' + \
-            '\t<a class="tab-item" href="#">\n' + \
-            '\t\t<i class="icon ${3:ion-gear-a}"></i>\n' + \
-            '\t</a>\n' + \
-            '</div>\n'
+        tabs_str_icon_only = '<div class="tabs tabs-icon-only ' + tabs_color + '">$0</div>\n'
 
         snippet_str = create_snippet_string('ionic-tabs-icon-only-' + tabs_color[5:], tabs_str_icon_only,
                                             'text.html', tabs_desc[idx])
@@ -744,20 +734,7 @@ if tabs:
         output_file.write(snippet_str)
         output_file.close()
 
-        tabs_str_icon_top = '<div class="tabs tabs-icon-top ' + tabs_color + '">\n' + \
-            '\t<a class="tab-item" href="#">\n' + \
-            '\t\t<i class="icon ${1:ion-home}"></i>\n' + \
-            '\t\t${2:Tab1}\n' + \
-            '\t</a>\n' + \
-            '\t<a class="tab-item" href="#">\n' + \
-            '\t\t<i class="icon ${3:ion-star}"></i>\n' + \
-            '\t\t${4:Tab2}\n' + \
-            '\t</a>\n' + \
-            '\t<a class="tab-item" href="#">\n' + \
-            '\t\t<i class="icon ${5:ion-gear-a}"></i>\n' + \
-            '\t\t${6:Tab3}\n' + \
-            '\t</a>\n' + \
-            '</div>\n'
+        tabs_str_icon_top = '<div class="tabs tabs-icon-top ' + tabs_color + '">$0</div>\n'
 
         snippet_str = create_snippet_string('ionic-tabs-icon-top-' + tabs_color[5:], tabs_str_icon_top,
                                             'text.html', tabs_desc[idx])
@@ -766,20 +743,7 @@ if tabs:
         output_file.write(snippet_str)
         output_file.close()
 
-        tabs_str_icon_left = '<div class="tabs tabs-icon-left ' + tabs_color + '">\n' + \
-            '\t<a class="tab-item" href="#">\n' + \
-            '\t\t<i class="icon ${1:ion-home}"></i>\n' + \
-            '\t\t${2:Tab1}\n' + \
-            '\t</a>\n' + \
-            '\t<a class="tab-item" href="#">\n' + \
-            '\t\t<i class="icon ${3:ion-star}"></i>\n' + \
-            '\t\t${4:Tab2}\n' + \
-            '\t</a>\n' + \
-            '\t<a class="tab-item" href="#">\n' + \
-            '\t\t<i class="icon ${5:ion-gear-a}"></i>\n' + \
-            '\t\t${6:Tab3}\n' + \
-            '\t</a>\n' + \
-            '</div>\n'
+        tabs_str_icon_left = '<div class="tabs tabs-icon-left ' + tabs_color + '">$0</div>\n'
 
         snippet_str = create_snippet_string('ionic-tabs-icon-left-' + tabs_color[5:], tabs_str_icon_left,
                                             'text.html', tabs_desc[idx])
@@ -825,6 +789,7 @@ if tabs:
             create_snippet_file(
                 path_name_file, tabTrigger, content, scope, description)
 
+        # item tab
         tabs_item_str_default = '<a class="tab-item" href="#">\n' + \
             '\t${1:Tab}\n' + \
             '</a>\n'
@@ -833,6 +798,18 @@ if tabs:
                                             'text.html', 'Ionic Tabs Item')
         output_file = open(
             output_folder + 'ionic-tabs-item' + ".sublime-snippet", "w+")
+        output_file.write(snippet_str)
+        output_file.close()
+
+        # item icon tab
+        tabs_item_str_icon = '<a class="tab-item" href="#">\n' + \
+            '\t<i class="icon ${1:ion-home}"></i>\n' + \
+            '</a>\n'
+
+        snippet_str = create_snippet_string('ionic-tabs-item-icon', tabs_item_str_icon,
+                                            'text.html', 'Ionic Tabs Icon Item')
+        output_file = open(
+            output_folder + 'ionic-tabs-item-icon' + ".sublime-snippet", "w+")
         output_file.write(snippet_str)
         output_file.close()
 

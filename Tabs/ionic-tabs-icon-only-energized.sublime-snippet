@@ -1,15 +1,5 @@
 <snippet>
-	<content><![CDATA[<div class="tabs tabs-icon-only tabs-energized">
-	<a class="tab-item" href="#">
-		<i class="icon ${1:ion-home}"></i>
-	</a>
-	<a class="tab-item" href="#">
-		<i class="icon ${2:ion-star}"></i>
-	</a>
-	<a class="tab-item" href="#">
-		<i class="icon ${3:ion-gear-a}"></i>
-	</a>
-</div>
+	<content><![CDATA[<div class="tabs tabs-icon-only tabs-energized">$0</div>
 ]]></content>
 	<tabTrigger>ionic-tabs-icon-only-energized</tabTrigger>
 	<scope>text.html</scope>
