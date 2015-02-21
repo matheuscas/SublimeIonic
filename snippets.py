@@ -5,14 +5,14 @@ header = False
 sub_header = False
 footer = False
 buttons = False
-lists = True
+lists = False
 cards = False
 forms = False
 toogle = False
 checkbox = False
 radio_button = False
-range_control = True
-select_control = False
+range_control = False
+select_control = True
 tabs = False
 actionSheet = False
 backdrop = False
@@ -673,7 +673,11 @@ if select_control:
                    'item-calm', 'item-balanced', 'item-energized',
                    'item-assertive', 'item-royal', 'item-dark']
 
-    for select_color in css_selects:
+    select_desc = ['Ionic Light Select', 'Ionic Stable Select', 'Ionic Positive Select',
+                   'Ionic Calm Select', 'Ionic Balanced Select', 'Ionic Energized Select',
+                   'Ionic Assertive Select', 'Ionic Royal Select', 'Ionic Dark Select']
+
+    for idx, select_color in enumerate(css_selects):
         select_str = '<label class="item item-input item-select ' + select_color + '">\n' + \
             '\t<div class="input-label">\n' + \
             '\t\t${1:desc}\n' + \
@@ -685,7 +689,7 @@ if select_control:
             '</label>\n'
 
         snippet_str = create_snippet_string('ionic-select-' + select_color[5:], select_str,
-                                            'text.html', 'ionic-select-' + select_color[5:])
+                                            'text.html', select_desc[idx])
         output_file = open(
             output_folder + 'ionic-select-' + select_color[5:] + ".sublime-snippet", "w+")
         output_file.write(snippet_str)
