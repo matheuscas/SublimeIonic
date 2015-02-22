@@ -111,7 +111,7 @@ But still the whole reference are put below in case of any doubts. Have fun. :)
  - [Popover](#js_popover)
  - [Popup](#js_popup)
  - [Scroll](#js_scroll)
- - Side Menus
+ - [Side Menus](#js_side_menus)
  - Slide Box
  - Tabs
  - Utility
@@ -2012,4 +2012,59 @@ Trigger -  **<ion-scroll :**
 Trigger -  **<ion-infinite-scroll :** 
 ```HTML
 <ion-infinite-scroll on-infinite="loadMore()"></ion-infinite-scroll>
+```
+
+<h2 id="js_side_menus">Side Menu</h2>
+
+Trigger -  **$ionicSideMenuDelegate.$getByHandle:** 
+```Javascript
+$ionicSideMenuDelegate.$getByHandle(handle)
+```
+Trigger -  **$ionicSideMenuDelegate.canDragContent:** 
+```Javascript
+$ionicSideMenuDelegate.canDragContent()
+```
+Trigger -  **$ionicSideMenuDelegate.edgeDragThreshold:** 
+```Javascript
+$ionicSideMenuDelegate.edgeDragThreshold(value)
+```
+Trigger -  **$ionicSideMenuDelegate.$getByHandle:** 
+```Javascript
+$ionicSideMenuDelegate.$getByHandle(handle)
+```
+Trigger -  **$ionicSideMenuDelegate.getOpenRatio:** 
+```Javascript
+$ionicSideMenuDelegate.getOpenRatio()
+```
+Trigger -  **$ionicSideMenuDelegate.isOpen:** 
+```Javascript
+$ionicSideMenuDelegate.isOpen()
+```
+Trigger -  **$ionicSideMenuDelegate.isOpenLeft:** 
+```Javascript
+$ionicSideMenuDelegate.isOpenLeft()
+```
+Trigger -  **$ionicSideMenuDelegate.isOpenRight:** 
+```Javascript
+$ionicSideMenuDelegate.isOpenRight()
+```
+Trigger -  **$ionicSideMenuDelegate.toggleLeft:** 
+```Javascript
+$ionicSideMenuDelegate.toggleLeft()
+```
+Trigger -  **$ionicSideMenuDelegate.toggleRight:** 
+```Javascript
+$ionicSideMenuDelegate.toggleRight()
+```
+Trigger -  **<ion-side-menus :** 
+```HTML
+<ion-side-menus></ion-side-menus>
+```
+Trigger -  **<ion-side-menu-content :** 
+```HTML
+<ion-side-menu-content drag-content="true"></ion-side-menu-content>
+```
+Trigger -  **<ion-side-menu :** 
+```HTML
+<ion-side-menu side="left"></ion-side-menu>
 ```
