@@ -82,8 +82,8 @@ First, you can easily find out how this plugin works in ST2/ST3 with the followi
 
 But still the whole reference are put below in case of any doubts. Have fun. :)
 
-** CSS Components **
- - Header
+**CSS Components**
+ - [Header](#Header)
  - Content
  - Footer
  - Buttons
@@ -98,7 +98,7 @@ But still the whole reference are put below in case of any doubts. Have fun. :)
  - Tabs
  - Utility
 
-** JavaScript **
+**JavaScript**
  - Action Sheet
  - Backdrop
  - Content
@@ -118,3 +118,63 @@ But still the whole reference are put below in case of any doubts. Have fun. :)
  - Tabs
  - Tap & Click
  - Utility
+ 
+**CSS Components**
+-------
+
+Header
+-------
+Trigger -  **ionic-header-assertive:** 
+```
+<div class="bar bar-header bar-assertive"> 
+	 <h1 class="title"></h1> 
+</div>
+```
+Trigger -  **ionic-header-balanced:** 
+```
+<div class="bar bar-header bar-balanced"> 
+	 <h1 class="title"></h1> 
+</div>
+```
+Trigger -  **ionic-header-calm:** 
+```
+<div class="bar bar-header bar-calm"> 
+	 <h1 class="title"></h1> 
+</div>
+```
+Trigger -  **ionic-header-dark:** 
+```
+<div class="bar bar-header bar-dark"> 
+	 <h1 class="title"></h1> 
+</div>
+```
+Trigger -  **ionic-header-energized:** 
+```
+<div class="bar bar-header bar-energized"> 
+	 <h1 class="title"></h1> 
+</div>
+```
+Trigger -  **ionic-header-light:** 
+```
+<div class="bar bar-header bar-light"> 
+	 <h1 class="title"></h1> 
+</div>
+```
+Trigger -  **ionic-header-positive:** 
+```
+<div class="bar bar-header bar-positive"> 
+	 <h1 class="title"></h1> 
+</div>
+```
+Trigger -  **ionic-header-royal:** 
+```
+<div class="bar bar-header bar-royal"> 
+	 <h1 class="title"></h1> 
+</div>
+```
+Trigger -  **ionic-header-stable:** 
+```
+<div class="bar bar-header bar-stable"> 
+	 <h1 class="title"></h1> 
+</div>
+
