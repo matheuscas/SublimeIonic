@@ -1,7 +1,7 @@
 Ionic Framework Extended Autocomplete
 ============================
 
-This is the most complete ST2/ST3 plugin to auto complete Ionic Framework directives, services and **elements**. 
+This is the most complete ST2/ST3 plugin to auto complete [Ionic Framework](http://ionicframework.com/) directives, services and **elements**. 
 
 This plugins has a different approach from other plugins. It aims to be the most handful tool to help you to build great apps with Ionic, however it does not intends to overcome your mandatory knowledge over the framework. 
 
@@ -58,7 +58,7 @@ Finally, how to install this awesome plugin?
  1. First, if you didn't install yet, you must install the Package Control;
  2. Once installed, open the **Command Palette** and search for **Ionic Framework Extended Autocomplete** and install it. 
 
-And you are done. You don't need to configure anything. Just install it, use it and start ASAP a new awesome Ionic app. 
+And you are done. You don't need to configure anything. Just install it, use it and start ASAP a new awesome [Ionic](http://ionicframework.com/) app. 
 
 Credits
 -------
