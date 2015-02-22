@@ -110,7 +110,7 @@ But still the whole reference are put below in case of any doubts. Have fun. :)
  - [Platform](#js_platform)
  - [Popover](#js_popover)
  - [Popup](#js_popup)
- - Scroll
+ - [Scroll](#js_scroll)
  - Side Menus
  - Slide Box
  - Tabs
@@ -2001,4 +2001,15 @@ $ionicPopup.show({
 	scope: $scope,
 	buttons: [$4]
 });
+```
+
+<h2 id="js_scroll">Scroll</h2>
+
+Trigger -  **<ion-scroll :** 
+```HTML
+<ion-scroll zooming=\"true\" direction=\"xy\" style=\"width: 500px; height: 500px\"></ion-scroll>
+```
+Trigger -  **<ion-infinite-scroll :** 
+```HTML
+<ion-infinite-scroll on-infinite="loadMore()"></ion-infinite-scroll>
 ```
