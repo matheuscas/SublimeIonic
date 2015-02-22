@@ -44,7 +44,7 @@ You can see the whole plugin reference [here](#Reference).
 
 How to contribute?
 -------
-You can contribute submitting issues, forking and sending pull requests. Attempt to two files: "html_completions.py" and "snippets.py". 
+You can contribute submitting [issues](https://github.com/matheuscas/SublimeIonic/issues), forking and sending [pull requests](https://github.com/matheuscas/SublimeIonic/pulls). Attempt to two files: "html_completions.py" and "snippets.py". 
 
 The first one is a basic Sublime Text plugin file that handles the html only autocomplete. To change or add Ionic directives, please refer to **html_completions.py** file.
 
