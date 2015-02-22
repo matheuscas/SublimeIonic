@@ -102,8 +102,8 @@ But still the whole reference are put below in case of any doubts. Have fun. :)
  - [Backdrop](#js_backdrop)
  - [Content](#js_content)
  - [Form Inputs](#js_form_input)
- - Headers/Footers(#js_headers_footers)
- - Lists
+ - [Headers/Footers](#js_headers_footers)
+ - [Lists](#js_lists)
  - Loading
  - Modal
  - Navigation
@@ -1718,4 +1718,43 @@ Trigger -  **<ion-header-bar :**
 Trigger -  **<ion-footer-bar :** 
 ```HTML
 <ion-footer-bar ion-footer-bar align-title="left" class="bar-assertive"></ion-footer-bar>
+```
+
+<h2 id="js_lists">Lists</h2>
+
+Trigger -  **$ionicListDelegate.canSwipeItems:** 
+```Javascript
+$ionicListDelegate.canSwipeItems(true});
+```
+Trigger -  **$ionicListDelegate.closeOptionButtons:** 
+```Javascript
+$ionicListDelegate.closeOptionButtons();
+```
+Trigger -  **$ionicListDelegate.showDelete:** 
+```Javascript
+$ionicListDelegate.showDelete(true);
+```
+Trigger -  **$ionicListDelegate.showReorder:** 
+```Javascript
+$ionicListDelegate.showReorder(true);
+```
+Trigger -  **<ion-list :** 
+```HTML
+<ion-list></ion-list>
+```
+Trigger -  **<ion-item :** 
+```HTML
+<ion-item href="#"></ion-item>
+```
+Trigger -  **<ion-delete-button :** 
+```HTML
+<ion-delete-button class="ion-minus-circled"></ion-delete-button>
+```
+Trigger -  **<ion-reorder-button :** 
+```HTML
+<ion-reorder-button class="ion-navicon" on-reorder="moveItem(item, $fromIndex, $toIndex)"></ion-reorder-button>
+```
+Trigger -  **<ion-option-button :** 
+```HTML
+<ion-option-button class="button-positive"></ion-option-button>
 ```
