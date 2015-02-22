@@ -6,14 +6,14 @@ This is the most complete ST2/ST3 plugin to auto complete Ionic Framework direct
 This plugins has a different approach from other plugins. It aims to be the most handful tool to help you to build great apps with Ionic, however it does not intends to overcome your mandatory knowledge over the framework. 
 
 If you wants to create a list of items, for instance, you must know what elements are part of a "Ionic List", because **Ionic Framework Extended AutoComplete only will help you with the elements**:
-```
+```HTML
 <!-- Element generated separately -->
 <ion-list> 
 	<!-- Element generated separately -->
 	<ion-item href="#"></ion-item>
 </ion-list>
 ``` 
-```
+```HTML
 <!-- Element generated separately. You must know that you have to create a div with 'list' class. The plugin won't generate a whole list for you. -->
 <div class="list">
 <!-- Element generated separately -->
@@ -29,7 +29,7 @@ The Ionic Framework Extended AutoComplete has almost all html completions of Ion
 
 Let's take a look in another example. If you want a list of thumbnails, just **create a DIV with list class** (or use **ion-list** provided as well) and search for **ionic-item-thumbnail-left** (or right if you want) and done:
 
-```
+```HTML
 <div class="list">
 	<a class="item item-thumbnail-left" href="#">
 		<img src="image_source">
@@ -125,55 +125,55 @@ But still the whole reference are put below in case of any doubts. Have fun. :)
 <h2 id="css_header">Header</h2>
 
 Trigger -  **ionic-header-assertive:** 
-```
+```HTML
 <div class="bar bar-header bar-assertive"> 
 	 <h1 class="title"></h1> 
 </div>
 ```
 Trigger -  **ionic-header-balanced:** 
-```
+```HTML
 <div class="bar bar-header bar-balanced"> 
 	 <h1 class="title"></h1> 
 </div>
 ```
 Trigger -  **ionic-header-calm:** 
-```
+```HTML
 <div class="bar bar-header bar-calm"> 
 	 <h1 class="title"></h1> 
 </div>
 ```
 Trigger -  **ionic-header-dark:** 
-```
+```HTML
 <div class="bar bar-header bar-dark"> 
 	 <h1 class="title"></h1> 
 </div>
 ```
 Trigger -  **ionic-header-energized:** 
-```
+```HTML
 <div class="bar bar-header bar-energized"> 
 	 <h1 class="title"></h1> 
 </div>
 ```
 Trigger -  **ionic-header-light:** 
-```
+```HTML
 <div class="bar bar-header bar-light"> 
 	 <h1 class="title"></h1> 
 </div>
 ```
 Trigger -  **ionic-header-positive:** 
-```
+```HTML
 <div class="bar bar-header bar-positive"> 
 	 <h1 class="title"></h1> 
 </div>
 ```
 Trigger -  **ionic-header-royal:** 
-```
+```HTML
 <div class="bar bar-header bar-royal"> 
 	 <h1 class="title"></h1> 
 </div>
 ```
 Trigger -  **ionic-header-stable:** 
-```
+```HTML
 <div class="bar bar-header bar-stable"> 
 	 <h1 class="title"></h1> 
 </div>
@@ -182,55 +182,55 @@ Trigger -  **ionic-header-stable:**
 <h2 id="css_footer">Footer</h2>
 
 Trigger -  **ionic-footer-assertive:** 
-```
+```HTML
 <div class="bar bar-footer bar-assertive"> 
 	 <div class="title"></div> 
 </div>
 ```
 Trigger -  **ionic-footer-balanced:** 
-```
+```HTML
 <div class="bar bar-footer bar-balanced"> 
 	 <div class="title"></div> 
 </div>
 ```
 Trigger -  **ionic-footer-calm:** 
-```
+```HTML
 <div class="bar bar-footer bar-calm"> 
 	 <div class="title"></div> 
 </div>
 ```
 Trigger -  **ionic-footer-dark:** 
-```
+```HTML
 <div class="bar bar-footer bar-dark"> 
 	 <div class="title"></div> 
 </div>
 ```
 Trigger -  **ionic-footer-energized:** 
-```
+```HTML
 <div class="bar bar-footer bar-energized"> 
 	 <div class="title"></div> 
 </div>
 ```
 Trigger -  **ionic-footer-light:** 
-```
+```HTML
 <div class="bar bar-footer bar-light"> 
 	 <div class="title"></div> 
 </div>
 ```
 Trigger -  **ionic-footer-positive:** 
-```
+```HTML
 <div class="bar bar-footer bar-positive"> 
 	 <div class="title"></div> 
 </div>
 ```
 Trigger -  **ionic-footer-royal:** 
-```
+```HTML
 <div class="bar bar-footer bar-royal"> 
 	 <div class="title"></div> 
 </div>
 ```
 Trigger -  **ionic-footer-stable:** 
-```
+```HTML
 <div class="bar bar-footer bar-stable"> 
 	 <div class="title"></div> 
 </div>
@@ -239,370 +239,370 @@ Trigger -  **ionic-footer-stable:**
 <h2 id="css_buttons">Buttons</h2>
 
 Trigger -  **ionic-button-assertive:** 
-```
+```HTML
 <button class="button button-assertive"></button>
 ```
 Trigger -  **ionic-button-balanced:** 
-```
+```HTML
 <button class="button button-balanced"></button>
 ```
 Trigger -  **ionic-button-bar-assertive:** 
-```
+```HTML
 <div class="button-bar bar-assertive"></div>
 ```
 Trigger -  **ionic-button-bar-balanced:** 
-```
+```HTML
 <div class="button-bar bar-balanced"></div>
 ```
 Trigger -  **ionic-button-bar-calm:** 
-```
+```HTML
 <div class="button-bar bar-calm"></div>
 ```
 Trigger -  **ionic-button-bar-dark:** 
-```
+```HTML
 <div class="button-bar bar-dark"></div>
 ```
 Trigger -  **ionic-button-bar-energized:** 
-```
+```HTML
 <div class="button-bar bar-energized"></div>
 ```
 Trigger -  **ionic-button-bar-light:** 
-```
+```HTML
 <div class="button-bar bar-light"></div>
 ```
 Trigger -  **ionic-button-bar-positive:** 
-```
+```HTML
 <div class="button-bar bar-positive"></div>
 ```
 Trigger -  **ionic-button-bar-royal:** 
-```
+```HTML
 <div class="button-bar bar-royal"></div>
 ```
 Trigger -  **ionic-button-bar-stable:** 
-```
+```HTML
 <div class="button-bar bar-stable"></div>
 ```
 Trigger -  **ionic-button-block-assertive:** 
-```
+```HTML
 <button class="button button-block button-assertive"></button>
 ```
 Trigger -  **ionic-button-block-balanced:** 
-```
+```HTML
 <button class="button button-block button-balanced"></button>
 ```
 Trigger -  **ionic-button-block-calm:** 
-```
+```HTML
 <button class="button button-block button-calm"></button>
 ```
 Trigger -  **ionic-button-block-dark:** 
-```
+```HTML
 <button class="button button-block button-dark"></button>
 ```
 Trigger -  **ionic-button-block-energized:** 
-```
+```HTML
 <button class="button button-block button-energized"></button>
 ```
 Trigger -  **ionic-button-block-light:** 
-```
+```HTML
 <button class="button button-block button-light"></button>
 ```
 Trigger -  **ionic-button-block-positive:** 
-```
+```HTML
 <button class="button button-block button-positive"></button>
 ```
 Trigger -  **ionic-button-block-royal:** 
-```
+```HTML
 <button class="button button-block button-royal"></button>
 ```
 Trigger -  **ionic-button-block-stable:** 
-```
+```HTML
 <button class="button button-block button-stable"></button>
 ```
 Trigger -  **ionic-button-calm:** 
-```
+```HTML
 <button class="button button-calm"></button>
 ```
 Trigger -  **ionic-button-clear-assertive:** 
-```
+```HTML
 <button class="button button-clear button-assertive"></button>
 ```
 Trigger -  **ionic-button-clear-balanced:** 
-```
+```HTML
 <button class="button button-clear button-balanced"></button>
 ```
 Trigger -  **ionic-button-clear-calm:** 
-```
+```HTML
 <button class="button button-clear button-calm"></button>
 ```
 Trigger -  **ionic-button-clear-dark:** 
-```
+```HTML
 <button class="button button-clear button-dark"></button>
 ```
 Trigger -  **ionic-button-clear-energized:** 
-```
+```HTML
 <button class="button button-clear button-energized"></button>
 ```
 Trigger -  **ionic-button-clear-light:** 
-```
+```HTML
 <button class="button button-clear button-light"></button>
 ```
 Trigger -  **ionic-button-clear-positive:** 
-```
+```HTML
 <button class="button button-clear button-positive"></button>
 ```
 Trigger -  **ionic-button-clear-royal:** 
-```
+```HTML
 <button class="button button-clear button-royal"></button>
 ```
 Trigger -  **ionic-button-clear-stable:** 
-```
+```HTML
 <button class="button button-clear button-stable"></button>
 ```
 Trigger -  **ionic-button-dark:** 
-```
+```HTML
 <button class="button button-dark"></button>
 ```
 Trigger -  **ionic-button-energized:** 
-```
+```HTML
 <button class="button button-energized"></button>
 ```
 Trigger -  **ionic-button-full-assertive:** 
-```
+```HTML
 <button class="button button-full button-assertive"></button>
 ```
 Trigger -  **ionic-button-full-balanced:** 
-```
+```HTML
 <button class="button button-full button-balanced"></button>
 ```
 Trigger -  **ionic-button-full-calm:** 
-```
+```HTML
 <button class="button button-full button-calm"></button>
 ```
 Trigger -  **ionic-button-full-dark:** 
-```
+```HTML
 <button class="button button-full button-dark"></button>
 ```
 Trigger -  **ionic-button-full-energized:** 
-```
+```HTML
 <button class="button button-full button-energized"></button>
 ```
 Trigger -  **ionic-button-full-light:** 
-```
+```HTML
 <button class="button button-full button-light"></button>
 ```
 Trigger -  **ionic-button-full-positive:** 
-```
+```HTML
 <button class="button button-full button-positive"></button>
 ```
 Trigger -  **ionic-button-full-royal:** 
-```
+```HTML
 <button class="button button-full button-royal"></button>
 ```
 Trigger -  **ionic-button-full-stable:** 
-```
+```HTML
 <button class="button button-full button-stable"></button>
 ```
 Trigger -  **ionic-button-icon-left-assertive:** 
-```
+```HTML
 <button class="button icon-left ionicon button-assertive"></button>
 ```
 Trigger -  **ionic-button-icon-left-balanced:** 
-```
+```HTML
 <button class="button icon-left ionicon button-balanced"></button>
 ```
 Trigger -  **ionic-button-icon-left-calm:** 
-```
+```HTML
 <button class="button icon-left ionicon button-calm"></button>
 ```
 Trigger -  **ionic-button-icon-left-dark:** 
-```
+```HTML
 <button class="button icon-left ionicon button-dark"></button>
 ```
 Trigger -  **ionic-button-icon-left-energized:** 
-```
+```HTML
 <button class="button icon-left ionicon button-energized"></button>
 ```
 Trigger -  **ionic-button-icon-left-light:** 
-```
+```HTML
 <button class="button icon-left ionicon button-light"></button>
 ```
 Trigger -  **ionic-button-icon-left-positive:** 
-```
+```HTML
 <button class="button icon-left ionicon button-positive"></button>
 ```
 Trigger -  **ionic-button-icon-left-royal:** 
-```
+```HTML
 <button class="button icon-left ionicon button-royal"></button>
 ```
 Trigger -  **ionic-button-icon-left-stable:** 
-```
+```HTML
 <button class="button icon-left ionicon button-stable"></button>
 ```
 Trigger -  **ionic-button-icon-right-assertive:** 
-```
+```HTML
 <button class="button icon-right ionicon button-assertive"></button>
 ```
 Trigger -  **ionic-button-icon-right-balanced:** 
-```
+```HTML
 <button class="button icon-right ionicon button-balanced"></button>
 ```
 Trigger -  **ionic-button-icon-right-calm:** 
-```
+```HTML
 <button class="button icon-right ionicon button-calm"></button>
 ```
 Trigger -  **ionic-button-icon-right-dark:** 
-```
+```HTML
 <button class="button icon-right ionicon button-dark"></button>
 ```
 Trigger -  **ionic-button-icon-right-energized:** 
-```
+```HTML
 <button class="button icon-right ionicon button-energized"></button>
 ```
 Trigger -  **ionic-button-icon-right-light:** 
-```
+```HTML
 <button class="button icon-right ionicon button-light"></button>
 ```
 Trigger -  **ionic-button-icon-right-positive:** 
-```
+```HTML
 <button class="button icon-right ionicon button-positive"></button>
 ```
 Trigger -  **ionic-button-icon-right-royal:** 
-```
+```HTML
 <button class="button icon-right ionicon button-royal"></button>
 ```
 Trigger -  **ionic-button-icon-right-stable:** 
-```
+```HTML
 <button class="button icon-right ionicon button-stable"></button>
 ```
 Trigger -  **ionic-button-large-assertive:** 
-```
+```HTML
 <button class="button button-large button-assertive"></button>
 ```
 Trigger -  **ionic-button-large-balanced:** 
-```
+```HTML
 <button class="button button-large button-balanced"></button>
 ```
 Trigger -  **ionic-button-large-calm:** 
-```
+```HTML
 <button class="button button-large button-calm"></button>
 ```
 Trigger -  **ionic-button-large-dark:** 
-```
+```HTML
 <button class="button button-large button-dark"></button>
 ```
 Trigger -  **ionic-button-large-energized:** 
-```
+```HTML
 <button class="button button-large button-energized"></button>
 ```
 Trigger -  **ionic-button-large-light:** 
-```
+```HTML
 <button class="button button-large button-light"></button>
 ```
 Trigger -  **ionic-button-large-positive:** 
-```
+```HTML
 <button class="button button-large button-positive"></button>
 ```
 Trigger -  **ionic-button-large-royal:** 
-```
+```HTML
 <button class="button button-large button-royal"></button>
 ```
 Trigger -  **ionic-button-large-stable:** 
-```
+```HTML
 <button class="button button-large button-stable"></button>
 ```
 Trigger -  **ionic-button-light:** 
-```
+```HTML
 <button class="button button-light"></button>
 ```
 Trigger -  **ionic-button-outline-assertive:** 
-```
+```HTML
 <button class="button button-outline button-assertive"></button>
 ```
 Trigger -  **ionic-button-outline-balanced:** 
-```
+```HTML
 <button class="button button-outline button-balanced"></button>
 ```
 Trigger -  **ionic-button-outline-calm:** 
-```
+```HTML
 <button class="button button-outline button-calm"></button>
 ```
 Trigger -  **ionic-button-outline-dark:** 
-```
+```HTML
 <button class="button button-outline button-dark"></button>
 ```
 Trigger -  **ionic-button-outline-energized:** 
-```
+```HTML
 <button class="button button-outline button-energized"></button>
 ```
 Trigger -  **ionic-button-outline-light:** 
-```
+```HTML
 <button class="button button-outline button-light"></button>
 ```
 Trigger -  **ionic-button-outline-positive:** 
-```
+```HTML
 <button class="button button-outline button-positive"></button>
 ```
 Trigger -  **ionic-button-outline-royal:** 
-```
+```HTML
 <button class="button button-outline button-royal"></button>
 ```
 Trigger -  **ionic-button-outline-stable:** 
-```
+```HTML
 <button class="button button-outline button-stable"></button>
 ```
 Trigger -  **ionic-button-positive:** 
-```
+```HTML
 <button class="button button-positive"></button>
 ```
 Trigger -  **ionic-button-royal:** 
-```
+```HTML
 <button class="button button-royal"></button>
 ```
 Trigger -  **ionic-button-small-assertive:** 
-```
+```HTML
 <button class="button button-small button-assertive"></button>
 ```
 Trigger -  **ionic-button-small-balanced:** 
-```
+```HTML
 <button class="button button-small button-balanced"></button>
 ```
 Trigger -  **ionic-button-small-calm:** 
-```
+```HTML
 <button class="button button-small button-calm"></button>
 ```
 Trigger -  **ionic-button-small-dark:** 
-```
+```HTML
 <button class="button button-small button-dark"></button>
 ```
 Trigger -  **ionic-button-small-energized:** 
-```
+```HTML
 <button class="button button-small button-energized"></button>
 ```
 Trigger -  **ionic-button-small-light:** 
-```
+```HTML
 <button class="button button-small button-light"></button>
 ```
 Trigger -  **ionic-button-small-positive:** 
-```
+```HTML
 <button class="button button-small button-positive"></button>
 ```
 Trigger -  **ionic-button-small-royal:** 
-```
+```HTML
 <button class="button button-small button-royal"></button>
 ```
 Trigger -  **ionic-button-small-stable:** 
-```
+```HTML
 <button class="button button-small button-stable"></button>
 ```
 Trigger -  **ionic-button-stable:** 
-```
+```HTML
 <button class="button button-stable"></button>
 ```
 
 <h2 id="css_lists">Lists</h2>
 
 Trigger -  **ionic-collection-repeat:** 
-```
+```HTML
 <div class="item your_item_css_class}"
 	collection-repeat="item in items"
 	collection-item-width="'100%'"
@@ -611,7 +611,7 @@ Trigger -  **ionic-collection-repeat:**
 </div>
 ```
 Trigger -  **ionic-item-avatar:** 
-```
+```HTML
 <a class="item item-avatar" href="#">
 	<img src="image_source">
 	<h2>title</h2>
@@ -619,31 +619,31 @@ Trigger -  **ionic-item-avatar:**
 </a>
 ```
 Trigger -  **ionic-item-button-left:** 
-```
+```HTML
 <a class="item item-button-left" href="#"></a>
 ```
 Trigger -  **ionic-item-button-right:** 
-```
+```HTML
 <a class="item item-button-right" href="#"></a>
 ```
 Trigger -  **ionic-item-divider:** 
-```
+```HTML
 <div class="item item-divider"></div>
 ```
 Trigger -  **ionic-item-icon-left-right:** 
-```
+```HTML
 <a class="item item-icon-left item-icon-right" href="#"></a>
 ```
 Trigger -  **ionic-item-icon-left:** 
-```
+```HTML
 <a class="item item-icon-left" href="#"></a>
 ```
 Trigger -  **ionic-item-icon-right:** 
-```
+```HTML
 <a class="item item-icon-right" href="#"></a>
 ```
 Trigger -  **ionic-item-thumbnail-left:** 
-```
+```HTML
 <a class="item item-thumbnail-left" href="#">
 	<img src="image_source">
 	<h2>title</h2>
@@ -651,7 +651,7 @@ Trigger -  **ionic-item-thumbnail-left:**
 </a>
 ```
 Trigger -  **ionic-item-thumbnail-right:** 
-```
+```HTML
 <a class="item item-thumbnail-right" href="#">
 	<img src="image_source">
 	<h2>title</h2>
@@ -659,18 +659,18 @@ Trigger -  **ionic-item-thumbnail-right:**
 </a>
 ```
 Trigger -  **ionic-item:** 
-```
+```HTML
 <a class="item"></a>
 ```
 Trigger -  **ionic-list-inset:** 
-```
+```HTML
 <div class="list list-inset"></div>
 ```
 
 <h2 id="css_cards">Cards</h2>
 
 Trigger -  **ionic-card-footer:** 
-```
+```HTML
 <div class="card">
 	<div class="item item-text-wrap">
 		desc
@@ -681,7 +681,7 @@ Trigger -  **ionic-card-footer:**
 </div>
 ```
 Trigger -  **ionic-card-header-footer:** 
-```
+```HTML
 <div class="card">
 	<div class="item item-divider">
 		header
@@ -695,7 +695,7 @@ Trigger -  **ionic-card-header-footer:**
 </div>
 ```
 Trigger -  **ionic-card-header:** 
-```
+```HTML
 <div class="card">
 	<div class="item item-divider">
 		header
@@ -706,7 +706,7 @@ Trigger -  **ionic-card-header:**
 </div>
 ```
 Trigger -  **ionic-card-image:** 
-```
+```HTML
 <div class="item item-avatar" href="#">
 	<img src="image_source">
 	<h2>title</h2>
@@ -721,20 +721,20 @@ Trigger -  **ionic-card-image:**
 </a>
 ```
 Trigger -  **ionic-card-list-item:** 
-```
+```HTML
 <a href="#" class="item item-icon-left">
 	<i class="icon ionicon"></i>
 	desc
 </a>
 ```
 Trigger -  **ionic-card-list:** 
-```
+```HTML
 <div class="list card">
 	
 </div>
 ```
 Trigger -  **ionic-card-showcase:** 
-```
+```HTML
 <div class="item item-avatar" href="#">
 	<img src="image_source">
 	<h2>title</h2>
@@ -766,7 +766,7 @@ Trigger -  **ionic-card-showcase:**
 
 ```
 Trigger -  **ionic-card:** 
-```
+```HTML
 <div class="card">
 	<div class="item item-text-wrap">
 		desc
