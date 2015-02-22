@@ -97,8 +97,9 @@ But still the whole reference are put below in case of any doubts. Have fun. :)
  - [Select](#css_select)
  - [Tabs](#css_tabs)
 
-**JavaScript**
- - Action Sheet
+<h2 id="js_snippets">Javascript</h2>
+
+ - [Action Sheet](#js_action_sheet)
  - Backdrop
  - Content
  - Form Inputs
@@ -115,7 +116,6 @@ But still the whole reference are put below in case of any doubts. Have fun. :)
  - Side Menus
  - Slide Box
  - Tabs
- - Tap & Click
  - Utility
  
 **CSS Components**
@@ -1600,4 +1600,28 @@ Trigger -  **ionic-tabs-striped-stable:**
 ```HTML
 <div class="tabs-striped tabs-color-stable"></div>
 
+```
+
+**Javascript**
+-------
+
+<h2 id="js_action_sheet">Action Sheet</h2>
+
+Trigger -  **$ionicActionSheet.show:** 
+```Javascript
+$ionicActionSheet.show({
+		buttons: [
+			{ text: "Button text 1" },
+			{ text: "Move" }
+		],
+		destructiveText: "Delete",
+		titleText: "Title",
+		cancelText: "Cancel",
+		cancel: function() {
+			your code goes here
+		},
+		buttonClicked: function(index) {
+			return true;
+		}
+});
 ```
