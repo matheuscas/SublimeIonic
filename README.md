@@ -89,7 +89,7 @@ But still the whole reference are put below in case of any doubts. Have fun. :)
  - [Buttons](#css_buttons)
  - [Lists](#css_lists)
  - [Cards](#css_cards)
- - Forms
+ - [Forms](#css_forms)
  - Toggle
  - Checkbox
  - Radio Buttons
@@ -772,4 +772,65 @@ Trigger -  **ionic-card:**
 		desc
 	</div>
 </div>
+```
+
+<h2 id="css_forms">Forms</h2>
+
+Trigger -  **ionic-input-floating:** 
+```HTML
+<label class="item item-input item-floating-label">
+	<span class="input-label">input_name}</span>
+	<input type="text" placeholder="input_placeholder">
+</label>
+```
+Trigger -  **ionic-input-header:** 
+```HTML
+<div class="bar bar-header item-input-inset">
+	<label class="item-input-wrapper">
+		<i class="icon ion-ios7-search placeholder-icon"></i>
+		<input type="search" placeholder="Search">
+	</label>
+	<button class="button button-clear">
+		Cancel
+	</button>
+</div>
+```
+Trigger -  **ionic-input-icon:** 
+```HTML
+<label class="item item-input">
+	<i class="icon ion-search placeholder-icon"></i>
+	<input type="text" placeholder="Search">
+</label>
+```
+Trigger -  **ionic-input-inline:** 
+```HTML
+<label class="item item-input">
+	<span class="input-label">input_name</span>
+	<input type="text">
+</label>
+```
+Trigger -  **ionic-input-inset:** 
+```HTML
+<div class="item item-input-inset">
+	<label class="item-input-wrapper">
+		<input type="text" placeholder="input_placeholder">
+	</label>
+	<button class="button button-small">
+		button_name
+	</button>
+</div>
+
+```
+Trigger -  **ionic-input-placeholder:** 
+```HTML
+<label class="item item-input">
+	<input type="text" placeholder="placeholder_1">
+</label>
+```
+Trigger -  **ionic-input-stacked:** 
+```HTML
+<label class="item item-input item-stacked-label">
+	<span class="input-label">input_name</span>
+	<input type="text" placeholder="input_placeholder">
+</label>
 ```
