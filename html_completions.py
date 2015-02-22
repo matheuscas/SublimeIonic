@@ -48,7 +48,7 @@ class ExtensionsCompletions(sublime_plugin.EventListener):
              'ion-checkbox ng-model="${1:isChecked}">${2:Checkbox Label}</ion-checkbox>'),
             ("ion-radio\tIonic Extension",
              'ion-radio ng-model="${1:choice}" ng-value="${2:\'A\'}">${3:Choose A}</ion-radio>'),
-            ("ion-toogle\tIonic Extension",
+            ("ion-toggle\tIonic Extension",
              'ion-toggle ng-model="${1:airplaneMode}" toggle-class="${2:toggle-calm}">${3:Airplane Mode}</ion-toggle>')
         ]
 
