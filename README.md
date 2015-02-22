@@ -95,8 +95,8 @@ But still the whole reference are put below in case of any doubts. Have fun. :)
  - [Radio Buttons](#css_radio)
  - [Range](#css_range)
  - [Select](#css_select)
- - Tabs
- - Utility
+ - [Tabs](#css_tabs)
+ - [Utility](#css_utility)
 
 **JavaScript**
  - Action Sheet
@@ -1357,5 +1357,248 @@ Trigger -  **ionic-select-stable:**
 		<option>opt2</option>
 	<select>
 </label>
+
+```
+
+<h2 id="css_tabs">Tabs</h2>
+
+Trigger -  **ionic-tabs-assertive:** 
+```HTML
+<div class="tabs tabs-assertive"></div>
+
+```
+Trigger -  **ionic-tabs-balanced:** 
+```HTML
+<div class="tabs tabs-balanced"></div>
+
+```
+Trigger -  **ionic-tabs-calm:** 
+```HTML
+<div class="tabs tabs-calm"></div>
+
+```
+Trigger -  **ionic-tabs-dark:** 
+```HTML
+<div class="tabs tabs-dark"></div>
+
+```
+Trigger -  **ionic-tabs-energized:** 
+```HTML
+<div class="tabs tabs-energized"></div>
+
+```
+Trigger -  **ionic-tabs-icon-left-assertive:** 
+```HTML
+<div class="tabs tabs-icon-left tabs-assertive"></div>
+
+```
+Trigger -  **ionic-tabs-icon-left-balanced:** 
+```HTML
+<div class="tabs tabs-icon-left tabs-balanced"></div>
+
+```
+Trigger -  **ionic-tabs-icon-left-calm:** 
+```HTML
+<div class="tabs tabs-icon-left tabs-calm"></div>
+
+```
+Trigger -  **ionic-tabs-icon-left-dark:** 
+```HTML
+<div class="tabs tabs-icon-left tabs-dark"></div>
+
+```
+Trigger -  **ionic-tabs-icon-left-energized:** 
+```HTML
+<div class="tabs tabs-icon-left tabs-energized"></div>
+
+```
+Trigger -  **ionic-tabs-icon-left-light:** 
+```HTML
+<div class="tabs tabs-icon-left tabs-light"></div>
+
+```
+Trigger -  **ionic-tabs-icon-left-positive:** 
+```HTML
+<div class="tabs tabs-icon-left tabs-positive"></div>
+
+```
+Trigger -  **ionic-tabs-icon-left-royal:** 
+```HTML
+<div class="tabs tabs-icon-left tabs-royal"></div>
+
+```
+Trigger -  **ionic-tabs-icon-left-stable:** 
+```HTML
+<div class="tabs tabs-icon-left tabs-stable"></div>
+
+```
+Trigger -  **ionic-tabs-icon-only-assertive:** 
+```HTML
+<div class="tabs tabs-icon-only tabs-assertive"></div>
+
+```
+Trigger -  **ionic-tabs-icon-only-balanced:** 
+```HTML
+<div class="tabs tabs-icon-only tabs-balanced"></div>
+
+```
+Trigger -  **ionic-tabs-icon-only-calm:** 
+```HTML
+<div class="tabs tabs-icon-only tabs-calm"></div>
+
+```
+Trigger -  **ionic-tabs-icon-only-dark:** 
+```HTML
+<div class="tabs tabs-icon-only tabs-dark"></div>
+
+```
+Trigger -  **ionic-tabs-icon-only-energized:** 
+```HTML
+<div class="tabs tabs-icon-only tabs-energized"></div>
+
+```
+Trigger -  **ionic-tabs-icon-only-light:** 
+```HTML
+<div class="tabs tabs-icon-only tabs-light"></div>
+
+```
+Trigger -  **ionic-tabs-icon-only-positive:** 
+```HTML
+<div class="tabs tabs-icon-only tabs-positive"></div>
+
+```
+Trigger -  **ionic-tabs-icon-only-royal:** 
+```HTML
+<div class="tabs tabs-icon-only tabs-royal"></div>
+
+```
+Trigger -  **ionic-tabs-icon-only-stable:** 
+```HTML
+<div class="tabs tabs-icon-only tabs-stable"></div>
+
+```
+Trigger -  **ionic-tabs-icon-top-assertive:** 
+```HTML
+<div class="tabs tabs-icon-top tabs-assertive"></div>
+
+```
+Trigger -  **ionic-tabs-icon-top-balanced:** 
+```HTML
+<div class="tabs tabs-icon-top tabs-balanced"></div>
+
+```
+Trigger -  **ionic-tabs-icon-top-calm:** 
+```HTML
+<div class="tabs tabs-icon-top tabs-calm"></div>
+
+```
+Trigger -  **ionic-tabs-icon-top-dark:** 
+```HTML
+<div class="tabs tabs-icon-top tabs-dark"></div>
+
+```
+Trigger -  **ionic-tabs-icon-top-energized:** 
+```HTML
+<div class="tabs tabs-icon-top tabs-energized"></div>
+
+```
+Trigger -  **ionic-tabs-icon-top-light:** 
+```HTML
+<div class="tabs tabs-icon-top tabs-light"></div>
+
+```
+Trigger -  **ionic-tabs-icon-top-positive:** 
+```HTML
+<div class="tabs tabs-icon-top tabs-positive"></div>
+
+```
+Trigger -  **ionic-tabs-icon-top-royal:** 
+```HTML
+<div class="tabs tabs-icon-top tabs-royal"></div>
+
+```
+Trigger -  **ionic-tabs-icon-top-stable:** 
+```HTML
+<div class="tabs tabs-icon-top tabs-stable"></div>
+
+```
+Trigger -  **ionic-tabs-item-icon:** 
+```HTML
+<a class="tab-item" href="#">
+	<i class="icon ion-home"></i>
+	
+</a>
+
+```
+Trigger -  **ionic-tabs-item:** 
+```HTML
+<a class="tab-item" href="#">
+	Tab}
+</a>
+
+```
+Trigger -  **ionic-tabs-light:** 
+```HTML
+<div class="tabs tabs-light"></div>
+
+```
+Trigger -  **ionic-tabs-positive:** 
+```HTML
+<div class="tabs tabs-positive"></div>
+
+```
+Trigger -  **ionic-tabs-royal:** 
+```HTML
+<div class="tabs tabs-royal"></div>
+
+```
+Trigger -  **ionic-tabs-stable:** 
+```HTML
+<div class="tabs tabs-stable"></div>
+
+```
+Trigger -  **ionic-tabs-striped-assertive:** 
+```HTML
+<div class="tabs-striped tabs-color-assertive"></div>
+
+```
+Trigger -  **ionic-tabs-striped-balanced:** 
+```HTML
+<div class="tabs-striped tabs-color-balanced"></div>
+
+```
+Trigger -  **ionic-tabs-striped-calm:** 
+```HTML
+<div class="tabs-striped tabs-color-calm"></div>
+
+```
+Trigger -  **ionic-tabs-striped-dark:** 
+```HTML
+<div class="tabs-striped tabs-color-dark"></div>
+
+```
+Trigger -  **ionic-tabs-striped-energized:** 
+```HTML
+<div class="tabs-striped tabs-color-energized"></div>
+
+```
+Trigger -  **ionic-tabs-striped-light:** 
+```HTML
+<div class="tabs-striped tabs-color-light"></div>
+
+```
+Trigger -  **ionic-tabs-striped-positive:** 
+```HTML
+<div class="tabs-striped tabs-color-positive"></div>
+
+```
+Trigger -  **ionic-tabs-striped-royal:** 
+```HTML
+<div class="tabs-striped tabs-color-royal"></div>
+
+```
+Trigger -  **ionic-tabs-striped-stable:** 
+```HTML
+<div class="tabs-striped tabs-color-stable"></div>
 
 ```
