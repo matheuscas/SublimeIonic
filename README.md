@@ -48,7 +48,7 @@ You can contribute submitting issues, forking and sending pull requests. Attempt
 
 The first one is a basic Sublime Text plugin file that handles the html only autocomplete. To change or add Ionic directives, please refer to **html_completions.py** file.
 
-Last one is a regular python script. It handles all snippets files generation (Do you think that I would create all these file by hand? ;) ). So, if you want to submit a new snippet or a fix to an existent one, please refer to **snippets.py** file.
+Last one is a regular python script. It handles all snippets files generation (Did you think that I would create all these file by hand?). So, if you want to submit a new snippet or a fix to an existent one, please refer to **snippets.py** file.
 
 Contribute and let's make a even better plugin to the awesome Ionic Framework. :D
 
@@ -73,13 +73,13 @@ I must say that [Ionic - Sublime Plugin](https://github.com/imsingh/ionic-sublim
 
 <h2 id="Reference">Reference</h2>
 
-First, you can easily find out how this plugin works in ST2/ST3 with the following tips:
- - In HTML you can type "<" followed by "ion" and all the directives will show up for you;
- - Still in HTML for CSS Components, just type "ionic-" and the snippets will popup for you;
+You can easily find out how this plugin works in ST2/ST3 with the following tips:
+ - In HTML you just need to type "<" followed by "ion" and all the directives will show up to you;
+ - Still in HTML for CSS Components, just type "ionic-" and the snippets will popup to you;
  - In a JS script, most of snippets are services. So just type "$" followed by "ionic" and the services will be there for you;
    - Exception are from Utility snippets, such as "ionic.Platform" ou "ionic.DomUtil". You will find this snippets typing "ionic" and following the capital letter case, looking for "ionicPlatform" and "ionicDomUtil" respectively. 
 
-But still the whole reference are put below in case of any doubts. Have fun. :)
+Nonetheless, the whole reference are put below in case of any doubts. Have fun. :)
 
 <h2 id="css_components">CSS Components</h2>
 
