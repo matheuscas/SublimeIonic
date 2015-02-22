@@ -114,7 +114,7 @@ But still the whole reference are put below in case of any doubts. Have fun. :)
  - [Side Menus](#js_side_menus)
  - [Slide Box](#js_slide_box)
  - [Tabs](#js_tabs)
- - Utility
+ - [Utility](#js_utility)
  
 **CSS Components**
 -------
@@ -2099,4 +2099,191 @@ Trigger -  **<ion-tabs :**
 Trigger -  **<ion-tab :** 
 ```HTML
 <ion-tab title="Title" href="tab-link" icon-on="icon_on" icon-off="icon_off"></ion-tab>
+```
+
+<h2 id="js_utility">Utility</h2>
+
+Trigger -  **$ionicConfigProvider.backButton.icon:** 
+```Javascript
+$ionicConfigProvider.backButton.icon(value)
+```
+Trigger -  **$ionicConfigProvider.backButton.previousTitleText:** 
+```Javascript
+$ionicConfigProvider.backButton.previousTitleText(value)
+```
+Trigger -  **$ionicConfigProvider.backButton.text:** 
+```Javascript
+$ionicConfigProvider.backButton.text(value)
+```
+Trigger -  **$ionicConfigProvider.navBar.alignTitle:** 
+```Javascript
+$ionicConfigProvider.navBar.alignTitle(value)
+```
+Trigger -  **$ionicConfigProvider.navBar.positionPrimaryButtons:** 
+```Javascript
+$ionicConfigProvider.navBar.positionPrimaryButtons(value)
+```
+Trigger -  **$ionicConfigProvider.navBar.positionSecondaryButtons:** 
+```Javascript
+$ionicConfigProvider.navBar.positionSecondaryButtons(value)
+```
+Trigger -  **$ionicConfigProvider.tabs.position:** 
+```Javascript
+$ionicConfigProvider.tabs.position(value)
+```
+Trigger -  **$ionicConfigProvider.tabs.style:** 
+```Javascript
+$ionicConfigProvider.tabs.style(value)
+```
+Trigger -  **$ionicConfigProvider.templates.maxPrefetch:** 
+```Javascript
+$ionicConfigProvider.templates.maxPrefetch(value)
+```
+Trigger -  **$ionicConfigProvider.views.forwardCache:** 
+```Javascript
+$ionicConfigProvider.views.forwardCache(value)
+```
+Trigger -  **$ionicConfigProvider.views.maxCache:** 
+```Javascript
+$ionicConfigProvider.views.maxCache(maxNumber)
+```
+Trigger -  **$ionicConfigProvider.views.transition:** 
+```Javascript
+$ionicConfigProvider.views.transition(transition)
+```
+Trigger -  **ionicDomUtil.animationFrameThrottle:** 
+```Javascript
+ionic.DomUtil.animationFrameThrottle(callback)
+```
+Trigger -  **ionicDomUtil.blurAll:** 
+```Javascript
+ionic.DomUtil.blurAll()
+```
+Trigger -  **ionicDomUtil.getChildIndex:** 
+```Javascript
+ionic.DomUtil.getChildIndex(element, type)
+```
+Trigger -  **ionicDomUtil.getParentOrSelfWithClass:** 
+```Javascript
+ionic.DomUtil.getParentOrSelfWithClass(element, className)
+```
+Trigger -  **ionicDomUtil.getParentWithClass:** 
+```Javascript
+ionic.DomUtil.getParentWithClass(element, className)
+```
+Trigger -  **ionicDomUtil.getPositionInParent:** 
+```Javascript
+ionic.DomUtil.getPositionInParent(element)
+```
+Trigger -  **ionicDomUtil.getTextBounds:** 
+```Javascript
+ionic.DomUtil.getTextBounds(textNode)
+```
+Trigger -  **ionicDomUtil.ready:** 
+```Javascript
+ionic.DomUtil.ready(callback)
+```
+Trigger -  **ionicDomUtil.rectContains:** 
+```Javascript
+ionic.DomUtil.rectContains(x, y, x1, y1, x2, y2)
+```
+Trigger -  **ionicDomUtil.requestAnimationFrame:** 
+```Javascript
+ionic.DomUtil.requestAnimationFrame(callback)
+```
+Trigger -  **ionicEventController.off:** 
+```Javascript
+ionic.EventController.off(type, callback, element)
+```
+Trigger -  **ionicEventController.offGesture:** 
+```Javascript
+ionic.EventController.offGesture(eventType, callback, element)
+```
+Trigger -  **ionicEventController.on:** 
+```Javascript
+ionic.EventController.on(type, callback, element)
+```
+Trigger -  **ionicEventController.onGesture:** 
+```Javascript
+ionic.EventController.onGesture(eventType, callback, element)
+```
+Trigger -  **ionicEventController.trigger:** 
+```Javascript
+ionic.EventController.trigger(eventType, data)
+```
+Trigger -  **ionicPlatform.device:** 
+```Javascript
+ionic.Platform.device()
+```
+Trigger -  **ionicPlatform.exitApp:** 
+```Javascript
+ionic.Platform.exitApp()
+```
+Trigger -  **ionicPlatform.fullScreen:** 
+```Javascript
+ionic.Platform.fullScreen()
+```
+Trigger -  **ionicPlatform.grade:** 
+```Javascript
+ionic.Platform.grade
+```
+Trigger -  **ionicPlatform.isAndroid:** 
+```Javascript
+ionic.Platform.isAndroid()
+```
+Trigger -  **ionicPlatform.isFullScreen:** 
+```Javascript
+ionic.Platform.isFullScreen
+```
+Trigger -  **ionicPlatform.isIOS:** 
+```Javascript
+ionic.Platform.isIOS()
+```
+Trigger -  **ionicPlatform.isIPad:** 
+```Javascript
+ionic.Platform.isIPad()
+```
+Trigger -  **ionicPlatform.isReady:** 
+```Javascript
+ionic.Platform.isReady
+```
+Trigger -  **ionicPlatform.isWebView:** 
+```Javascript
+ionic.Platform.isWebView()
+```
+Trigger -  **ionicPlatform.isWindowsPhone:** 
+```Javascript
+ionic.Platform.isWindowsPhone()
+```
+Trigger -  **ionicPlatform.platform:** 
+```Javascript
+ionic.Platform.platform()
+```
+Trigger -  **ionicPlatform.platforms:** 
+```Javascript
+ionic.Platform.platforms
+```
+Trigger -  **ionicPlatform.ready:** 
+```Javascript
+ionic.Platform.ready(callback)
+```
+Trigger -  **ionicPlatform.setGrade:** 
+```Javascript
+ionic.Platform.setGrade(grade)
+```
+Trigger -  **ionicPlatform.showStatusBar:** 
+```Javascript
+ionic.Platform.showStatusBar(shouldShow)
+```
+Trigger -  **ionicPlatform.version:** 
+```Javascript
+ionic.Platform.version()
+```
+Trigger -  **$ionicPosition.offset:** 
+```Javascript
+$ionicPosition.offset(element)
+```
+Trigger -  **$ionicPosition.position:** 
+```Javascript
+$ionicPosition.position(element)
 ```
