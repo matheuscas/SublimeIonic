@@ -82,12 +82,13 @@ First, you can easily find out how this plugin works in ST2/ST3 with the followi
 
 But still the whole reference are put below in case of any doubts. Have fun. :)
 
-**CSS Components**
+<h2 id="css_components">CSS Components</h2>
+
  - [Header](#css_header)
  - [Footer](#css_footer)
  - [Buttons](#css_buttons)
  - [Lists](#css_lists)
- - Cards
+ - [Cards](#css_cards)
  - Forms
  - Toggle
  - Checkbox
@@ -664,4 +665,111 @@ Trigger -  **ionic-item:**
 Trigger -  **ionic-list-inset:** 
 ```
 <div class="list list-inset"></div>
+```
+
+<h2 id="css_cards">Cards</h2>
+
+Trigger -  **ionic-card-footer:** 
+```
+<div class="card">
+	<div class="item item-text-wrap">
+		desc
+	</div>
+	<div class="item item-divider">
+		footer
+	</div>
+</div>
+```
+Trigger -  **ionic-card-header-footer:** 
+```
+<div class="card">
+	<div class="item item-divider">
+		header
+	</div>
+	<div class="item item-text-wrap">
+		desc
+	</div>
+	<div class="item item-divider">
+		footer
+	</div>
+</div>
+```
+Trigger -  **ionic-card-header:** 
+```
+<div class="card">
+	<div class="item item-divider">
+		header
+	</div>
+	<div class="item item-text-wrap">
+		desc
+	</div>
+</div>
+```
+Trigger -  **ionic-card-image:** 
+```
+<div class="item item-avatar" href="#">
+	<img src="image_source">
+	<h2>title</h2>
+	<p>description</p>
+</div>
+<div class="item item-image">
+	<img src="image_source">
+</div>
+<a class="item item-icon-left assertive" href="#">
+	<i class="icon ionicon"></i>
+	text_link
+</a>
+```
+Trigger -  **ionic-card-list-item:** 
+```
+<a href="#" class="item item-icon-left">
+	<i class="icon ionicon"></i>
+	desc
+</a>
+```
+Trigger -  **ionic-card-list:** 
+```
+<div class="list card">
+	
+</div>
+```
+Trigger -  **ionic-card-showcase:** 
+```
+<div class="item item-avatar" href="#">
+	<img src="image_source">
+	<h2>title</h2>
+	<p>description</p>
+</div>
+<div class="item item-body">
+	<img class="full-image" src="image_source">
+	<p>description</p>
+	<p>
+		<a href="#" class="subdued">1 Like</a>
+		<a href="#" class="subdued">5 Comments</a>
+	</p>
+</div>
+
+<div class="item tabs tabs-secondary tabs-icon-left">
+	<a class="tab-item" href="#">
+		<i class="icon ion-thumbsup"></i>
+		Like
+	</a>
+	<a class="tab-item" href="#">
+		<i class="icon ion-chatbox"></i>
+		Comments
+	</a>
+	<a class="tab-item" href="#">
+		<i class="icon ion-share"></i>
+		Share
+	</a>
+</div>
+
+```
+Trigger -  **ionic-card:** 
+```
+<div class="card">
+	<div class="item item-text-wrap">
+		desc
+	</div>
+</div>
 ```
