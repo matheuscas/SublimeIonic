@@ -102,8 +102,7 @@ But still the whole reference are put below in case of any doubts. Have fun. :)
  - [Backdrop](#js_backdrop)
  - [Content](#js_content)
  - [Form Inputs](#js_form_input)
- - Gesture
- - Headers/Footers
+ - Headers/Footers(#js_headers_footers)
  - Lists
  - Loading
  - Modal
@@ -1695,7 +1694,7 @@ Trigger -  **<ion-pane :**
 <ion-pane></ion-pane>
 ```
 
-<h2 id="#js_form_input">Form Inputs</h2>
+<h2 id="js_form_input">Form Inputs</h2>
 
 Trigger -  **<ion-checkbox :** 
 ```HTML
@@ -1708,4 +1707,15 @@ Trigger -  **<ion-radio :**
 Trigger -  **<ion-toogle :** 
 ```HTML
 <ion-toggle ng-model="airplaneMode" toggle-class="toggle-calm">Airplane Mode</ion-toggle>
+```
+
+<h2 id="js_headers_footers">Headers/Footers</h2>
+
+Trigger -  **<ion-header-bar :** 
+```HTML
+<ion-header-bar align-title="left" class="bar-positive"></ion-header-bar>
+```
+Trigger -  **<ion-footer-bar :** 
+```HTML
+<ion-footer-bar ion-footer-bar align-title="left" class="bar-assertive"></ion-footer-bar>
 ```
