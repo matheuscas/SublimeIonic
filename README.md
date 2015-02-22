@@ -106,7 +106,7 @@ But still the whole reference are put below in case of any doubts. Have fun. :)
  - [Lists](#js_lists)
  - [Loading](#js_loading)
  - [Modal](#js_modal)
- - Navigation
+ - [Navigation](#js_navigation)
  - Platform
  - Popover
  - Popup
@@ -1785,4 +1785,146 @@ $ionicModal.fromTemplateUrl(templateUrl, options)
 Trigger -  **<ion-modal-view :** 
 ```HTML
 <ion-modal-view></ion-modal-view>
+```
+
+<h2 id="js_navigation">Navigation</h2>
+
+Trigger -  **$ionicHistory.backTitle:** 
+```Javascript
+$ionicHistory.backTitle()
+```
+Trigger -  **$ionicHistory.backView:** 
+```Javascript
+$ionicHistory.backView()
+```
+Trigger -  **$ionicHistory.clearCache:** 
+```Javascript
+$ionicHistory.clearCache()
+```
+Trigger -  **$ionicHistory.clearHistory:** 
+```Javascript
+$ionicHistory.clearHistory()
+```
+Trigger -  **$ionicHistory.currentHistoryId:** 
+```Javascript
+$ionicHistory.currentHistoryId()
+```
+Trigger -  **$ionicHistory.currentStateName:** 
+```Javascript
+$ionicHistory.currentStateName()
+```
+Trigger -  **$ionicHistory.currentTitle:** 
+```Javascript
+$ionicHistory.currentTitle(val)
+```
+Trigger -  **$ionicHistory.currentView:** 
+```Javascript
+$ionicHistory.currentView()
+```
+Trigger -  **$ionicHistory.forwardView:** 
+```Javascript
+$ionicHistory.forwardView()
+```
+Trigger -  **$ionicHistory.goBack:** 
+```Javascript
+$ionicHistory.goBack()
+```
+Trigger -  **$ionicHistory.nextViewOptions:** 
+```Javascript
+$ionicHistory.nextViewOptions(
+	disableAnimate: true,
+ 	disableBack: true
+)
+```
+Trigger -  **$ionicHistory.viewHistory:** 
+```Javascript
+$ionicHistory.viewHistory()
+```
+Trigger -  **$ionicNavBarDelegate.align:** 
+```Javascript
+$ionicNavBarDelegate.align(direction)
+```
+Trigger -  **$ionicNavBarDelegate.back:** 
+```Javascript
+$ionicNavBarDelegate.back()
+```
+Trigger -  **$ionicNavBarDelegate.showBackButton:** 
+```Javascript
+$ionicNavBarDelegate.showBackButton(show)
+```
+Trigger -  **$ionicNavBarDelegate.showBar:** 
+```Javascript
+$ionicNavBarDelegate.showBar(show)
+```
+Trigger -  **$ionicNavBarDelegate.title:** 
+```Javascript
+$ionicNavBarDelegate.title(title)
+```
+Trigger -  **$ionicView.afterEnter:** 
+```Javascript
+$scope.$on("$ionicView.afterEnter", function () {
+
+});
+```
+Trigger -  **$ionicView.afterLeave:** 
+```Javascript
+$scope.$on("$ionicView.afterLeave", function () {
+
+});
+```
+Trigger -  **$ionicView.beforeEnter:** 
+```Javascript
+$scope.$on("$ionicView.beforeEnter", function () {
+
+});
+```
+Trigger -  **$ionicView.beforeLeave:** 
+```Javascript
+$scope.$on("$ionicView.beforeLeave", function () {
+
+});
+```
+Trigger -  **$ionicView.enter:** 
+```Javascript
+$scope.$on("$ionicView.enter", function () {
+
+});
+```
+Trigger -  **$ionicView.leave:** 
+```Javascript
+$scope.$on("$ionicView.leave", function () {
+
+});
+```
+Trigger -  **$ionicView.loaded:** 
+```Javascript
+$scope.$on("$ionicView.loaded", function () {
+
+});
+```
+Trigger -  **$ionicView.unloaded:** 
+```Javascript
+$scope.$on("$ionicView.unloaded", function () {
+
+});
+```
+Trigger -  **<ion-nav-view :** 
+```HTML
+<ion-nav-view view-title="Your Title!"></ion-view>
+```
+Trigger -  **<ion-nav-bar :** 
+```HTML
+<ion-nav-bar class="bar-positive" align-title="left"></ion-nav-bar>
+```
+Trigger -  **<ion-nav-buttons :** 
+```HTML
+<ion-nav-buttons side="primary"></ion-nav-buttons>
+```
+Trigger -  **<ion-nav-back-button :** 
+```HTML
+<ion-nav-back-button class="button-clear"></ion-nav-back-button>
+```
+Trigger -  **<ion-nav-title :** 
+```HTML
+<ion-nav-title></ion-nav-title>
 ```
