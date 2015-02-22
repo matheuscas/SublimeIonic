@@ -86,7 +86,7 @@ But still the whole reference are put below in case of any doubts. Have fun. :)
  - [Header](#css_header)
  - [Footer](#css_footer)
  - [Buttons](#css_buttons)
- - List
+ - [Lists](#css_lists)
  - Cards
  - Forms
  - Toggle
@@ -596,4 +596,72 @@ Trigger -  **ionic-button-small-stable:**
 Trigger -  **ionic-button-stable:** 
 ```
 <button class="button button-stable"></button>
+```
+
+<h2 id="css_lists">Lists</h2>
+
+Trigger -  **ionic-collection-repeat:** 
+```
+<div class="item your_item_css_class}"
+	collection-repeat="item in items"
+	collection-item-width="'100%'"
+	collection-item-height="getItemHeight(item, $index)"
+	ng-style="{height: getItemHeight(item, $index)}\">
+</div>
+```
+Trigger -  **ionic-item-avatar:** 
+```
+<a class="item item-avatar" href="#">
+	<img src="image_source">
+	<h2>title</h2>
+	<p>description</p>
+</a>
+```
+Trigger -  **ionic-item-button-left:** 
+```
+<a class="item item-button-left" href="#"></a>
+```
+Trigger -  **ionic-item-button-right:** 
+```
+<a class="item item-button-right" href="#"></a>
+```
+Trigger -  **ionic-item-divider:** 
+```
+<div class="item item-divider"></div>
+```
+Trigger -  **ionic-item-icon-left-right:** 
+```
+<a class="item item-icon-left item-icon-right" href="#"></a>
+```
+Trigger -  **ionic-item-icon-left:** 
+```
+<a class="item item-icon-left" href="#"></a>
+```
+Trigger -  **ionic-item-icon-right:** 
+```
+<a class="item item-icon-right" href="#"></a>
+```
+Trigger -  **ionic-item-thumbnail-left:** 
+```
+<a class="item item-thumbnail-left" href="#">
+	<img src="image_source">
+	<h2>title</h2>
+	<p>description</p>
+</a>
+```
+Trigger -  **ionic-item-thumbnail-right:** 
+```
+<a class="item item-thumbnail-right" href="#">
+	<img src="image_source">
+	<h2>title</h2>
+	<p>description</p>
+</a>
+```
+Trigger -  **ionic-item:** 
+```
+<a class="item"></a>
+```
+Trigger -  **ionic-list-inset:** 
+```
+<div class="list list-inset"></div>
 ```
