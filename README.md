@@ -104,7 +104,7 @@ But still the whole reference are put below in case of any doubts. Have fun. :)
  - [Form Inputs](#js_form_input)
  - [Headers/Footers](#js_headers_footers)
  - [Lists](#js_lists)
- - Loading
+ - [Loading](#js_loading)
  - Modal
  - Navigation
  - Platform
@@ -1757,4 +1757,17 @@ Trigger -  **<ion-reorder-button :**
 Trigger -  **<ion-option-button :** 
 ```HTML
 <ion-option-button class="button-positive"></ion-option-button>
+```
+
+<h2 id="js_loading">Loading</h2>
+
+Trigger -  **$ionicLoading.hide:** 
+```Javascript
+$ionicLoading.hide()
+```
+Trigger -  **$ionicLoading.show:** 
+```Javascript
+$ionicLoading.show({
+	template: "Loading..."
+});
 ```
