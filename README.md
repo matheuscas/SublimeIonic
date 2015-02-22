@@ -91,7 +91,7 @@ But still the whole reference are put below in case of any doubts. Have fun. :)
  - [Cards](#css_cards)
  - [Forms](#css_forms)
  - [Toggle](#css_toggle)
- - Checkbox
+ - [Checkbox](#css_checkbox)
  - Radio Buttons
  - Range
  - Select
@@ -951,6 +951,99 @@ Trigger -  **ionic-toggle-stable:**
 			<div class="handle"></div>
 		</div>
 	</label>
+</li>
+
+```
+
+<h2 id="css_checkbox">Checkbox</h2>
+
+Trigger -  **ionic-checkbox-assertive:** 
+```HTML
+<li class="item item-checkbox">
+	<label class="checkbox checkbox-assertive">
+		<input type="checkbox">
+	</label>
+	desc
+</li>
+
+```
+Trigger -  **ionic-checkbox-balanced:** 
+```HTML
+<li class="item item-checkbox">
+	<label class="checkbox checkbox-balanced">
+		<input type="checkbox">
+	</label>
+	desc
+</li>
+
+```
+Trigger -  **ionic-checkbox-calm:** 
+```HTML
+<li class="item item-checkbox">
+	<label class="checkbox checkbox-calm">
+		<input type="checkbox">
+	</label>
+	desc
+</li>
+
+```
+Trigger -  **ionic-checkbox-dark:** 
+```HTML
+<li class="item item-checkbox">
+	<label class="checkbox checkbox-dark">
+		<input type="checkbox">
+	</label>
+	desc
+</li>
+
+```
+Trigger -  **ionic-checkbox-energized:** 
+```HTML
+<li class="item item-checkbox">
+	<label class="checkbox checkbox-energized">
+		<input type="checkbox">
+	</label>
+	desc
+</li>
+
+```
+Trigger -  **ionic-checkbox-light:** 
+```HTML
+<li class="item item-checkbox">
+	<label class="checkbox checkbox-light">
+		<input type="checkbox">
+	</label>
+	desc
+</li>
+
+```
+Trigger -  **ionic-checkbox-positive:** 
+```HTML
+<li class="item item-checkbox">
+	<label class="checkbox checkbox-positive">
+		<input type="checkbox">
+	</label>
+	desc
+</li>
+
+```
+Trigger -  **ionic-checkbox-royal:** 
+```HTML
+<li class="item item-checkbox">
+	<label class="checkbox checkbox-royal">
+		<input type="checkbox">
+	</label>
+	desc
+</li>
+
+```
+Trigger -  **ionic-checkbox-stable:** 
+```HTML
+<li class="item item-checkbox">
+	<label class="checkbox checkbox-stable">
+		<input type="checkbox">
+	</label>
+	desc
 </li>
 
 ```
