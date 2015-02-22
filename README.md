@@ -1695,7 +1695,7 @@ Trigger -  **<ion-pane :**
 <ion-pane></ion-pane>
 ```
 
-<h2 id="js_form_inputs">Form Inputs</h2>
+<h2 id="#js_form_input">Form Inputs</h2>
 
 Trigger -  **<ion-checkbox :** 
 ```HTML
