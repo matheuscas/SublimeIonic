@@ -71,8 +71,7 @@ They are far from the covering of this plugin, however they have a different app
 
 I must say that [Ionic - Sublime Plugin](https://github.com/imsingh/ionic-sublime-plugin) was my inspiration. In early releases I even contribute to the plugin. But I wanted more control over the what would be generated, so I developed this plugin.
 
-Reference
----------
+<h2 id="Reference">Reference</h2>
 
 First, you can easily find out how this plugin works in ST2/ST3 with the following tips:
  - In HTML you can type "<" followed by "ion" and all the directives will show up for you;
@@ -102,7 +101,7 @@ But still the whole reference are put below in case of any doubts. Have fun. :)
  - [Action Sheet](#js_action_sheet)
  - [Backdrop](#js_backdrop)
  - [Content](#js_content)
- - Form Inputs
+ - [Form Inputs](#js_form_input)
  - Gesture
  - Headers/Footers
  - Lists
@@ -1682,4 +1681,31 @@ $ionicScrollDelegate.zoomBy(factor, animate, originLeft, originTop)
 Trigger -  **$ionicScrollDelegate.zoomTo:** 
 ```Javascript
 $ionicScrollDelegate.zoomTo(level, animate, originLeft, originTop)
+```
+Trigger -  **<ion-content :** 
+```HTML
+<ion-content has-subheader="false"></ion-content>
+```
+Trigger -  **<ion-refresher :** 
+```HTML
+<ion-refresher pulling-text="Pull to refresh..." on-refresh="doRefresh()"></ion-refresher>
+```
+Trigger -  **<ion-pane :** 
+```HTML
+<ion-pane></ion-pane>
+```
+
+<h2 id="js_form_inputs">Form Inputs</h2>
+
+Trigger -  **<ion-checkbox :** 
+```HTML
+<ion-checkbox ng-model="isChecked">Checkbox Label</ion-checkbox>
+```
+Trigger -  **<ion-radio :** 
+```HTML
+<ion-radio ng-model="choice" ng-value="\'A\'">Choose A</ion-radio>
+```
+Trigger -  **<ion-toogle :** 
+```HTML
+<ion-toggle ng-model="airplaneMode" toggle-class="toggle-calm">Airplane Mode</ion-toggle>
 ```
