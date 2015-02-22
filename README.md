@@ -92,7 +92,7 @@ But still the whole reference are put below in case of any doubts. Have fun. :)
  - [Forms](#css_forms)
  - [Toggle](#css_toggle)
  - [Checkbox](#css_checkbox)
- - Radio Buttons
+ - [Radio Buttons](#css_radio)
  - Range
  - Select
  - Tabs
@@ -1046,4 +1046,17 @@ Trigger -  **ionic-checkbox-stable:**
 	desc
 </li>
 
+```
+
+<h2 id="css_radio">Radio Buttons</h2>
+
+Trigger -  **ionic-radio-button:** 
+```HTML
+<label class="item item-radio">
+	<input type="radio" name="group">
+	<div class="item-content">
+		desc
+	</div>
+	<i class="radio-icon ion-checkmark"></i>
+</label>
 ```
