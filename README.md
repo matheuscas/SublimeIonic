@@ -100,7 +100,7 @@ But still the whole reference are put below in case of any doubts. Have fun. :)
 <h2 id="js_snippets">Javascript</h2>
 
  - [Action Sheet](#js_action_sheet)
- - Backdrop
+ - [Backdrop](#js_backdrop)
  - Content
  - Form Inputs
  - Gesture
@@ -1624,4 +1624,15 @@ $ionicActionSheet.show({
 			return true;
 		}
 });
+```
+
+<h2 id="js_backdrop">Backdrop</h2>
+
+Trigger -  **$ionicBackdrop.release:** 
+```Javascript
+$ionicBackdrop.release();
+```
+Trigger -  **$ionicBackdrop.retain:** 
+```Javascript
+$ionicBackdrop.retain();
 ```
