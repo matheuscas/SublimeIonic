@@ -108,7 +108,7 @@ But still the whole reference are put below in case of any doubts. Have fun. :)
  - [Modal](#js_modal)
  - [Navigation](#js_navigation)
  - [Platform](#js_platform)
- - Popover
+ - [Popover](#js_popover)
  - Popup
  - Scroll
  - Side Menus
@@ -1950,4 +1950,19 @@ $ionicPlatform.ready()
 Trigger -  **$ionicPlatform.registerBackButtonAction:** 
 ```Javascript
 $ionicPlatform.registerBackButtonAction(callback, priority)
+```
+
+<h2 id="js_popover">Popover</h2>
+
+Trigger -  **$ionicPopover.fromTemplate:** 
+```Javascript
+$ionicPopover.fromTemplate(templateString, {
+ 	options
+});
+```
+Trigger -  **$ionicPopover.fromTemplateUrl:** 
+```Javascript
+$ionicPopover.fromTemplateUrl(templateUrl, {
+ 	options
+})
 ```
