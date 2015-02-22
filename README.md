@@ -113,7 +113,7 @@ But still the whole reference are put below in case of any doubts. Have fun. :)
  - [Scroll](#js_scroll)
  - [Side Menus](#js_side_menus)
  - [Slide Box](#js_slide_box)
- - Tabs
+ - [Tabs](#js_tabs)
  - Utility
  
 **CSS Components**
@@ -2077,3 +2077,26 @@ Trigger -  **<ion-slide-box :**
 Trigger -  **<ion-slide :** 
 ```HTML
 <ion-slide></ion-slide>
+```
+
+<h2 id="js_tabs">Tabs</h2>
+Trigger -  **$ionicTabsDelegate.$getByHandle:** 
+```Javascript
+$ionicTabsDelegate.$getByHandle(handle)
+```
+Trigger -  **$ionicTabsDelegate.select:** 
+```Javascript
+$ionicTabsDelegate.select(index)
+```
+Trigger -  **$ionicTabsDelegate.selectedIndex:** 
+```Javascript
+$ionicTabsDelegate.selectedIndex()
+```
+Trigger -  **<ion-tabs :** 
+```HTML
+<ion-tabs class="tabs-positive tabs-icon-only"></ion-tabs>
+```
+Trigger -  **<ion-tab :** 
+```HTML
+<ion-tab title="Title" href="tab-link" icon-on="icon_on" icon-off="icon_off"></ion-tab>
+```
