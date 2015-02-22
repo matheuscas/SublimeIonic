@@ -94,7 +94,7 @@ But still the whole reference are put below in case of any doubts. Have fun. :)
  - [Checkbox](#css_checkbox)
  - [Radio Buttons](#css_radio)
  - [Range](#css_range)
- - Select
+ - [Select](#css_select)
  - Tabs
  - Utility
 
@@ -1237,5 +1237,125 @@ Trigger -  **ionic-range-stable:**
 	<i class="icon ion-volume-high"></i>
 
 </div>
+
+```
+
+<h2 id="css_select">Select</h2>
+
+Trigger -  **ionic-select-assertive:** 
+```HTML
+<label class="item item-input item-select item-assertive">
+	<div class="input-label">
+		desc
+	</div>
+	<select>
+		<option selected>opt1</option>
+		<option>opt2</option>
+	<select>
+</label>
+
+```
+Trigger -  **ionic-select-balanced:** 
+```HTML
+<label class="item item-input item-select item-balanced">
+	<div class="input-label">
+		desc
+	</div>
+	<select>
+		<option selected>opt1</option>
+		<option>opt2</option>
+	<select>
+</label>
+
+```
+Trigger -  **ionic-select-calm:** 
+```HTML
+<label class="item item-input item-select item-calm">
+	<div class="input-label">
+		desc
+	</div>
+	<select>
+		<option selected>opt1</option>
+		<option>opt2</option>
+	<select>
+</label>
+
+```
+Trigger -  **ionic-select-dark:** 
+```HTML
+<label class="item item-input item-select item-dark">
+	<div class="input-label">
+		desc
+	</div>
+	<select>
+		<option selected>opt1</option>
+		<option>opt2</option>
+	<select>
+</label>
+
+```
+Trigger -  **ionic-select-energized:** 
+```HTML
+<label class="item item-input item-select item-energized">
+	<div class="input-label">
+		desc
+	</div>
+	<select>
+		<option selected>opt1</option>
+		<option>opt2</option>
+	<select>
+</label>
+
+```
+Trigger -  **ionic-select-light:** 
+```HTML
+<label class="item item-input item-select item-light">
+	<div class="input-label">
+		desc
+	</div>
+	<select>
+		<option selected>opt1</option>
+		<option>opt2</option>
+	<select>
+</label>
+
+```
+Trigger -  **ionic-select-positive:** 
+```HTML
+<label class="item item-input item-select item-positive">
+	<div class="input-label">
+		desc
+	</div>
+	<select>
+		<option selected>opt1</option>
+		<option>opt2</option>
+	<select>
+</label>
+
+```
+Trigger -  **ionic-select-royal:** 
+```HTML
+<label class="item item-input item-select item-royal">
+	<div class="input-label">
+		desc
+	</div>
+	<select>
+		<option selected>opt1</option>
+		<option>opt2</option>
+	<select>
+</label>
+
+```
+Trigger -  **ionic-select-stable:** 
+```HTML
+<label class="item item-input item-select item-stable">
+	<div class="input-label">
+		desc
+	</div>
+	<select>
+		<option selected>opt1</option>
+		<option>opt2</option>
+	<select>
+</label>
 
 ```
