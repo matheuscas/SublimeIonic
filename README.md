@@ -84,8 +84,8 @@ But still the whole reference are put below in case of any doubts. Have fun. :)
 
 **CSS Components**
  - [Header](#css_header)
- - [Footer](#css_foo)
- - Buttons
+ - [Footer](#css_footer)
+ - [Buttons](#css_buttons)
  - List
  - Cards
  - Forms
@@ -179,6 +179,7 @@ Trigger -  **ionic-header-stable:**
 ```
 
 <h2 id="css_footer">Footer</h2>
+
 Trigger -  **ionic-footer-assertive:** 
 ```
 <div class="bar bar-footer bar-assertive"> 
@@ -234,3 +235,365 @@ Trigger -  **ionic-footer-stable:**
 </div>
 ```
 
+<h2 id="css_buttons">Buttons</h2>
+
+Trigger -  **ionic-button-assertive:** 
+```
+<button class="button button-assertive"></button>
+```
+Trigger -  **ionic-button-balanced:** 
+```
+<button class="button button-balanced"></button>
+```
+Trigger -  **ionic-button-bar-assertive:** 
+```
+<div class="button-bar bar-assertive"></div>
+```
+Trigger -  **ionic-button-bar-balanced:** 
+```
+<div class="button-bar bar-balanced"></div>
+```
+Trigger -  **ionic-button-bar-calm:** 
+```
+<div class="button-bar bar-calm"></div>
+```
+Trigger -  **ionic-button-bar-dark:** 
+```
+<div class="button-bar bar-dark"></div>
+```
+Trigger -  **ionic-button-bar-energized:** 
+```
+<div class="button-bar bar-energized"></div>
+```
+Trigger -  **ionic-button-bar-light:** 
+```
+<div class="button-bar bar-light"></div>
+```
+Trigger -  **ionic-button-bar-positive:** 
+```
+<div class="button-bar bar-positive"></div>
+```
+Trigger -  **ionic-button-bar-royal:** 
+```
+<div class="button-bar bar-royal"></div>
+```
+Trigger -  **ionic-button-bar-stable:** 
+```
+<div class="button-bar bar-stable"></div>
+```
+Trigger -  **ionic-button-block-assertive:** 
+```
+<button class="button button-block button-assertive"></button>
+```
+Trigger -  **ionic-button-block-balanced:** 
+```
+<button class="button button-block button-balanced"></button>
+```
+Trigger -  **ionic-button-block-calm:** 
+```
+<button class="button button-block button-calm"></button>
+```
+Trigger -  **ionic-button-block-dark:** 
+```
+<button class="button button-block button-dark"></button>
+```
+Trigger -  **ionic-button-block-energized:** 
+```
+<button class="button button-block button-energized"></button>
+```
+Trigger -  **ionic-button-block-light:** 
+```
+<button class="button button-block button-light"></button>
+```
+Trigger -  **ionic-button-block-positive:** 
+```
+<button class="button button-block button-positive"></button>
+```
+Trigger -  **ionic-button-block-royal:** 
+```
+<button class="button button-block button-royal"></button>
+```
+Trigger -  **ionic-button-block-stable:** 
+```
+<button class="button button-block button-stable"></button>
+```
+Trigger -  **ionic-button-calm:** 
+```
+<button class="button button-calm"></button>
+```
+Trigger -  **ionic-button-clear-assertive:** 
+```
+<button class="button button-clear button-assertive"></button>
+```
+Trigger -  **ionic-button-clear-balanced:** 
+```
+<button class="button button-clear button-balanced"></button>
+```
+Trigger -  **ionic-button-clear-calm:** 
+```
+<button class="button button-clear button-calm"></button>
+```
+Trigger -  **ionic-button-clear-dark:** 
+```
+<button class="button button-clear button-dark"></button>
+```
+Trigger -  **ionic-button-clear-energized:** 
+```
+<button class="button button-clear button-energized"></button>
+```
+Trigger -  **ionic-button-clear-light:** 
+```
+<button class="button button-clear button-light"></button>
+```
+Trigger -  **ionic-button-clear-positive:** 
+```
+<button class="button button-clear button-positive"></button>
+```
+Trigger -  **ionic-button-clear-royal:** 
+```
+<button class="button button-clear button-royal"></button>
+```
+Trigger -  **ionic-button-clear-stable:** 
+```
+<button class="button button-clear button-stable"></button>
+```
+Trigger -  **ionic-button-dark:** 
+```
+<button class="button button-dark"></button>
+```
+Trigger -  **ionic-button-energized:** 
+```
+<button class="button button-energized"></button>
+```
+Trigger -  **ionic-button-full-assertive:** 
+```
+<button class="button button-full button-assertive"></button>
+```
+Trigger -  **ionic-button-full-balanced:** 
+```
+<button class="button button-full button-balanced"></button>
+```
+Trigger -  **ionic-button-full-calm:** 
+```
+<button class="button button-full button-calm"></button>
+```
+Trigger -  **ionic-button-full-dark:** 
+```
+<button class="button button-full button-dark"></button>
+```
+Trigger -  **ionic-button-full-energized:** 
+```
+<button class="button button-full button-energized"></button>
+```
+Trigger -  **ionic-button-full-light:** 
+```
+<button class="button button-full button-light"></button>
+```
+Trigger -  **ionic-button-full-positive:** 
+```
+<button class="button button-full button-positive"></button>
+```
+Trigger -  **ionic-button-full-royal:** 
+```
+<button class="button button-full button-royal"></button>
+```
+Trigger -  **ionic-button-full-stable:** 
+```
+<button class="button button-full button-stable"></button>
+```
+Trigger -  **ionic-button-icon-left-assertive:** 
+```
+<button class="button icon-left ionicon button-assertive"></button>
+```
+Trigger -  **ionic-button-icon-left-balanced:** 
+```
+<button class="button icon-left ionicon button-balanced"></button>
+```
+Trigger -  **ionic-button-icon-left-calm:** 
+```
+<button class="button icon-left ionicon button-calm"></button>
+```
+Trigger -  **ionic-button-icon-left-dark:** 
+```
+<button class="button icon-left ionicon button-dark"></button>
+```
+Trigger -  **ionic-button-icon-left-energized:** 
+```
+<button class="button icon-left ionicon button-energized"></button>
+```
+Trigger -  **ionic-button-icon-left-light:** 
+```
+<button class="button icon-left ionicon button-light"></button>
+```
+Trigger -  **ionic-button-icon-left-positive:** 
+```
+<button class="button icon-left ionicon button-positive"></button>
+```
+Trigger -  **ionic-button-icon-left-royal:** 
+```
+<button class="button icon-left ionicon button-royal"></button>
+```
+Trigger -  **ionic-button-icon-left-stable:** 
+```
+<button class="button icon-left ionicon button-stable"></button>
+```
+Trigger -  **ionic-button-icon-right-assertive:** 
+```
+<button class="button icon-right ionicon button-assertive"></button>
+```
+Trigger -  **ionic-button-icon-right-balanced:** 
+```
+<button class="button icon-right ionicon button-balanced"></button>
+```
+Trigger -  **ionic-button-icon-right-calm:** 
+```
+<button class="button icon-right ionicon button-calm"></button>
+```
+Trigger -  **ionic-button-icon-right-dark:** 
+```
+<button class="button icon-right ionicon button-dark"></button>
+```
+Trigger -  **ionic-button-icon-right-energized:** 
+```
+<button class="button icon-right ionicon button-energized"></button>
+```
+Trigger -  **ionic-button-icon-right-light:** 
+```
+<button class="button icon-right ionicon button-light"></button>
+```
+Trigger -  **ionic-button-icon-right-positive:** 
+```
+<button class="button icon-right ionicon button-positive"></button>
+```
+Trigger -  **ionic-button-icon-right-royal:** 
+```
+<button class="button icon-right ionicon button-royal"></button>
+```
+Trigger -  **ionic-button-icon-right-stable:** 
+```
+<button class="button icon-right ionicon button-stable"></button>
+```
+Trigger -  **ionic-button-large-assertive:** 
+```
+<button class="button button-large button-assertive"></button>
+```
+Trigger -  **ionic-button-large-balanced:** 
+```
+<button class="button button-large button-balanced"></button>
+```
+Trigger -  **ionic-button-large-calm:** 
+```
+<button class="button button-large button-calm"></button>
+```
+Trigger -  **ionic-button-large-dark:** 
+```
+<button class="button button-large button-dark"></button>
+```
+Trigger -  **ionic-button-large-energized:** 
+```
+<button class="button button-large button-energized"></button>
+```
+Trigger -  **ionic-button-large-light:** 
+```
+<button class="button button-large button-light"></button>
+```
+Trigger -  **ionic-button-large-positive:** 
+```
+<button class="button button-large button-positive"></button>
+```
+Trigger -  **ionic-button-large-royal:** 
+```
+<button class="button button-large button-royal"></button>
+```
+Trigger -  **ionic-button-large-stable:** 
+```
+<button class="button button-large button-stable"></button>
+```
+Trigger -  **ionic-button-light:** 
+```
+<button class="button button-light"></button>
+```
+Trigger -  **ionic-button-outline-assertive:** 
+```
+<button class="button button-outline button-assertive"></button>
+```
+Trigger -  **ionic-button-outline-balanced:** 
+```
+<button class="button button-outline button-balanced"></button>
+```
+Trigger -  **ionic-button-outline-calm:** 
+```
+<button class="button button-outline button-calm"></button>
+```
+Trigger -  **ionic-button-outline-dark:** 
+```
+<button class="button button-outline button-dark"></button>
+```
+Trigger -  **ionic-button-outline-energized:** 
+```
+<button class="button button-outline button-energized"></button>
+```
+Trigger -  **ionic-button-outline-light:** 
+```
+<button class="button button-outline button-light"></button>
+```
+Trigger -  **ionic-button-outline-positive:** 
+```
+<button class="button button-outline button-positive"></button>
+```
+Trigger -  **ionic-button-outline-royal:** 
+```
+<button class="button button-outline button-royal"></button>
+```
+Trigger -  **ionic-button-outline-stable:** 
+```
+<button class="button button-outline button-stable"></button>
+```
+Trigger -  **ionic-button-positive:** 
+```
+<button class="button button-positive"></button>
+```
+Trigger -  **ionic-button-royal:** 
+```
+<button class="button button-royal"></button>
+```
+Trigger -  **ionic-button-small-assertive:** 
+```
+<button class="button button-small button-assertive"></button>
+```
+Trigger -  **ionic-button-small-balanced:** 
+```
+<button class="button button-small button-balanced"></button>
+```
+Trigger -  **ionic-button-small-calm:** 
+```
+<button class="button button-small button-calm"></button>
+```
+Trigger -  **ionic-button-small-dark:** 
+```
+<button class="button button-small button-dark"></button>
+```
+Trigger -  **ionic-button-small-energized:** 
+```
+<button class="button button-small button-energized"></button>
+```
+Trigger -  **ionic-button-small-light:** 
+```
+<button class="button button-small button-light"></button>
+```
+Trigger -  **ionic-button-small-positive:** 
+```
+<button class="button button-small button-positive"></button>
+```
+Trigger -  **ionic-button-small-royal:** 
+```
+<button class="button button-small button-royal"></button>
+```
+Trigger -  **ionic-button-small-stable:** 
+```
+<button class="button button-small button-stable"></button>
+```
+Trigger -  **ionic-button-stable:** 
+```
+<button class="button button-stable"></button>
+```
