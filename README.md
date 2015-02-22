@@ -90,7 +90,7 @@ But still the whole reference are put below in case of any doubts. Have fun. :)
  - [Lists](#css_lists)
  - [Cards](#css_cards)
  - [Forms](#css_forms)
- - Toggle
+ - [Toggle](#css_toggle)
  - Checkbox
  - Radio Buttons
  - Range
@@ -833,4 +833,124 @@ Trigger -  **ionic-input-stacked:**
 	<span class="input-label">input_name</span>
 	<input type="text" placeholder="input_placeholder">
 </label>
+```
+
+<h2 id="css_toggle">Toggle</h2>
+
+Trigger -  **ionic-toggle-assertive:** 
+```HTML
+<li class="item item-toggle">
+	desc
+	<label class="toggle toggle-assertive">
+		<input type="checkbox">
+		<div class="track">
+			<div class="handle"></div>
+		</div>
+	</label>
+</li>
+
+```
+Trigger -  **ionic-toggle-balanced:** 
+```HTML
+<li class="item item-toggle">
+	desc
+	<label class="toggle toggle-balanced">
+		<input type="checkbox">
+		<div class="track">
+			<div class="handle"></div>
+		</div>
+	</label>
+</li>
+
+```
+Trigger -  **ionic-toggle-calm:** 
+```HTML
+<li class="item item-toggle">
+	desc
+	<label class="toggle toggle-calm">
+		<input type="checkbox">
+		<div class="track">
+			<div class="handle"></div>
+		</div>
+	</label>
+</li>
+
+```
+Trigger -  **ionic-toggle-dark:** 
+```HTML
+<li class="item item-toggle">
+	desc
+	<label class="toggle toggle-dark">
+		<input type="checkbox">
+		<div class="track">
+			<div class="handle"></div>
+		</div>
+	</label>
+</li>
+
+```
+Trigger -  **ionic-toggle-energized:** 
+```HTML
+<li class="item item-toggle">
+	desc
+	<label class="toggle toggle-energized">
+		<input type="checkbox">
+		<div class="track">
+			<div class="handle"></div>
+		</div>
+	</label>
+</li>
+
+```
+Trigger -  **ionic-toggle-light:** 
+```HTML
+<li class="item item-toggle">
+	desc
+	<label class="toggle toggle-light">
+		<input type="checkbox">
+		<div class="track">
+			<div class="handle"></div>
+		</div>
+	</label>
+</li>
+
+```
+Trigger -  **ionic-toggle-positive:** 
+```HTML
+<li class="item item-toggle">
+	desc
+	<label class="toggle toggle-positive">
+		<input type="checkbox">
+		<div class="track">
+			<div class="handle"></div>
+		</div>
+	</label>
+</li>
+
+```
+Trigger -  **ionic-toggle-royal:** 
+```HTML
+<li class="item item-toggle">
+	desc
+	<label class="toggle toggle-royal">
+		<input type="checkbox">
+		<div class="track">
+			<div class="handle"></div>
+		</div>
+	</label>
+</li>
+
+```
+Trigger -  **ionic-toggle-stable:** 
+```HTML
+<li class="item item-toggle">
+	desc
+	<label class="toggle toggle-stable">
+		<input type="checkbox">
+		<div class="track">
+			<div class="handle"></div>
+		</div>
+	</label>
+</li>
+
 ```
