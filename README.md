@@ -105,7 +105,7 @@ But still the whole reference are put below in case of any doubts. Have fun. :)
  - [Headers/Footers](#js_headers_footers)
  - [Lists](#js_lists)
  - [Loading](#js_loading)
- - Modal
+ - [Modal](#js_modal)
  - Navigation
  - Platform
  - Popover
@@ -1770,4 +1770,19 @@ Trigger -  **$ionicLoading.show:**
 $ionicLoading.show({
 	template: "Loading..."
 });
+```
+
+<h2 id="js_modal">Modal</h2>
+
+Trigger -  **$ionicModal.fromTemplate:** 
+```Javascript
+$ionicModal.fromTemplate(templateString, options)
+```
+Trigger -  **$ionicModal.fromTemplateUrl:** 
+```Javascript
+$ionicModal.fromTemplateUrl(templateUrl, options)
+```
+Trigger -  **<ion-modal-view :** 
+```HTML
+<ion-modal-view></ion-modal-view>
 ```
