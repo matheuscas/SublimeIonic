@@ -109,7 +109,7 @@ But still the whole reference are put below in case of any doubts. Have fun. :)
  - [Navigation](#js_navigation)
  - [Platform](#js_platform)
  - [Popover](#js_popover)
- - Popup
+ - [Popup](#js_popup)
  - Scroll
  - Side Menus
  - Slide Box
@@ -1965,4 +1965,40 @@ Trigger -  **$ionicPopover.fromTemplateUrl:**
 $ionicPopover.fromTemplateUrl(templateUrl, {
  	options
 })
+```
+
+<h2 id="js_popup">Popup</h2>
+
+Trigger -  **$ionicPopup.alert:** 
+```Javascript
+$ionicPopup.alert({
+	title: $1,
+	template: $2
+});
+```
+Trigger -  **$ionicPopup.confirm:** 
+```Javascript
+$ionicPopup.confirm({
+	title: $1,
+	template: $2
+});
+```
+Trigger -  **$ionicPopup.prompt:** 
+```Javascript
+$ionicPopup.prompt({
+	title: $1,
+	template: $2,
+	inputType: $3,
+	inputPlaceholder: $4
+})
+```
+Trigger -  **$ionicPopup.show:** 
+```Javascript
+$ionicPopup.show({
+	template: $1,
+	title: $2,
+	subTitle: $3,
+	scope: $scope,
+	buttons: [$4]
+});
 ```
