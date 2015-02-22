@@ -107,7 +107,7 @@ But still the whole reference are put below in case of any doubts. Have fun. :)
  - [Loading](#js_loading)
  - [Modal](#js_modal)
  - [Navigation](#js_navigation)
- - Platform
+ - [Platform](#js_platform)
  - Popover
  - Popup
  - Scroll
@@ -1927,4 +1927,27 @@ Trigger -  **<ion-nav-back-button :**
 Trigger -  **<ion-nav-title :** 
 ```HTML
 <ion-nav-title></ion-nav-title>
+```
+
+<h2 id="js_platform">Platform</h2>
+
+Trigger -  **$ionicPlatform.offHardwareBackButton:** 
+```Javascript
+$ionicPlatform.offHardwareBackButton(callback)
+```
+Trigger -  **$ionicPlatform.on:** 
+```Javascript
+$ionicPlatform.on(type, callback)
+```
+Trigger -  **$ionicPlatform.onHardwareBackButton:** 
+```Javascript
+$ionicPlatform.onHardwareBackButton(callback)
+```
+Trigger -  **$ionicPlatform.ready:** 
+```Javascript
+$ionicPlatform.ready()
+```
+Trigger -  **$ionicPlatform.registerBackButtonAction:** 
+```Javascript
+$ionicPlatform.registerBackButtonAction(callback, priority)
 ```
