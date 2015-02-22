@@ -112,7 +112,7 @@ But still the whole reference are put below in case of any doubts. Have fun. :)
  - [Popup](#js_popup)
  - [Scroll](#js_scroll)
  - [Side Menus](#js_side_menus)
- - Slide Box
+ - [Slide Box](#js_slide_box)
  - Tabs
  - Utility
  
@@ -2068,3 +2068,12 @@ Trigger -  **<ion-side-menu :**
 ```HTML
 <ion-side-menu side="left"></ion-side-menu>
 ```
+
+<h2 id="js_slide_box">Slide Box</h2>
+Trigger -  **<ion-slide-box :** 
+```HTML
+<ion-slide-box on-slide-changed="slideHasChanged($index)"></ion-slide-box>
+```
+Trigger -  **<ion-slide :** 
+```HTML
+<ion-slide></ion-slide>
