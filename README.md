@@ -96,7 +96,6 @@ But still the whole reference are put below in case of any doubts. Have fun. :)
  - [Range](#css_range)
  - [Select](#css_select)
  - [Tabs](#css_tabs)
- - [Utility](#css_utility)
 
 **JavaScript**
  - Action Sheet
