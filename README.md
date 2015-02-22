@@ -93,7 +93,7 @@ But still the whole reference are put below in case of any doubts. Have fun. :)
  - [Toggle](#css_toggle)
  - [Checkbox](#css_checkbox)
  - [Radio Buttons](#css_radio)
- - Range
+ - [Range](#css_range)
  - Select
  - Tabs
  - Utility
@@ -1059,4 +1059,183 @@ Trigger -  **ionic-radio-button:**
 	</div>
 	<i class="radio-icon ion-checkmark"></i>
 </label>
+```
+
+<h2 id="css_range">Range</h2>
+
+Trigger -  **ionic-range-assertive:** 
+```HTML
+<div class="range range-assertive">
+	<i class="icon ion-volume-low"></i>
+	<input type="range" name="volume" min="0" max="100" value="33">
+	<i class="icon ion-volume-high"></i>
+</div>
+
+```
+Trigger -  **ionic-range-balanced:** 
+```HTML
+<div class="range range-balanced">
+	<i class="icon ion-volume-low"></i>
+	<input type="range" name="volume" min="0" max="100" value="33">
+	<i class="icon ion-volume-high"></i>
+</div>
+
+```
+Trigger -  **ionic-range-calm:** 
+```HTML
+<div class="range range-calm">
+	<i class="icon ion-volume-low"></i>
+	<input type="range" name="volume" min="0" max="100" value="33">
+	<i class="icon ion-volume-high"></i>
+</div>
+
+```
+Trigger -  **ionic-range-dark:** 
+```HTML
+<div class="range range-dark">
+	<i class="icon ion-volume-low}"></i>
+	<input type="range" name="volume" min="0" max="100" value="33">
+	<i class="icon ion-volume-high"></i>
+
+</div>
+
+```
+Trigger -  **ionic-range-energized:** 
+```HTML
+<div class="range range-energized">
+	<i class="icon ion-volume-low}"></i>
+	<input type="range" name="volume" min="0" max="100" value="33">
+	<i class="icon ion-volume-high"></i>
+
+</div>
+
+```
+Trigger -  **ionic-range-item-assertive:** 
+```HTML
+<div class="item range range-assertive">
+	<i class="icon ion-volume-low}"></i>
+	<input type="range" name="volume" min="0" max="100" value="33">
+	<i class="icon ion-volume-high"></i>
+
+</div>
+
+```
+Trigger -  **ionic-range-item-balanced:** 
+```HTML
+<div class="item range range-balanced">
+	<i class="icon ion-volume-low}"></i>
+	<input type="range" name="volume" min="0" max="100" value="33">
+	<i class="icon ion-volume-high"></i>
+
+</div>
+
+```
+Trigger -  **ionic-range-item-calm:** 
+```HTML
+<div class="item range range-calm">
+	<i class="icon ion-volume-low}"></i>
+	<input type="range" name="volume" min="0" max="100" value="33">
+	<i class="icon ion-volume-high"></i>
+
+</div>
+
+```
+Trigger -  **ionic-range-item-dark:** 
+```HTML
+<div class="item range range-dark">
+	<i class="icon ion-volume-low}"></i>
+	<input type="range" name="volume" min="0" max="100" value="33">
+	<i class="icon ion-volume-high"></i>
+
+</div>
+
+```
+Trigger -  **ionic-range-item-energized:** 
+```HTML
+<div class="item range range-energized">
+	<i class="icon ion-volume-low}"></i>
+	<input type="range" name="volume" min="0" max="100" value="33">
+	<i class="icon ion-volume-high"></i>
+
+</div>
+
+```
+Trigger -  **ionic-range-item-light:** 
+```HTML
+<div class="item range range-light">
+	<i class="icon ion-volume-low}"></i>
+	<input type="range" name="volume" min="0" max="100" value="33">
+	<i class="icon ion-volume-high"></i>
+</div>
+
+```
+Trigger -  **ionic-range-item-positive:** 
+```HTML
+<div class="item range range-positive">
+	<i class="icon ion-volume-low}"></i>
+	<input type="range" name="volume" min="0" max="100" value="33">
+	<i class="icon ion-volume-high"></i>
+
+</div>
+
+```
+Trigger -  **ionic-range-item-royal:** 
+```HTML
+<div class="item range range-royal">
+	<i class="icon ion-volume-low}"></i>
+	<input type="range" name="volume" min="0" max="100" value="33">
+	<i class="icon ion-volume-high"></i>
+
+</div>
+
+```
+Trigger -  **ionic-range-item-stable:** 
+```HTML
+<div class="item range range-stable">
+	<i class="icon ion-volume-low}"></i>
+	<input type="range" name="volume" min="0" max="100" value="33">
+	<i class="icon ion-volume-high"></i>
+
+</div>
+
+```
+Trigger -  **ionic-range-light:** 
+```HTML
+<div class="range range-light">
+	<i class="icon ion-volume-low}"></i>
+	<input type="range" name="volume" min="0" max="100" value="33">
+	<i class="icon ion-volume-high"></i>
+
+</div>
+
+```
+Trigger -  **ionic-range-positive:** 
+```HTML
+<div class="range range-positive">
+	<i class="icon ion-volume-low}"></i>
+	<input type="range" name="volume" min="0" max="100" value="33">
+	<i class="icon ion-volume-high"></i>
+
+</div>
+
+```
+Trigger -  **ionic-range-royal:** 
+```HTML
+<div class="range range-royal">
+	<i class="icon ion-volume-low}"></i>
+	<input type="range" name="volume" min="0" max="100" value="33">
+	<i class="icon ion-volume-high"></i>
+
+</div>
+
+```
+Trigger -  **ionic-range-stable:** 
+```HTML
+<div class="range range-stable">
+	<i class="icon ion-volume-low}"></i>
+	<input type="range" name="volume" min="0" max="100" value="33">
+	<i class="icon ion-volume-high"></i>
+
+</div>
+
 ```
