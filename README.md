@@ -101,7 +101,7 @@ But still the whole reference are put below in case of any doubts. Have fun. :)
 
  - [Action Sheet](#js_action_sheet)
  - [Backdrop](#js_backdrop)
- - Content
+ - [Content](#js_content)
  - Form Inputs
  - Gesture
  - Headers/Footers
@@ -1635,4 +1635,51 @@ $ionicBackdrop.release();
 Trigger -  **$ionicBackdrop.retain:** 
 ```Javascript
 $ionicBackdrop.retain();
+```
+
+<h2 id="js_content">Content</h2>
+
+Trigger -  **$ionicScrollDelegate.anchorScroll:** 
+```Javascript
+$ionicScrollDelegate.anchorScroll(shouldAnimate)
+```
+Trigger -  **$ionicScrollDelegate.getByHandle:** 
+```Javascript
+$ionicScrollDelegate.$getByHandle(handle)
+```
+Trigger -  **$ionicScrollDelegate.getScrollPosition:** 
+```Javascript
+$ionicScrollDelegate.getScrollPosition()
+```
+Trigger -  **$ionicScrollDelegate.getScrollView:** 
+```Javascript
+$ionicScrollDelegate.getScrollView()
+```
+Trigger -  **$ionicScrollDelegate.resize:** 
+```Javascript
+$ionicScrollDelegate.resize()
+```
+Trigger -  **$ionicScrollDelegate.scrollBottom:** 
+```Javascript
+$ionicScrollDelegate.scrollBottom(shouldAnimate)
+```
+Trigger -  **$ionicScrollDelegate.scrollBy:** 
+```Javascript
+$ionicScrollDelegate.scrollBy(left, top, shouldAnimate)
+```
+Trigger -  **$ionicScrollDelegate.scrollTo:** 
+```Javascript
+$ionicScrollDelegate.scrollTo(left, top, shouldAnimate)
+```
+Trigger -  **$ionicScrollDelegate.scrollTop:** 
+```Javascript
+$ionicScrollDelegate.scrollTop(shouldAnimate)
+```
+Trigger -  **$ionicScrollDelegate.zoomBy:** 
+```Javascript
+$ionicScrollDelegate.zoomBy(factor, animate, originLeft, originTop)
+```
+Trigger -  **$ionicScrollDelegate.zoomTo:** 
+```Javascript
+$ionicScrollDelegate.zoomTo(level, animate, originLeft, originTop)
 ```
