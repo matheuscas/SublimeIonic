@@ -83,7 +83,7 @@ First, you can easily find out how this plugin works in ST2/ST3 with the followi
 But still the whole reference are put below in case of any doubts. Have fun. :)
 
 **CSS Components**
- - [Header](#Header)
+ - [Header](#css_header)
  - Content
  - Footer
  - Buttons
@@ -122,7 +122,7 @@ But still the whole reference are put below in case of any doubts. Have fun. :)
 **CSS Components**
 -------
 
-<h2 id="#Header">Header</h2>
+<h2 id="css_header">Header</h2>
 
 Trigger -  **ionic-header-assertive:** 
 ```
