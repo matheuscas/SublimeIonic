@@ -84,8 +84,7 @@ But still the whole reference are put below in case of any doubts. Have fun. :)
 
 **CSS Components**
  - [Header](#css_header)
- - Content
- - Footer
+ - [Footer](#css_foo)
  - Buttons
  - List
  - Cards
@@ -177,4 +176,61 @@ Trigger -  **ionic-header-stable:**
 <div class="bar bar-header bar-stable"> 
 	 <h1 class="title"></h1> 
 </div>
+```
+
+<h2 id="css_footer">Footer</h2>
+Trigger -  **ionic-footer-assertive:** 
+```
+<div class="bar bar-footer bar-assertive"> 
+	 <div class="title"></div> 
+</div>
+```
+Trigger -  **ionic-footer-balanced:** 
+```
+<div class="bar bar-footer bar-balanced"> 
+	 <div class="title"></div> 
+</div>
+```
+Trigger -  **ionic-footer-calm:** 
+```
+<div class="bar bar-footer bar-calm"> 
+	 <div class="title"></div> 
+</div>
+```
+Trigger -  **ionic-footer-dark:** 
+```
+<div class="bar bar-footer bar-dark"> 
+	 <div class="title"></div> 
+</div>
+```
+Trigger -  **ionic-footer-energized:** 
+```
+<div class="bar bar-footer bar-energized"> 
+	 <div class="title"></div> 
+</div>
+```
+Trigger -  **ionic-footer-light:** 
+```
+<div class="bar bar-footer bar-light"> 
+	 <div class="title"></div> 
+</div>
+```
+Trigger -  **ionic-footer-positive:** 
+```
+<div class="bar bar-footer bar-positive"> 
+	 <div class="title"></div> 
+</div>
+```
+Trigger -  **ionic-footer-royal:** 
+```
+<div class="bar bar-footer bar-royal"> 
+	 <div class="title"></div> 
+</div>
+```
+Trigger -  **ionic-footer-stable:** 
+```
+<div class="bar bar-footer bar-stable"> 
+	 <div class="title"></div> 
+</div>
+```
 
