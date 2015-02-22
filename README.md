@@ -122,8 +122,8 @@ But still the whole reference are put below in case of any doubts. Have fun. :)
 **CSS Components**
 -------
 
-Header
--------
+<h2 id="#Header">Header</h2>
+
 Trigger -  **ionic-header-assertive:** 
 ```
 <div class="bar bar-header bar-assertive"> 
