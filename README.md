@@ -25,7 +25,7 @@ If you wants to create a list of items, for instance, you must know what element
 
 So, why use this plugin?
 -------
-The Ionic Framework Extended AutoComplete has almost all html completions of Ionic directives and has **more than 300 snippets of elements and services, among color and types combinations**! It is based on the most recent version, the [1.0.0-beta.14 "magnesium-mongoose"](https://github.com/driftyco/ionic/releases/tag/v1.0.0-beta.14). 
+The Ionic Framework Extended AutoComplete has almost all html completions of Ionic directives and has **more than 300 snippets of elements and services, among color and types combinations**! It is based on the most recent version, the [v1.0.0-rc.1 "osmium-ostrich""](https://github.com/driftyco/ionic/releases/tag/v1.0.0-rc.1). 
 
 Let's take a look in another example. If you want a list of thumbnails, just **create a DIV with list class** (or use **ion-list** provided as well) and search for **ionic-item-thumbnail-left** (or right if you want) and done:
 
@@ -75,9 +75,12 @@ I must say that [Ionic - Sublime Plugin](https://github.com/imsingh/ionic-sublim
 
 You can easily find out how this plugin works in ST2/ST3 with the following tips:
  - In HTML you just need to type "<" followed by "ion" and all the directives will show up to you;
+
  - Still in HTML for CSS Components, just type "ionic-" and the snippets will popup to you;
+
  - In a JS script, most of snippets are services. So just type "$" followed by "ionic" and the services will be there for you;
-   - Exception are from Utility snippets, such as "ionic.Platform" ou "ionic.DomUtil". You will find this snippets typing "ionic" and following the capital letter case, looking for "ionicPlatform" and "ionicDomUtil" respectively. 
+
+ - Exception are from Utility snippets, such as "ionic.Platform" ou "ionic.DomUtil". You will find this snippets typing "ionic" and following the capital letter case, looking for "ionicPlatform" and "ionicDomUtil" respectively. 
 
 Nonetheless, the whole reference are put below in case of any doubts. Have fun. :)
 
@@ -115,6 +118,7 @@ Nonetheless, the whole reference are put below in case of any doubts. Have fun. 
  - [Slide Box](#js_slide_box)
  - [Tabs](#js_tabs)
  - [Utility](#js_utility)
+ - [Spinner](#js_spinner)
  
 **CSS Components**
 -------
@@ -2286,4 +2290,11 @@ $ionicPosition.offset(element)
 Trigger -  **$ionicPosition.position:** 
 ```Javascript
 $ionicPosition.position(element)
+```
+
+<h2 id="js_spinner">Spinner</h2>
+
+Trigger -  **<ion-spinner :** 
+```
+<ion-spinner icon="spiral"></ion-spinner>
 ```
