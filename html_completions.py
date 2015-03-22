@@ -53,38 +53,56 @@ class ExtensionsCompletions(sublime_plugin.EventListener):
         ]
 
         tabs = [
-            ("ion-tabs\tIonic Extension", 'ion-tabs class="tabs-${1:positive} ${2:tabs-icon-only}">$0</ion-tabs>'),
-            ("ion-tab\tIonic Extension", 'ion-tab title="${1:Title}" href="${2:tab-link}" icon-on="${3:icon_on}" icon-off="${4:icon_off}">$0</ion-tab>')
+            ("ion-tabs\tIonic Extension",
+             'ion-tabs class="tabs-${1:positive} ${2:tabs-icon-only}">$0</ion-tabs>'),
+            ("ion-tab\tIonic Extension",
+             'ion-tab title="${1:Title}" href="${2:tab-link}" icon-on="${3:icon_on}" icon-off="${4:icon_off}">$0</ion-tab>')
         ]
 
         modal = [
-            ("ion-modal-view\tIonic Extension", 'ion-modal-view>$0</ion-modal-view>')
+            ("ion-modal-view\tIonic Extension",
+             'ion-modal-view>$0</ion-modal-view>')
         ]
 
         navigation = [
-            ("ion-nav-view\tIonic Extension", 'ion-nav-view>$0</ion-nav-view>'),
-            ("ion-view\tIonic Extension", 'ion-view view-title="${1:Your Title!}">$0</ion-view>'),
-            ("ion-nav-bar\tIonic Extension", 'ion-nav-bar class="${1:bar-positive}" align-title="${2:left}">$0</ion-nav-bar>'),
-            ("ion-nav-buttons\tIonic Extension", 'ion-nav-buttons side="${1:primary}">$0</ion-nav-buttons>'),
-            ("ion-nav-back-button\tIonic Extension", 'ion-nav-back-button class="${1:button-clear}">$0</ion-nav-back-button>'),
-            ("ion-nav-title\tIonic Extension", 'ion-nav-title>$0</ion-nav-title>')
+            ("ion-nav-view\tIonic Extension",
+             'ion-nav-view>$0</ion-nav-view>'),
+            ("ion-view\tIonic Extension",
+             'ion-view view-title="${1:Your Title!}">$0</ion-view>'),
+            ("ion-nav-bar\tIonic Extension",
+             'ion-nav-bar class="${1:bar-positive}" align-title="${2:left}">$0</ion-nav-bar>'),
+            ("ion-nav-buttons\tIonic Extension",
+             'ion-nav-buttons side="${1:primary}">$0</ion-nav-buttons>'),
+            ("ion-nav-back-button\tIonic Extension",
+             'ion-nav-back-button class="${1:button-clear}">$0</ion-nav-back-button>'),
+            ("ion-nav-title\tIonic Extension",
+             'ion-nav-title>$0</ion-nav-title>')
         ]
 
         scroll = [
-            ("ion-scroll\tIonic Extension", 'ion-scroll zooming=\"${1:true}\" direction=\"${2:xy}\" style=\"width: ${3:500px}; height: ${4:500px}\">$0</ion-scroll>'),
-            ("ion-infinite-scroll\tIonic Extension", 'ion-infinite-scroll on-infinite="${1:loadMore()}">$0</ion-infinite-scroll>')
+            ("ion-scroll\tIonic Extension",
+             'ion-scroll zooming=\"${1:true}\" direction=\"${2:xy}\" style=\"width: ${3:500px}; height: ${4:500px}\">$0</ion-scroll>'),
+            ("ion-infinite-scroll\tIonic Extension",
+             'ion-infinite-scroll on-infinite="${1:loadMore()}">$0</ion-infinite-scroll>')
         ]
 
         side_menus = [
-            ("ion-side-menus\tIonic Extension", 'ion-side-menus>$0</ion-side-menus>'),
-            ("ion-side-menu-content\tIonic Extension", 'ion-side-menu-content drag-content="${1:true}">$0</ion-side-menu-content>'),
-            ("ion-side-menu\tIonic Extension", 'ion-side-menu side="${1:left}">$0</ion-side-menu>')
+            ("ion-side-menus\tIonic Extension",
+             'ion-side-menus>$0</ion-side-menus>'),
+            ("ion-side-menu-content\tIonic Extension",
+             'ion-side-menu-content drag-content="${1:true}">$0</ion-side-menu-content>'),
+            ("ion-side-menu\tIonic Extension",
+             'ion-side-menu side="${1:left}">$0</ion-side-menu>')
         ]
 
         slide_box = [
-            ("ion-slide-box\tIonic Extension", 'ion-slide-box on-slide-changed="${1:slideHasChanged($index)}">$0</ion-slide-box>'),
+            ("ion-slide-box\tIonic Extension",
+             'ion-slide-box on-slide-changed="${1:slideHasChanged($index)}">$0</ion-slide-box>'),
             ("ion-slide\tIonic Extension", 'ion-slide>$0</ion-slide>'),
         ]
+
+        spinner = [("ion-spinner\tIonic Extension",
+                    'ion-spinner icon="${1:spiral}">$0</ion-spinner>')]
 
         # events = [
         #     ("button-on-hold\tIonic Extension", 'button on-hold="${1:onHold()}" class="${2:button}">$0</button>'),
@@ -103,6 +121,7 @@ class ExtensionsCompletions(sublime_plugin.EventListener):
         #     ("button-on-swipe-right\tIonic Extension", 'button on-swipe-right="${1:onSwipeRight()}" class="${2:button}">$0</button>')
         # ]
 
-        completions = headers_footers + content + lists + forms + tabs + modal + navigation + scroll + side_menus + slide_box
+        completions = headers_footers + content + lists + forms + \
+            tabs + modal + navigation + scroll + side_menus + slide_box + spinner
 
         return (completions, sublime.INHIBIT_WORD_COMPLETIONS | sublime.INHIBIT_EXPLICIT_COMPLETIONS)
